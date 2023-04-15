@@ -11,6 +11,7 @@ os.system("cls")
 #try:
     #Obtiene el distionary del Scrapeo
 genres_dict=GetFromDiscogs.GetGenresStyles()
+print(genres_dict)
 
 #Crea el catalogo de Genres, crea un df apartir de los Genres
 #Despues insert una columna con el id, para que inice desde 1
@@ -34,16 +35,8 @@ df_styles = df_styles.rename(columns={'style_id': 'id', 'style_name' : 'name'})
 print(df_genres)
 print(df_styles)
 
-
-
-# df_all = pd.concat([df_genres,df_styles.drop('genre_id',axis=1)])
-# print(df_all)
-
-
-#insert dataframe en sql
 # df_genres.to_sql(name='genres', con=engine, if_exists='append', index=False)
 # df_styles.to_sql(name='styles', con=engine, if_exists='append', index=False)
-print("you did it!?")    
 #except OperationalError as e:
 #   print(f"Connection failed: {e}")
 #finally:
