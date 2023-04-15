@@ -1,0 +1,120 @@
+.discogs-album {
+    display: block;
+    background-color: #007aa5;
+    color: white;
+    overflow: hidden;
+    padding-bottom: 0;
+    transition: all 0.35s ease-in-out;
+    width: 100%;
+    position:relative;
+    max-height:140px;
+    min-height:140px;
+    margin: 7px auto 0;
+}
+
+.discogs-album:hover {
+    background-color: #333;
+}
+
+.discogs-album a {
+    width: 100%;
+    height: 100%;
+}
+
+.discogs-album img {
+    width: 140px;
+    min-height: 140px;
+    float: left;
+    position:relative;
+    z-index:2;
+    box-shadow: -30px 0px 19px 35px rgba(0,0,0,.3);
+}
+
+.discogs-album .body-info {
+    width: calc(100% - 140px);
+    float: right;
+    position:relative;
+    z-index:2;
+    padding:10px 20px;
+}
+
+.content .discogs-album h3, .content .discogs-album h4, .content .discogs-album h5 {
+    font-size:26px;
+    padding:0;
+    line-height:1em;
+    text-transform:uppercase;
+    color: #fff;
+    font-family:'Montserrat', helvetica, arial, sans-serif;
+    line-height;1.125em;
+    padding-bottom:9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.3);
+    letter-spacing: .01em;
+
+}
+
+.content .discogs-album h4 {
+    font-size:20px; padding-bottom:11px;
+}
+
+.content .discogs-album h4:before {content:'By ';text-transform:capitalize}
+
+.content .discogs-album h5 {
+    font-size:16px;
+
+}
+
+.discogs-album-background {
+  display: block;
+    -webkit-filter: blur(16px) grayscale(1);
+    -moz-filter: blur(16px) grayscale(1);
+    -o-filter: blur(16px) grayscale(1);
+    -ms-filter: blur(16px) grayscale(1);
+    filter: blur(16px) grayscale(1);
+    opacity: .4;
+    position: absolute;
+    top: -15px;
+    left: -18px;
+    height: 116%;
+    width: 105%;
+    z-index: 1;
+}
+
+@media (max-width: 750px) {
+  .content .discogs-album h3 {font-size:24px;}
+  .content .discogs-album h4 {font-size:20px;}
+  .content .discogs-album h5 {font-size:15px;}
+  .discogs-album .body-info {width: calc(100% - 120px)}
+  .discogs-album img {width: 120px;min-height:120px;}
+  .discogs-album {max-height:120px;min-height: 120px;margin-top:3px;}
+  .discogs-album .body-info {padding:19px 16px}
+}
+
+@media (max-width: 540px) {
+  .discogs-album img {width: 100%; box-shadow: 0px 0px 24px 9px rgba(0,0,0,.3);}
+  .discogs-album .body-info {width: 100%;}
+  .discogs-album {max-height:inherit;margin-top:7px}
+}
+
+/*
+     FILE ARCHIVED ON 02:43:32 Aug 10, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:01:57 Apr 03, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 219.132
+  exclusion.robots: 0.084
+  exclusion.robots.policy: 0.072
+  cdx.remote: 0.066
+  esindex: 0.009
+  LoadShardBlock: 168.382 (3)
+  PetaboxLoader3.datanode: 289.659 (5)
+  load_resource: 328.614 (2)
+  PetaboxLoader3.resolve: 84.234 (2)
+*/

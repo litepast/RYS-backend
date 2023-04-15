@@ -1,0 +1,338 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+(function($) {
+
+  "use strict";
+
+	
+
+	jQuery(document).ready(function(){
+
+		
+
+		var show_menu = false;
+
+
+
+		jQuery('.post-share').click(function(){
+
+			javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=640');return false;
+
+		});
+
+		
+
+		
+
+		//ACCORDION
+
+		jQuery('.accordion').accordion({
+
+			header: '.accor-title',
+
+			heightStyle: 'content',
+
+			active  : false,
+
+			collapsible : true,
+
+			create: function( event, ui ) {
+
+				jQuery(this).find('.ui-state-active').find('.accor-title-icon').html('<i class="fa fa-angle-up"></i>');
+
+				
+
+				var this_collapsible = jQuery(this).data('collapsible');
+
+				if(this_collapsible == 0){
+
+					jQuery(this).accordion( "option", "collapsible", false );
+
+				}else{
+
+					jQuery(this).accordion( "option", "collapsible", true );
+
+				}
+
+				
+
+				var this_active = parseInt(jQuery(this).data('active'));
+
+				if(this_active == 0){
+
+					jQuery(this).accordion( "option", "collapsible", true );
+
+					jQuery(this).accordion( "option", "active", false );
+
+				}else{
+
+					this_active = this_active - 1;
+
+					jQuery(this).accordion( "option", "active", this_active );
+
+				}
+
+				
+
+				
+
+				
+
+			},
+
+			beforeActivate: function( event, ui ) {
+
+				ui.newHeader.find('.accor-title-icon').html('<i class="fa fa-angle-up"></i>');
+
+				ui.oldHeader.find('.accor-title-icon').html('<i class="fa fa-angle-down"></i>');
+
+			}
+
+		});
+
+		
+
+		//process init for tab
+
+		jQuery('.content').find('.tab').each(function(){
+
+			var tab_title_count = 1;
+
+			var tab_content_count = 1;
+
+			jQuery(this).find('.tab-title').each(function(){
+
+				if(tab_title_count == 1){
+
+					jQuery(this).addClass('tab-current');
+
+				}
+
+				jQuery(this).attr('data-id',tab_title_count);
+
+				tab_title_count++;
+
+			});
+
+			
+
+			jQuery(this).find('.tab-content').each(function(){
+
+				if(tab_content_count == 1){
+
+					jQuery(this).addClass('tab-content-current');
+
+				}
+
+				jQuery(this).addClass('tab-content'+tab_content_count);
+
+				tab_content_count++;
+
+			});
+
+			
+
+			
+
+		});
+
+		
+
+		//tab click
+
+		jQuery('.tab-title').click(function(){
+
+			var tab_id = jQuery(this).attr('data-id');
+
+			var parent_top = jQuery(this).parent();
+
+			var parent_tab = jQuery(parent_top).parent();
+
+			jQuery(parent_top).find('.tab-current').removeClass("tab-current");
+
+			jQuery(this).addClass("tab-current");
+
+			jQuery(parent_tab).find('.tab-content').hide();
+
+			jQuery(parent_tab).find('.tab-content'+tab_id).fadeIn();
+
+		});
+
+		
+
+		jQuery('#back_top').click(function(){
+
+			jQuery('html, body').animate({scrollTop:0}, 'normal');
+
+			return false;
+
+		});
+
+		
+
+		jQuery(window).scroll(function() {
+
+			if(jQuery(this).scrollTop() !== 0) {
+
+				jQuery('#back_top').fadeIn();	
+
+			} else {
+
+				jQuery('#back_top').fadeOut();
+
+			}
+
+		});
+
+		
+
+		if(jQuery(window).scrollTop() !== 0) {
+
+			jQuery('#back_top').show();	
+
+		} else {
+
+			jQuery('#back_top').hide();
+
+		}
+
+		
+
+		
+
+		//play all slider
+
+		jQuery('.flexslider').flexslider({
+
+			controlNav: false,                    
+
+			directionNav: true,
+
+			animation : 'fade',
+
+			slideshowSpeed :5000 ,	
+
+		});
+
+		
+
+		jQuery('.info-box-remove').click(function(){
+
+			jQuery(this).parent().hide();
+
+		});
+
+
+
+		//add flexslider icon
+
+		jQuery('.flex-prev').html('<i class="fa fa-angle-left"></i>');
+
+		jQuery('.flex-next').html('<i class="fa fa-angle-right"></i>');
+
+		
+
+		jQuery('.share-button').click(function(){
+
+			var share_containter = jQuery(this).find('.share-button-container');
+
+			jQuery(share_containter).animate({
+
+				opacity: "toggle"
+
+			}, 200);
+
+		});
+
+		
+
+		jQuery('.widget_archive, .widget_categories, .widget_pages, .widget_meta, .widget_recent_entries, .widget_nav_menu').find('li a').prepend('<i class="fa fa-angle-right"><i>');
+
+		
+
+		jQuery('.widget_latest_tweets_widget').find('li').prepend('<i class="fa fa-twitter"></i>');
+
+		
+
+		jQuery('#commentform').append('<div class="cleared"></div>');
+
+		jQuery('#commentform').addClass('content');
+
+		//header script 
+		var menu_open = false;
+
+		jQuery('.toggle-menu-button').click(function(){
+
+			if(menu_open == false){
+
+				jQuery("#main-menu-toggle").addClass("toggle-menu-open");
+
+				jQuery("#page").addClass("page-to-right");
+
+				menu_open = true;
+
+			}else{
+
+				jQuery("#main-menu-toggle").removeClass("toggle-menu-open");
+
+				jQuery("#page").removeClass("page-to-right");
+
+				menu_open = false;
+
+			}
+
+		});
+
+		
+
+		jQuery('.toggle-menu-close').click(function(){
+
+			if(menu_open == true){
+
+				jQuery("#main-menu-toggle").removeClass("toggle-menu-open");
+
+				jQuery("#page").removeClass("page-to-right");
+
+				menu_open = false;
+
+			}
+
+		});
+
+	});
+
+})(jQuery);
+
+
+
+}
+/*
+     FILE ARCHIVED ON 02:43:34 Aug 10, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:02:04 Apr 03, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 163.058
+  exclusion.robots: 0.153
+  exclusion.robots.policy: 0.137
+  RedisCDXSource: 1.131
+  esindex: 0.015
+  LoadShardBlock: 143.712 (3)
+  PetaboxLoader3.datanode: 129.176 (5)
+  load_resource: 453.825 (2)
+  PetaboxLoader3.resolve: 369.242 (2)
+*/
