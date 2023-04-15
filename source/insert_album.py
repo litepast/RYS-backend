@@ -1,9 +1,6 @@
 import pandas as pd
-import spotipy
-import discogs_client
 import config
 import datetime
-from spotipy.oauth2 import SpotifyClientCredentials
 from sqlalchemy import create_engine, text
 
 class Album():
@@ -19,11 +16,9 @@ class Album():
 
     def __init__(self,album_id):
         self.album_id = album_id
-        self.client_id = config.spotify_id
-        self.client_secret = config.spotify_client_secret
-        self.d = discogs_client.Client('my_user_agent/1.0', user_token=config.discogs_token)
-        self.auth_manager = SpotifyClientCredentials(client_id=self.client_id, client_secret=self.client_secret)
-        self.sp=spotipy.Spotify(auth_manager=self.auth_manager)
+        self.sp = config.sp
+        self.d = config.d
+       
 
 
     def get_albums(self):

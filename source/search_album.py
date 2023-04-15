@@ -1,27 +1,24 @@
-import spotipy
 import config
-from spotipy.oauth2 import SpotifyClientCredentials
 
 class Search():
 
     results = None
 
     def __init__(self):
-        self.client_id = config.spotify_id
-        self.client_secret = config.spotify_client_secret     
-        self.auth_manager = SpotifyClientCredentials(client_id=self.client_id, client_secret=self.client_secret)
-        self.sp=spotipy.Spotify(auth_manager=self.auth_manager)
+       self.sp = config.sp
     
-    def search_album(self,search_string,type_search: bool):        
+    def search_album(self,search_string,type_search):
+                
         if (type_search):
             self.string_search=search_string
         else:
             self.string_search='artist:'+search_string
+        
 
         results_columns = ['name', 'artist', 'album_id', 'release_date', 'cover_url']        
         results_rows = { column: [] for column in results_columns} 
         
-        results_albums = self.sp.search(q=self.string_search , type='album', limit=5, market='MX')
+        results_albums = self.sp.search(q=self.string_search , type='album', limit=10, market='MX')
         if results_albums:
             albums = results_albums['albums']['items'] 
             for album in albums:
