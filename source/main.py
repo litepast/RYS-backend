@@ -54,9 +54,9 @@ def main2():
      # #ok computer
      #insert_album = Album('6dVIqQ8qmQ5GBnJ9shOYGE')
      # #compilacion
-     #insert_album = Album('0RPeS6tlJfJt1GQ1XilhkH')
+     insert_album = Album('0RPeS6tlJfJt1GQ1XilhkH')
      # new kanada
-     insert_album = Album('2tA6VFMIQuSF3KpXsrulw9')
+     #insert_album = Album('2tA6VFMIQuSF3KpXsrulw9')
      insert_album.insert_album_data()
      return
 
