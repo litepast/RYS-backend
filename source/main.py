@@ -62,7 +62,7 @@ def main2():
      insert_album = Album('2tA6VFMIQuSF3KpXsrulw9')
      status, msg =insert_album.insert_album_data()
      print(status,' ',msg)
-     return 
+     return status
 
 if __name__ == "__main__":
      main2()
