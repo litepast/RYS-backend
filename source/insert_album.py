@@ -2,11 +2,11 @@ import pandas as pd
 import config
 import datetime
 import time
+import models
 from spotipy import SpotifyException
 from discogs_client.exceptions import HTTPError as DiscogsException
-from sqlalchemy import create_engine, text
+from sqlalchemy import text
 from sqlalchemy.orm import Session
-from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.ext.automap import automap_base
 
 class Album():
@@ -142,14 +142,8 @@ class Album():
             aratings_columns = [ 'id_user', 'id_album','simple_avg_rating','more_than_nine_rating','weight_rating','suggested_rating_a','suggested_rating_b','user_final_rating','created_date','updated_date']
             aratings_rows = { column: None for column in aratings_columns} 
             dt = datetime.datetime.now()              
-            aratings_rows['id_user'] = 1 #cambiar usuario cuando se implemente login
+            aratings_rows['id_user'] = self.user_id 
             aratings_rows['id_album'] = self.album_id
-            ##aratings_rows['simple_avg_rating'].append(None)
-            ##aratings_rows['more_than_nine_rating'].append(None)
-            ##aratings_rows['weight_rating'].append(1) 
-            ##aratings_rows['suggested_rating_a'].append(None)
-            ##aratings_rows['suggested_rating_b'].append(None)
-            ##aratings_rows['user_final_rating'].append(None)
             aratings_rows['created_date'] = dt 
             aratings_rows['updated_date'] = dt
             album_ratings_data.append(aratings_rows)  
@@ -164,9 +158,8 @@ class Album():
             tratings_columns = [ 'id_user', 'id_track','rating','goated','included']
             for track in self.id_tracks:
                 tratings_rows = { column: None for column in tratings_columns} 
-                tratings_rows['id_user'] = 1 #cambiar usuario cuando se implemente login
+                tratings_rows['id_user'] = self.user_id 
                 tratings_rows['id_track'] = track
-                #tratings_rows['rating'].append(None)
                 tratings_rows['goated'] = 0
                 tratings_rows['included'] = 1
                 track_ratings_data.append(tratings_rows)
@@ -241,66 +234,62 @@ class Album():
 
 
     def insert_album_data(self):
-        self.fetch_album_data()
-        self.create_user_ratings()       
-        #self.print_inserted_data()
-        engine = create_engine(config.mysql_connection)
-        Base = automap_base()
-        Base.prepare(autoload_with=engine)
-        rys_artist = Base.classes.artists
-        rys_albums = Base.classes.albums
-        rys_tracks = Base.classes.tracks
-        rys_genres = Base.classes.genres_by_album
-        # rys_styles = Base.classes.styles_by_album
-        # rys_album_ratings = Base.classes.album_ratings
-        # rys_tracks_ratings = Base.classes.track_ratings
+        start = time.time()
+        with Session(models.engine) as session:
+            session.begin()
+            try:
+                k1 = 'select id_album from album_ratings where id_album = :album_id and id_user = :user_id;'
+                album_in_user = session.execute(text(k1),{'album_id':self.album_id, 'user_id':self.user_id}).scalar()
+                k2 = 'select id from albums where id = :album_id'
+                album_in_sys = session.execute(text(k2), {'album_id':self.album_id}).scalar()                                
+                #si album ya lo agrego el usuario a su libreria
+                if album_in_user:
+                    msg = 'Album ya agregado en mismo usuario'
+                elif album_in_sys:
+                    #si el album esta en sistema pero no esta en la del ususario
+                    q1='insert into track_ratings (select :user_id, id, null, 0, 1 from tracks where album_id= :album_id);'
+                    q2='insert into album_ratings values (:user_id, :album_id,null,null,null,null,null,null,now(),now());'
+                    session.execute(text(q1),{'album_id':self.album_id, 'user_id':self.user_id})
+                    session.execute(text(q2),{'album_id':self.album_id, 'user_id':self.user_id})               
+                    msg = 'Album ya en catalogo, pero no en libreria de usuario'                
+                else:
+                    self.fetch_album_data()
+                    self.create_user_ratings()                 
+                    for row in self.artists_data:
+                        record = models.rys_artist(**row)
+                        session.merge(record)            
+                    record = models.rys_albums(**self.albums_data[0])
+                    session.add(record)            
+                    for row in self.tracks_data:
+                        record = models.rys_tracks(**row)
+                        session.add(record)            
+                    for row in self.genres_data:
+                        record = models.rys_genres(**row)
+                        session.add(record)
+                    for row in self.styles_data:
+                        record = models.rys_styles(**row)
+                        session.add(record)            
+                    record = models.rys_album_ratings(**self.album_ratings_data[0])
+                    session.add(record)
+                    for row in self.track_ratings_data:
+                        record = models.rys_tracks_ratings(**row)
+                        session.add(record)                
+                    msg = 'album totalmente nuevo agregado'                 
+            except Exception as e:
+                session.rollback()
+                msg = e
+                end = time.time()
+                print('tiempo de todo ', end - start)
+                return False,msg
+            else:
+                session.commit()
+                end = time.time()
+                print('tiempo de todo ', end - start)
+                print('checalo')
+                return True,msg
+       
         
-
-        with Session(engine) as session,session.begin():
-            for row in self.artists_data:
-                record = rys_artist(**row)
-                session.add(record)
             
-            record = rys_albums(**self.albums_data[0])
-            session.add(record)
             
-            for row in self.tracks_data:
-                record = rys_tracks(**row)
-                session.add(record)
-            
-            # for row in self.album_ratings_data:
-            #     record = rys_album_ratings(**row)
-            #     session.add(record)
-
-            # for row in self.track_ratings_data:
-            #     record = rys_tracks_ratings(**row)
-            #     session.add(record)
-
-            for row in self.genres_data:
-                record = rys_genres(**row)
-                session.add(record)
-
-            # for row in self.styles_data:
-            #     record = rys_styles(**row)
-            #     session.add(record)
-
-            #record = rys_albums(**self.albums_data)
-            #session.add(record)
-            #session.commit()
-            print('checalo')  
-               
-  
-    #    if album_id en albums_ratgins con usuario 1 
-    #         # no inserta nada, album ya existe en libreria del usuario
-    #         regresa            
-    #     if album not en album headers
-    #         #datos del album ya estan en base pero no los tiene el susuario
-    #         joins para inicializar los user ratings con sql
-    #         regresa            
-    #     #si llegara ha esta punto, el album no esta para nada, hacer todo
-    #         insera usuario data
-    #         inserta todo
-    #         regresa
-        return 
    
 

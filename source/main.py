@@ -48,17 +48,21 @@ def main():
      print("Fin de Programa")
      return
 
-def main2():     
+def main2():    
+     os.system("cls")      
      # #69 love songs
      #insert_album = Album('2GuROKcqyHdpIDcgxml1C7')
      # #ok computer
-     insert_album = Album('6dVIqQ8qmQ5GBnJ9shOYGE')
+     #insert_album = Album('6dVIqQ8qmQ5GBnJ9shOYGE')
+     #the bends
+     #insert_album = Album('35UJLpClj5EDrhpNIi4DFg')
      # #compilacion
      #insert_album = Album('0RPeS6tlJfJt1GQ1XilhkH')
      # new kanada
-     #insert_album = Album('2tA6VFMIQuSF3KpXsrulw9')
-     insert_album.insert_album_data()
-     return
+     insert_album = Album('2tA6VFMIQuSF3KpXsrulw9')
+     status, msg =insert_album.insert_album_data()
+     print(status,' ',msg)
+     return 
 
 if __name__ == "__main__":
      main2()
