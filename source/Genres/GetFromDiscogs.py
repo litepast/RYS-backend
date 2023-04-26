@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import os
-from config import genres_html
+from settings import genres_html
 os.system("cls")
 
 class GetFromDiscogs():
