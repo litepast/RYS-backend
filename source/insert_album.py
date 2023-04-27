@@ -7,7 +7,6 @@ from spotipy import SpotifyException
 from discogs_client.exceptions import HTTPError as DiscogsException
 from sqlalchemy import text
 from sqlalchemy.orm import Session
-from sqlalchemy.ext.automap import automap_base
 
 class Album():
    
@@ -195,9 +194,7 @@ class Album():
                 genres_rows = { column: None for column in genres_columns}
                 styles_rows = { column: None for column in styles_columns} 
                 genres_rows['id_album'] = self.album_id
-                #genres_rows['genre_name'].append(None)
                 styles_rows['id_album'] = self.album_id
-                #styles_rows['genre_name'].append(None)
                 genres_data.append(genres_rows)
                 styles_data.append(styles_rows) 
             self.genres_data = genres_data
@@ -208,29 +205,15 @@ class Album():
             self.all_success = False
    
 
-    #Fetch All data to Insert
-    def fetch_album_data(self):
-        self.fetch_albums_data()
-        self.fetch_tracks()
-        self.fetch_artists_data()
-        self.fetch_genres_and_styles()
+    #Fetch All data to Insert     
+    def fetch_all_data(self):
+        functions = [self.fetch_albums_data, self.fetch_tracks, self.fetch_artists_data, 
+                     self.fetch_genres_and_styles, self.fetch_track_ratings,self.fetch_album_ratings]        
+        for fun in functions:
+            fun()
+            if not self.all_success:
+                return False       
         return self.all_success
-    
-    def create_user_ratings(self):
-        self.fetch_track_ratings()
-        self.fetch_album_ratings()
-        return
-    
-    def print_inserted_data(self):
-        if(self.all_success):    
-            print(pd.DataFrame(self.albums_data),end='\n\n')
-            print(pd.DataFrame.from_dict(self.tracks_data),end='\n\n')
-            print(pd.DataFrame(self.artists_data),end='\n\n')
-            print(pd.DataFrame(self.track_ratings_data),end='\n\n')
-            print(pd.DataFrame(self.album_ratings_data),end='\n\n')
-            print(pd.DataFrame(self.genres_data),end='\n\n')
-            print(pd.DataFrame(self.styles_data),end='\n\n')
-        return
 
 
     def insert_album_data(self):
@@ -238,23 +221,21 @@ class Album():
         with Session(models.engine) as session:
             session.begin()
             try:
-                k1 = 'select id_album from album_ratings where id_album = :album_id and id_user = :user_id;'
-                album_in_user = session.execute(text(k1),{'album_id':self.album_id, 'user_id':self.user_id}).scalar()
-                k2 = 'select id from albums where id = :album_id'
-                album_in_sys = session.execute(text(k2), {'album_id':self.album_id}).scalar()                                
+                q1 = 'select id_album from album_ratings where id_album = :album_id and id_user = :user_id;'
+                q2 = 'select id from albums where id = :album_id'
+                album_in_user = session.execute(text(q1),{'album_id':self.album_id, 'user_id':self.user_id}).scalar()                
+                album_in_sys = session.execute(text(q2), {'album_id':self.album_id}).scalar()                                
                 #si album ya lo agrego el usuario a su libreria
                 if album_in_user:
                     msg = 'Album ya agregado en mismo usuario'
                 elif album_in_sys:
                     #si el album esta en sistema pero no esta en la del ususario
-                    q1='insert into track_ratings (select :user_id, id, null, 0, 1 from tracks where album_id= :album_id);'
-                    q2='insert into album_ratings values (:user_id, :album_id,null,null,null,null,null,null,now(),now());'
-                    session.execute(text(q1),{'album_id':self.album_id, 'user_id':self.user_id})
-                    session.execute(text(q2),{'album_id':self.album_id, 'user_id':self.user_id})               
+                    q3='insert into track_ratings (select :user_id, id, null, 0, 1 from tracks where album_id= :album_id);'
+                    q4='insert into album_ratings values (:user_id, :album_id,null,null,null,null,null,null,now(),now());'
+                    session.execute(text(q3),{'album_id':self.album_id, 'user_id':self.user_id})
+                    session.execute(text(q4),{'album_id':self.album_id, 'user_id':self.user_id})               
                     msg = 'Album ya en catalogo, pero no en libreria de usuario'                
-                else:
-                    self.fetch_album_data()
-                    self.create_user_ratings()                 
+                elif self.fetch_all_data():
                     for row in self.artists_data:
                         record = models.rys_artist(**row)
                         session.merge(record)            
@@ -274,7 +255,9 @@ class Album():
                     for row in self.track_ratings_data:
                         record = models.rys_tracks_ratings(**row)
                         session.add(record)                
-                    msg = 'album totalmente nuevo agregado'                 
+                    msg = 'album totalmente nuevo agregado'
+                else:
+                    raise Exception("Error Obteniendo datos")
             except Exception as e:
                 session.rollback()
                 msg = e

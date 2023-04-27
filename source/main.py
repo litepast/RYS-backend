@@ -55,11 +55,11 @@ def main2():
      # #ok computer
      #insert_album = Album('6dVIqQ8qmQ5GBnJ9shOYGE')
      #the bends
-     #insert_album = Album('35UJLpClj5EDrhpNIi4DFg')
+     insert_album = Album('35UJLpClj5EDrhpNIi4DFg')
      # #compilacion
      #insert_album = Album('0RPeS6tlJfJt1GQ1XilhkH')
      # new kanada
-     insert_album = Album('2tA6VFMIQuSF3KpXsrulw9')
+     #insert_album = Album('2tA6VFMIQuSF3KpXsrulw9')
      status, msg =insert_album.insert_album_data()
      print(status,' ',msg)
      return status
