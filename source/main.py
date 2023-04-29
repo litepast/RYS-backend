@@ -4,8 +4,8 @@ from insert_album import Album
 import pandas as pd
 
 def main():
-     os.system("cls")     
      while True:
+          os.system("cls")           
           while True:
                try:
                     type_search = int(input('1 por Album / 0 por Artista: '))
@@ -18,18 +18,19 @@ def main():
                     break
                except ValueError:
                     print('Dato no valido')
-          search = Search()
+          search = Search()          
           albums_result=search.search_album(string_search,type_search)
-          if albums_result['name']:
+          if albums_result:
                results_df = pd.DataFrame(albums_result)
                results_df = results_df[['name', 'artist', 'release_date']]
                print(results_df)
                while True:
                     try:
-                         result_index=int(input('Que album quieres guardar por numero?: '))
-                         album_id = search.get_album_id(result_index)           
+                         result_index=int(input('Que album quieres guardar por numero?: '))                         
+                         album_id = albums_result[result_index]['album_id']           
                          insert_album = Album(album_id)
-                         insert_album.insert_album_data()
+                         status, msg =insert_album.insert_album_data()
+                         print(status,' ',msg)
                          break
                     except ValueError:
                          print('Dato no es numero')    
@@ -52,14 +53,16 @@ def main2():
      os.system("cls")      
      # #69 love songs
      #insert_album = Album('2GuROKcqyHdpIDcgxml1C7')
-     # #ok computer
+     # #ok computer1
      #insert_album = Album('6dVIqQ8qmQ5GBnJ9shOYGE')
      #the bends
-     insert_album = Album('35UJLpClj5EDrhpNIi4DFg')
+     #insert_album = Album('35UJLpClj5EDrhpNIi4DFg')
      # #compilacion
      #insert_album = Album('0RPeS6tlJfJt1GQ1XilhkH')
      # new kanada
      #insert_album = Album('2tA6VFMIQuSF3KpXsrulw9')
+     #tronador
+     insert_album = Album('2E76haakuTtipEkRjIiwqJ')
      status, msg =insert_album.insert_album_data()
      print(status,' ',msg)
      return status
@@ -67,7 +70,7 @@ def main2():
 if __name__ == "__main__":
      main2()
 
-     
+
 
 
 

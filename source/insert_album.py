@@ -169,8 +169,8 @@ class Album():
 
     def fetch_genres_and_styles(self):
         try:
-            genres_columns = [ 'id_album', 'genre_name']            
-            styles_columns = [ 'id_album', 'style_name']
+            genres_columns = ['id_album', 'genre_name']            
+            styles_columns = ['id_album', 'style_name']
             genres_data = []
             styles_data = []
             if self.album_artist != 'Various Artists':
@@ -178,8 +178,9 @@ class Album():
             else:
                 discogs_search = 'Various '+self.album_name
             results = self.d.search(discogs_search, type='release')
-            release = results[0] 
+             
             if results:
+                release = results[0]
                 for genre in release.genres:
                     genres_rows = { column: None for column in genres_columns}
                     genres_rows['id_album'] = self.album_id
@@ -200,8 +201,10 @@ class Album():
             self.genres_data = genres_data
             self.styles_data = styles_data
         except DiscogsException:
+            print(e)
             self.all_success = False
-        except Exception:
+        except Exception as e:
+            print(e)
             self.all_success = False
    
 
@@ -212,6 +215,7 @@ class Album():
         for fun in functions:
             fun()
             if not self.all_success:
+                print('funcion fallida: ',fun, self.album_id)
                 return False       
         return self.all_success
 

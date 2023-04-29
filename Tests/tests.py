@@ -1,19 +1,17 @@
-# Define some functions
-def square(x):
-    return x ** 2
+import requests
+import time
 
-def cube(x):
-    return x ** 3
+url = 'http://127.0.0.1:5000/api/v1/insert-album-catalog/0RPeS6tlJfJt1GQ1XilhkH'
 
-def double(x):
-    return x * 2
+# Define the JSON data to send in the request body
 
-# Create a list of functions
-functions = [square, cube, double]
+# Send a POST request with the JSON data in the body
+start= time.time()
+response = requests.put(url)
 
-# Apply each function to a value and print the result
-value = 3
-for func in functions:
-    result = func(value)
-    print(result)
+# Print the response from the server
+print(response.text)
+end = time.time()
+print('tiempo de todo ', end - start)
+
 
