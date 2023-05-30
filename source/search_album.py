@@ -15,7 +15,7 @@ class Search():
                 self.string_search='artist:'+search_string
             print('lo que se busca: ',self.string_search)
             results_columns = ['name', 'artist', 'album_id', 'release_date', 'cover_url']            
-            results_albums = self.sp.search(q=self.string_search , type='album', limit=20, market='MX')
+            results_albums = self.sp.search(q=self.string_search , type='album', limit=25, market='MX')
             if results_albums:
                 albums = results_albums['albums']['items'] 
                 for album in albums:

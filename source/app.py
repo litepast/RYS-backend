@@ -1,12 +1,18 @@
 from flask import Flask, jsonify, request
 from search_album import Search
 from insert_album import Album 
-#from flask_cors import CORS
+from flask_cors import CORS
 
 
 # instantiate the app
+
 app = Flask(__name__)
 app.config.from_object(__name__)
+
+# enable CORS
+CORS(app, resources={r'/*': {'origins': '*'}})
+
+
 
 # search from spotify
 @app.route('/api/v1/search-spotify', methods=['GET'])
