@@ -9,13 +9,17 @@ class Search():
     def search_album(self,type_search,search_string):
         try:                
             results = []
-            if (type_search):
+            # tipo 0 album names
+            if (not type_search):
                 self.string_search=search_string
             else:
+            # tipo 0 album artist
                 self.string_search='artist:'+search_string
+
+
             print('lo que se busca: ',self.string_search)
             results_columns = ['name', 'artist', 'album_id', 'release_date', 'cover_url']            
-            results_albums = self.sp.search(q=self.string_search , type='album', limit=25, market='MX')
+            results_albums = self.sp.search(q=self.string_search , type='album', limit=50, market='MX')
             if results_albums:
                 albums = results_albums['albums']['items'] 
                 for album in albums:
