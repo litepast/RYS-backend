@@ -231,14 +231,14 @@ class Album():
                 album_in_sys = session.execute(text(q2), {'album_id':self.album_id}).scalar()                                
                 #si album ya lo agrego el usuario a su libreria
                 if album_in_user:
-                    msg = 'Album ya agregado en mismo usuario'
+                    msg = 'Album already in Library'
                 elif album_in_sys:
                     #si el album esta en sistema pero no esta en la del ususario
                     q3='insert into track_ratings (select :user_id, id, null, 0, 1 from tracks where album_id= :album_id);'
                     q4='insert into album_ratings values (:user_id, :album_id,null,null,null,null,null,null,now(),now());'
                     session.execute(text(q3),{'album_id':self.album_id, 'user_id':self.user_id})
                     session.execute(text(q4),{'album_id':self.album_id, 'user_id':self.user_id})               
-                    msg = 'Album ya en catalogo, pero no en libreria de usuario'                
+                    msg = 'New album added to Library!'               
                 elif self.fetch_all_data():
                     for row in self.artists_data:
                         record = models.rys_artist(**row)
@@ -259,9 +259,9 @@ class Album():
                     for row in self.track_ratings_data:
                         record = models.rys_tracks_ratings(**row)
                         session.add(record)                
-                    msg = 'album totalmente nuevo agregado'
+                    msg = 'New album added to Library!'
                 else:
-                    raise Exception("Error Obteniendo datos")
+                    raise Exception("Error connecting, try again!")
             except Exception as e:
                 session.rollback()
                 msg = e
