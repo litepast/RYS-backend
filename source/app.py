@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from search_album import Search
 from insert_album import Album 
+from search_library import Library  
 from flask_cors import CORS
 
 
@@ -50,6 +51,28 @@ def insert_album_library(id_album):
                 'msg': msg
             })
         return result
+    
+@app.route('/api/v1/search-album-catalog', methods=['GET'])
+def search_from_catalog():
+    if request.method == 'GET':
+        query = request.args.to_dict(flat=False)
+        lib = Library(query)
+        albums_result = lib.search_album()
+        if albums_result:
+            results = jsonify({
+                'status' : 200,
+                'msg': 'Showing Results',
+                'albums' : albums_result
+            })
+        else:
+            results = jsonify({
+                'status' : 400,
+                'albums' : [],
+                'msg': 'No results'
+            })
+        return results
+
+
 
 
 if __name__ == '__main__':
