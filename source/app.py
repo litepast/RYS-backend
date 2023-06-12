@@ -61,7 +61,7 @@ def search_from_catalog():
         if albums_result:
             results = jsonify({
                 'status' : 200,
-                'msg': 'Showing Results',
+                'msg': 'OK Query',
                 'albums' : albums_result
             })
         else:
