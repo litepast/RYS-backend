@@ -6,3 +6,7 @@ source/Genres/settings.py
 .cache
 .cache
 .cache
+source/__pycache__/search_library.cpython-311.pyc
+Tests/tests.py
+.cache
+source/test.py

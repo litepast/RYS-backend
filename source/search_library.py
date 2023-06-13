@@ -80,8 +80,10 @@ class Library:
             list_where.append(list_where_styles[0])  
 
         if list_where:
-            select = select + ' where ' + ' and '.join(list_where)
-
+            select = select + ' where ' + ' and '.join(list_where) + ' order by 2, 3'
+        else:
+            select = select + ' order by 2, 3'
+                    
         return(select)
 
 
