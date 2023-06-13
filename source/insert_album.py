@@ -178,15 +178,15 @@ class Album():
             else:
                 discogs_search = 'Various '+self.album_name
             print(discogs_search)
-            results = self.d.search(discogs_search, type='release,master')
-             
-            if results:
-                
+            results = self.d.search(discogs_search, type='release,master')             
+            release = None
+
+            if results: 
                 for result in results:
                     if (result.genres and result.styles):
                         release = result
                         break
-
+            if release:
                 for genre in release.genres:                    
                     genres_rows = { column: None for column in genres_columns}
                     genres_rows['id_album'] = self.album_id
