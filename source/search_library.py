@@ -25,6 +25,7 @@ class Library:
         list_where_else = []
         list_where_styles = []
 
+
         if 'ratings[]' in self.query:
             if 'Unrated' in self.query['ratings[]']:
                 query_rating_null =  'ar.user_final_rating is null'        

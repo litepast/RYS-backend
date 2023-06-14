@@ -165,6 +165,7 @@ class Album():
             self.track_ratings_data =  track_ratings_data
         except Exception:
             self.all_success = False 
+            
 
 
     def fetch_genres_and_styles(self):

@@ -14,7 +14,6 @@ app.config.from_object(__name__)
 CORS(app, resources={r'/*': {'origins': '*'}})
 
 
-
 # search from spotify
 @app.route('/api/v1/search-spotify', methods=['GET'])
 def search_from_spotify():
