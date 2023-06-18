@@ -1,7 +1,7 @@
 import models
 from sqlalchemy import text
 from sqlalchemy.orm import Session
-import os
+
 
 class Library:
     def __init__(self,query):
