@@ -54,7 +54,7 @@ class AlbumInLibrary:
                     albumData['album_name'] = row[1]
                     albumData['artist_name'] = row[2]
                     albumData['album_id'] = row[3]
-                    albumData['rating'] = 0 if row[4] == None else row[4]
+                    albumData['rating'] = 0 if row[4] == None else float(row[4])
                     albumData['total_discs'] = row[5]
                     albumData['total_tracks'] = row[6]
                     albumData['release_date'] = row[7]
