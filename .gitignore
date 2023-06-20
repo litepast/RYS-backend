@@ -2,6 +2,7 @@ source/config.py
 source/tests.py
 source/Genres/config.py
 source/Genres/settings.py
+source/__pycache__/
 
 .cache
 .cache
@@ -11,3 +12,5 @@ Tests/tests.py
 .cache
 source/test.py
 source/__pycache__/get_album_on_library.cpython-311.pyc
+source/__pycache__/Config.cpython-311.pyc
+source/__pycache__/insert_album.cpython-311.pyc
