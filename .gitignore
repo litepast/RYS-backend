@@ -10,3 +10,4 @@ source/__pycache__/search_library.cpython-311.pyc
 Tests/tests.py
 .cache
 source/test.py
+source/__pycache__/get_album_on_library.cpython-311.pyc
