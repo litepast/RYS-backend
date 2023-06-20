@@ -33,7 +33,7 @@ class AlbumInLibrary:
                 }
 
                 query_header = """select atypes.name release_type, a.name album_name, art.name artist_name, a.id album_id,
-                arat.user_final_rating rating, t.total_discs, a.total_tracks, a.release_date, a.cover_url cover_image
+                arat.user_final_rating rating, t.total_discs, a.total_tracks, a.release_date, a.cover_url cover_image, a.cover_color cover_color
                 from albums a left join artists art on art.id = a.artist_id left join album_ratings arat on a.id = arat.id_album
                 left join album_types atypes on a.type_id = atypes.id left join 
                 (select max(disc_number) total_discs,album_id from tracks where album_id='{}') t
@@ -58,7 +58,8 @@ class AlbumInLibrary:
                     albumData['total_discs'] = row[5]
                     albumData['total_tracks'] = row[6]
                     albumData['release_date'] = row[7]
-                    albumData['cover_image'] = row[8] 
+                    albumData['cover_image'] = row[8]
+                    albumData['cover_color'] = row[9]  
 
                 album_genres = session.execute(text(query_genres))
                 for row in album_genres:
@@ -89,6 +90,8 @@ class AlbumInLibrary:
                     track_row['track_duration_ms'] = row[8]
                     albumData['tracks'][disc].append(track_row)
             except Exception as e:
+
+            
                 session.rollback()
                 return False
             else:

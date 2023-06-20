@@ -7,6 +7,7 @@ from spotipy import SpotifyException
 from discogs_client.exceptions import HTTPError as DiscogsException
 from sqlalchemy import text
 from sqlalchemy.orm import Session
+from get_bg_color import best_color
 
 class Album():
    
@@ -23,7 +24,7 @@ class Album():
             types_dict = {'album':1 , 'single':2, 'compilation':3 }
             album_data = []
             album = self.sp.album(self.album_id)    
-            albums_columns = ['id', 'artist_id', 'type_id', 'name', 'release_date','release_precision', 'total_tracks', 'cover_url']        
+            albums_columns = ['id', 'artist_id', 'type_id', 'name', 'release_date','release_precision', 'total_tracks', 'cover_url', 'cover_color']        
             albums_rows = { column : None  for column in albums_columns}       
             albums_rows['id'] = album['id']
             albums_rows['artist_id'] = album['artists'][0]['id']
@@ -33,6 +34,7 @@ class Album():
             albums_rows['release_precision'] = album['release_date_precision']
             albums_rows['total_tracks'] = album['total_tracks']
             albums_rows['cover_url']=album['images'][1]['url'] 
+            albums_rows['cover_color'] = best_color(albums_rows['cover_url'])
             self.no_tracks =  albums_rows['total_tracks']            
             self.album_artist = album['artists'][0]['name']            
             self.album_name = album['name']  
