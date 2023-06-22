@@ -27,6 +27,7 @@ class AlbumInLibrary:
                     'total_tracks': None,
                     'release_date': None,
                     'cover_image': None,
+                    'cover_color': None,                   
                     'genres': [],
                     'styles': [],
                     'tracks': None
@@ -59,7 +60,7 @@ class AlbumInLibrary:
                     albumData['total_tracks'] = row[6]
                     albumData['release_date'] = row[7]
                     albumData['cover_image'] = row[8]
-                    albumData['cover_color'] = row[9]  
+                    albumData['cover_color'] = row[9]                 
 
                 album_genres = session.execute(text(query_genres))
                 for row in album_genres:

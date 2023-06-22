@@ -40,9 +40,10 @@ def best_color(url):
             best_color = centroids[np.argmax(colorfulness)]
     
     except Exception as e:
-        return rgb_to_hex(230, 230, 230)        
+        return rgb_to_hex(230, 230, 230)     
     else:
-        return rgb_to_hex(int(best_color[0]), int(best_color[1]), int(best_color[2]))
+        final_color = [int(best_color[0]), int(best_color[1]), int(best_color[2])]       
+        return rgb_to_hex(final_color[0], final_color[1], final_color[2])
     
 
     
