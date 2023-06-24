@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 from search_album import Search
 from insert_album import Album 
 from search_library import Library  
+from update_ratings import UpdateRatings
 from get_album_on_library import AlbumInLibrary
 from flask_cors import CORS
 
@@ -91,6 +92,30 @@ def search_album_from_catalog(id_album):
             })
         return results
     
+
+
+@app.route('/api/v1/update-album-ratings/', methods=['PUT'])
+def update_album_ratings():
+    if request.method == 'PUT':
+        params = request.get_json()
+        
+        update_ratings = UpdateRatings(params)
+        update_ratings.update_ratings()
+
+
+        if params:
+            results = jsonify({
+                'status' : 200,
+                'msg': 'OK Query',
+                'albums' : 'OK'
+            })
+        else:
+            results = jsonify({
+                'status' : 400,
+                'msg': 'NOK Query',
+                'albums' : []                
+            })
+        return results
 
 
 

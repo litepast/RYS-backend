@@ -12,9 +12,10 @@ class AlbumInLibrary:
         with Session(models.engine) as session:
             session.begin()
             try:
-                query_album_exists = 'select id_album from album_ratings where id_album = :album_id and id_user = :user_id;'  
-                album_in_lib =  session.execute(text(query_album_exists),{'album_id':self.album_id, 'user_id':1}).scalar()                                
+                query_album_exists = """select id_album from album_ratings where id_album = '{}' """.format(self.album_id)
+                album_in_lib =  session.execute(text(query_album_exists)).scalar()                                
                 if not album_in_lib:
+                    print('heree')
                     raise Exception('Album not in library')
                 
                 albumData = {
@@ -44,7 +45,7 @@ class AlbumInLibrary:
                 query_styles = "select style_name from styles_by_album s where s.id_album='{}';".format(self.album_id)
 
                 query_tracks = """select t.id track_id, t.disc_number track_disc_number, t.track_number track_number_on_disc, t.name track_name,
-                art.name track_artist, tr.rating track_ratings, tr.goated goated, tr.included, t.duration_ms track_duration_ms 
+                art.name track_artist, tr.rating track_rating, tr.goated goated, tr.included, t.duration_ms track_duration_ms 
                 from tracks t left join artists art on t.artist_id = art.id
                 left join track_ratings tr on tr.id_track = t.id
                 where t.album_id='{}' order by t.overall_number;""".format(self.album_id)
@@ -55,7 +56,7 @@ class AlbumInLibrary:
                     albumData['album_name'] = row[1]
                     albumData['artist_name'] = row[2]
                     albumData['album_id'] = row[3]
-                    albumData['rating'] = 0 if row[4] == None else float(row[4])
+                    albumData['rating'] = float(row[4]) if row[4] else None
                     albumData['total_discs'] = row[5]
                     albumData['total_tracks'] = row[6]
                     albumData['release_date'] = row[7]
@@ -73,7 +74,7 @@ class AlbumInLibrary:
                 
 
                 tracks_columns=['track_id', 'track_disc_number', 'track_number_on_disc', 'track_name','track_artist',
-                'track_ratings', 'goated', 'included', 'track_duration_ms']
+                'track_rating', 'goated', 'included', 'track_duration_ms']
                 discs = albumData['total_discs']
                 albumData['tracks'] = [ [] for i in range(discs)]
                 album_tracks = session.execute(text(query_tracks))
@@ -85,12 +86,13 @@ class AlbumInLibrary:
                     track_row['track_number_on_disc'] = row[2]
                     track_row['track_name'] = row[3]
                     track_row['track_artist'] = row[4]
-                    track_row['track_ratings'] = 0 if row[5] == None else row[5]
+                    track_row['track_rating'] = row[5]
                     track_row['goated'] = bool(row[6])
                     track_row['included'] = bool(row[7])
                     track_row['track_duration_ms'] = row[8]
                     albumData['tracks'][disc].append(track_row)
             except Exception as e:
+                print(e)
 
             
                 session.rollback()
