@@ -15,3 +15,5 @@ source/__pycache__/get_album_on_library.cpython-311.pyc
 source/__pycache__/Config.cpython-311.pyc
 source/__pycache__/insert_album.cpython-311.pyc
 source/__pycache__/insert_album.cpython-311.pyc
+source/update_ratings.py
+source/__pycache__/insert_album.cpython-311.pyc
