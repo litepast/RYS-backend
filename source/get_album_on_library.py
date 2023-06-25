@@ -86,7 +86,7 @@ class AlbumInLibrary:
                     track_row['track_number_on_disc'] = row[2]
                     track_row['track_name'] = row[3]
                     track_row['track_artist'] = row[4]
-                    track_row['track_rating'] = row[5]
+                    track_row['track_rating'] = float(row[5]) if row[5] else None
                     track_row['goated'] = bool(row[6])
                     track_row['included'] = bool(row[7])
                     track_row['track_duration_ms'] = row[8]

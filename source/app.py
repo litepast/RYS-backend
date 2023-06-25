@@ -100,20 +100,17 @@ def update_album_ratings():
         params = request.get_json()
         
         update_ratings = UpdateRatings(params)
-        update_ratings.update_ratings()
+        result = update_ratings.update_ratings()
 
-
-        if params:
+        if result:
             results = jsonify({
                 'status' : 200,
-                'msg': 'OK Query',
-                'albums' : 'OK'
+                'msg': result                
             })
         else:
             results = jsonify({
                 'status' : 400,
-                'msg': 'NOK Query',
-                'albums' : []                
+                'msg': result                               
             })
         return results
 

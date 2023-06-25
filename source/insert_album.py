@@ -140,7 +140,10 @@ class Album():
     def fetch_album_ratings(self):
         try:
             album_ratings_data = []
-            aratings_columns = [ 'id_user', 'id_album','simple_avg_rating','more_than_nine_rating','weight_rating','suggested_rating_a','suggested_rating_b','user_final_rating','created_date','updated_date']
+            aratings_columns = ['id_user', 'id_album',                               
+                                'simple_average_rating','weighted_average_rating','consistency_rating','greatness_rating',    
+                                'suggested_rating_a','suggested_rating_b','suggested_rating_final','user_final_rating',
+                                'created_date','updated_date']
             aratings_rows = { column: None for column in aratings_columns} 
             dt = datetime.datetime.now()              
             aratings_rows['id_user'] = self.user_id 
