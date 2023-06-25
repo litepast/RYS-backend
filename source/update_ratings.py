@@ -20,7 +20,7 @@ class UpdateRatings:
                 sra = 'null' if self.data_ratings['data']['ar']['suggested_rating_a'] == 0 else self.data_ratings['data']['ar']['suggested_rating_a']
                 srb = 'null' if self.data_ratings['data']['ar']['suggested_rating_b'] == 0 else self.data_ratings['data']['ar']['suggested_rating_b']
                 srf = 'null' if self.data_ratings['data']['ar']['suggested_rating_final'] == 0 else self.data_ratings['data']['ar']['suggested_rating_final']
-                ufr = 'null' if self.data_ratings['data']['ar']['user_final_rating'] == 0 else self.data_ratings['data']['ar']['user_final_rating']
+                ufr = 'null' if self.data_ratings['data']['ar']['user_final_rating'] == 0 or self.data_ratings['data']['ar']['user_final_rating'] is None else self.data_ratings['data']['ar']['user_final_rating']
                 ud = self.data_ratings['data']['ar']['updated_date']
                 ai = self.data_ratings['data']['ar']['album_id']
 
