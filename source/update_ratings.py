@@ -44,7 +44,7 @@ class UpdateRatings:
                 for track in self.data_ratings['data']['tr']:
                     
                     
-                    tr = 'null' if track['track_rating'] == 0 else track['track_rating']
+                    tr = 'null' if track['track_rating'] == 0 or track['track_rating'] is None else track['track_rating']
                     trg = int(track['goated'])
                     tri = int(track['included'])
                     trid = track['track_id']
