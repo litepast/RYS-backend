@@ -180,7 +180,7 @@ class Album():
             genres_data = []
             styles_data = []
             if self.album_artist != 'Various Artists':
-                discogs_search = self.album_artist+' '+self.album_name            
+                discogs_search = self.album_name+' '+self.album_artist           
             else:
                 discogs_search = 'Various '+self.album_name
             print(discogs_search)
