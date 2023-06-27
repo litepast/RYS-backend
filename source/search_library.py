@@ -54,9 +54,13 @@ class Library:
             list_where_else.append(query_album)
 
         if 'genres[]' in self.query:
+            if 'Without Genre' in self.query['genres[]']:
+                self.query['genres[]'] = ['NOT_FOUND' if x == 'Without Genre' else x for x in self.query['genres[]']]
             query_genres = 'select distinct(id_album) from genres_by_album where genre_name in ("' + '","'.join(self.query['genres[]']) + '")'
             
         if 'styles[]' in self.query:
+            if 'Without Style' in self.query['styles[]']:
+                self.query['styles[]'] = ['NOT_FOUND' if x == 'Without Style' else x for x in self.query['styles[]']]
             query_styles = 'select distinct(id_album) from styles_by_album where style_name in ("' + '","'.join(self.query['styles[]']) + '")'
 
         if query_genres and query_styles:

@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from search_album import Search
 from insert_album import Album 
+from delete_album import DeleteAlbum
 from search_library import Library  
 from update_ratings import UpdateRatings
 from get_album_on_library import AlbumInLibrary
@@ -113,6 +114,29 @@ def update_album_ratings():
                 'msg': result                               
             })
         return results
+    
+
+
+@app.route('/api/v1/delete-album-data/<string:id_album>', methods=['DELETE'])
+def delete_album_from_catalog(id_album):
+    print('deleting?')
+    if request.method == 'DELETE':
+        del_album = DeleteAlbum(id_album)
+        result = del_album.delete_album()
+        if result:
+            results = jsonify({
+                'status' : 200,
+                'text': 'Sucess deleting album',
+                'msg': result                
+            })
+        else:
+            results = jsonify({
+                'status' : 400,
+                'text': 'Error deleting album',
+                'msg': result                               
+            })
+        return results
+        
 
 
 
