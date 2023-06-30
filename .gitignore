@@ -18,3 +18,18 @@ source/__pycache__/insert_album.cpython-311.pyc
 source/update_ratings.py
 source/__pycache__/insert_album.cpython-311.pyc
 power bi dashboards/rys main dashboard.pbix
+Flask API/Genres/Genres_and_Styles_Discogs.html
+Flask API/Genres/__pycache__/config.cpython-311.pyc
+Flask API/__pycache__/update_ratings.cpython-311.pyc
+Flask API/__pycache__/Search.cpython-311.pyc
+.gitignore
+Flask API/config.py
+Flask API/__pycache__/config.cpython-311.pyc
+Flask API/__pycache__/delete_album.cpython-311.pyc
+Flask API/__pycache__/get_album_on_library.cpython-311.pyc
+Flask API/__pycache__/get_bg_color.cpython-311.pyc
+Flask API/__pycache__/insert_album.cpython-311.pyc
+Flask API/__pycache__/Insert.cpython-311.pyc
+Flask API/__pycache__/models.cpython-311.pyc
+Flask API/__pycache__/search_album.cpython-311.pyc
+Flask API/__pycache__/search_library.cpython-311.pyc
