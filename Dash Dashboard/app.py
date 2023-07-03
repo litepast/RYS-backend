@@ -4,6 +4,8 @@ from config import engine
 
 import plotly.express as px
 import pandas as pd
+from flask_cors import CORS
+
 
 ##header stats
 total_albums_q="select count(id) as `Total Albums` from albums"
@@ -46,45 +48,82 @@ app = Dash(
 )
 app.scripts.config.serve_locally = True
 
+
+
 def header_stat(df):
     label = df.columns[0]
     value = df.iloc[0, 0]
     return html.Div([
-        html.Div(children=value, className="text-4xl text-center"),
+        html.Div(children=value, className="text-4xl font-bold text-center"),
         html.Div(children=label, className="text-xl text-center")        
-    ],className="w-1/6 h-auto flex flex-col text-white rounded-lg bg-gray-100 p-4 m-4 bg-gradient-to-br from-gray-400 to-black")
+    ],className="w-1/6 h-auto flex flex-col text-white rounded-lg bg-gray-100 p-4 m-4 bg-gradient-to-br from-gray-800 to-black")
 
 def ratings_graf1():
-     fig = px.pie(types_df, values='Quantity', names='Type', title='Albums by Type', height=335)
+     fig = px.pie(types_df, values='Quantity', names='Type', color_discrete_sequence=px.colors.sequential.Turbo)
+     fig.update_layout(autosize=True)
+     fig.update_layout(margin_t=0)
+     fig.update_layout(margin_b=0)     
+     fig.update_layout(title_text='Albums by Type', title_font_size=20, title_font_color='white')
+     fig.update_layout(paper_bgcolor='rgb(0,0,0,0)')
+     fig.update_layout(font_color='white')
+     
 
      return html.Div([
-        #   dcc.Graph(
-        #     id='types-graph',
-        #     figure=fig
-        #     )
-    ],className="h-1/2 bg-gradient-to-br from-blue-400 to-black")
+          dcc.Graph(
+            id='types-graph',
+            figure=fig        
+            )
+    ],className="h-1/2 rounded-lg bg-gradient-to-br from-[rgb(24,24,24)] to-black")
 
 
 def ratings_graf2():
-    fig = px.bar(ratingsalbum_df, y='Rating', x='Quantity', title='Albums by Rating', height=335, orientation='h')
+    fig = px.bar(ratingsalbum_df, y='Rating', x='Quantity',title='Albums by Rating', orientation='h', )
+    fig.update_layout(autosize=True)
+    #fig.update_layout(margin_t=0)
+    fig.update_layout(margin_b=0)     
+    fig.update_layout(title_font_size=20, title_font_color='white')
+    fig.update_layout(paper_bgcolor='rgb(0,0,0,0)')
+    fig.update_layout(font_color='white')
+    fig.update_layout(plot_bgcolor='rgb(24,24,24)')
+    fig.update_layout(
+        yaxis = dict(
+            tickmode = 'linear',
+            tick0 = 0.5,
+            dtick = 0.5
+        )
+)
     return html.Div([
-        # dcc.Graph(
-        #     id='albums-graph',
-        #     figure=fig
-        #     )
+        dcc.Graph(
+            id='albums-graph',
+            figure=fig         
+            )
           
-    ],className="h-1/2 bg-gradient-to-br from-red-400 to-black")
+    ],className="h-1/2 rounded-lg bg-gradient-to-br from-gray-800 to-black")
 
 
 def ratings_graf3():
-     fig = px.bar(ratingstrack_df, x='Rating', y='Quantity', title='Tracks by Rating', height=335)
+     fig = px.bar(ratingstrack_df, x='Rating', y='Quantity', title='Tracks by Rating')
+     fig.update_layout(autosize=True)
+    #fig.update_layout(margin_t=0)
+     fig.update_layout(margin_b=0)     
+     fig.update_layout(title_font_size=20, title_font_color='white')
+     fig.update_layout(paper_bgcolor='rgb(0,0,0,0)')
+     fig.update_layout(font_color='white')
+     fig.update_layout(plot_bgcolor='rgb(24,24,24)')
+     fig.update_layout(
+        xaxis = dict(
+            tickmode = 'linear',
+            tick0 = 0.5,
+            dtick = 0.5
+        )
+     )
      return html.Div([
-            # dcc.Graph( 
-            # id='tracks-graph',
-            # figure=fig
-            # )
+            dcc.Graph( 
+            id='tracks-graph',
+            figure=fig
+            )
           
-    ],className="h-1/2 bg-gradient-to-br from-blue-400 to-black")
+    ],className="h-1/2 rounded-lg bg-gradient-to-br from-gray-800 to-black")
 
 
 def ratings_graf4():
@@ -106,7 +145,7 @@ app.layout = html.Div([
         header_stat(totalTracks_df),
         header_stat(totalRatedTracks_df),
         header_stat(totalStarsTracks_df) 
-    ], className="flex flex-row justify-center px-[50px] mb-[50px]"),
+    ], className="flex flex-row justify-center px-[50px]"),
 
     ##dashboard body
 
@@ -135,8 +174,9 @@ app.layout = html.Div([
 
     ],className="flex justify-center w-full h-full")
 
-],className="flex flex-col bg-gradient-to-br from-red-800 to-blue w-full h-[900px] pb-[50px]")
+],className="flex flex-col w-full h-[900px] pb-[50px]")
+#bg-gradient-to-br from-red-800 to-blue 
 
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True,host="0.0.0.0")
