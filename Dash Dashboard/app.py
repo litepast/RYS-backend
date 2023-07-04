@@ -1,6 +1,7 @@
 from dash import Dash, html, dcc, callback, Output, Input
 from sqlalchemy import create_engine
 from config import engine
+import math
 
 import plotly.express as px
 import pandas as pd
@@ -10,10 +11,10 @@ from flask_cors import CORS
 ##header stats
 total_albums_q="select count(id) as `Total Albums` from albums"
 total_rated_albums_q="select count(id_album) as `Albums Rated` from album_ratings where user_final_rating is not null;"
-total_stars_albums_q="select sum(user_final_rating) as `Total Stars Albums` from album_ratings where user_final_rating is not null;"
+total_stars_albums_q="select avg(user_final_rating) as `Average Album Rating` from album_ratings where user_final_rating is not null;"
 total_tracks_q="select count(id) as `Total Tracks` from tracks"
 total_rated_tracks_q="select count(id_track) as `Tracks Rated` from track_ratings where rating is not null;"
-total_stars_tracks_q="select sum(rating) as `Total Stars Tracks` from track_ratings where rating is not null;"
+total_stars_tracks_q="select avg(rating) as `Average Track Rating` from track_ratings where rating is not null;"
 
 totalAbums_df=pd.read_sql(total_albums_q, engine)
 totalRatedAbums_df=pd.read_sql(total_rated_albums_q, engine)
@@ -38,6 +39,14 @@ ratingsalbum_df = pd.read_sql(ratings_albums_q, engine)
 ratingstrack_df = pd.read_sql(ratings_tracks_q, engine)
 types_df = pd.read_sql(types_q, engine)
 
+##activiry query
+activity_q="""select  al.name Album, art.name Artist, ar.user_final_rating Rating, ar.updated_date Date, al.cover_url Cover from album_ratings ar left join albums al on ar.id_album = al.id 
+left join artists art on art.id = al.artist_id
+where ar.user_final_rating is not null 
+order by 4 desc limit 20;"""
+
+activity_df = pd.read_sql(activity_q, engine)
+
 
 
 
@@ -53,34 +62,34 @@ app.scripts.config.serve_locally = True
 def header_stat(df):
     label = df.columns[0]
     value = df.iloc[0, 0]
+    value = "%.2f" % value if isinstance(value, float) else value
     return html.Div([
         html.Div(children=value, className="text-4xl font-bold text-center"),
         html.Div(children=label, className="text-xl text-center")        
     ],className="w-1/6 h-auto flex flex-col text-white rounded-lg bg-gray-100 p-4 m-4 bg-gradient-to-br from-gray-800 to-black")
 
-def ratings_graf1():
+def types_graf():
      fig = px.pie(types_df, values='Quantity', names='Type', color_discrete_sequence=px.colors.sequential.Turbo)
      fig.update_layout(autosize=True)
-     fig.update_layout(margin_t=0)
-     fig.update_layout(margin_b=0)     
+     fig.update_layout(margin_t=100)
+     fig.update_layout(margin_b=40)             
      fig.update_layout(title_text='Albums by Type', title_font_size=20, title_font_color='white')
      fig.update_layout(paper_bgcolor='rgb(0,0,0,0)')
      fig.update_layout(font_color='white')
-     
-
      return html.Div([
           dcc.Graph(
             id='types-graph',
-            figure=fig        
+            figure=fig,  style={'height': '100%'}        
             )
-    ],className="h-1/2 rounded-lg bg-gradient-to-br from-[rgb(24,24,24)] to-black")
+    ],className="h-1/2 rounded-lg bg-gradient-to-br from-gray-800 to-black")
 
 
-def ratings_graf2():
-    fig = px.bar(ratingsalbum_df, y='Rating', x='Quantity',title='Albums by Rating', orientation='h', )
+def album_ratings_graf():
+    fig = px.bar(ratingsalbum_df, y='Rating', x='Quantity',title='Albums by Rating', orientation='h')
+    fig.update_traces(marker_color='rgb(50,20,60)')
     fig.update_layout(autosize=True)
-    #fig.update_layout(margin_t=0)
-    fig.update_layout(margin_b=0)     
+    fig.update_xaxes(visible=True, fixedrange=True)   
+    fig.update_yaxes(visible=True, fixedrange=True)        
     fig.update_layout(title_font_size=20, title_font_color='white')
     fig.update_layout(paper_bgcolor='rgb(0,0,0,0)')
     fig.update_layout(font_color='white')
@@ -91,21 +100,22 @@ def ratings_graf2():
             tick0 = 0.5,
             dtick = 0.5
         )
-)
+    )
     return html.Div([
         dcc.Graph(
             id='albums-graph',
-            figure=fig         
-            )
-          
-    ],className="h-1/2 rounded-lg bg-gradient-to-br from-gray-800 to-black")
+            figure=fig,
+            style={'height': '100%'}          
+            )          
+    ],className="h-1/2 rounded-lg bg-gradient-to-tr from-gray-800 to-black")
 
 
-def ratings_graf3():
+def track_ratings_graph():
      fig = px.bar(ratingstrack_df, x='Rating', y='Quantity', title='Tracks by Rating')
-     fig.update_layout(autosize=True)
-    #fig.update_layout(margin_t=0)
-     fig.update_layout(margin_b=0)     
+     fig.update_traces(marker_color='rgb(50,20,60)')
+     fig.update_layout(autosize=True) 
+     fig.update_xaxes(visible=True, fixedrange=True)   
+     fig.update_yaxes(visible=True, fixedrange=True)    
      fig.update_layout(title_font_size=20, title_font_color='white')
      fig.update_layout(paper_bgcolor='rgb(0,0,0,0)')
      fig.update_layout(font_color='white')
@@ -120,19 +130,38 @@ def ratings_graf3():
      return html.Div([
             dcc.Graph( 
             id='tracks-graph',
-            figure=fig
-            )
-          
-    ],className="h-1/2 rounded-lg bg-gradient-to-br from-gray-800 to-black")
+            figure=fig,
+            style={'height': '100%'}            )          
+    ],className="h-1/2 rounded-lg bg-gradient-to-bl from-gray-800 to-black")
+
+def activity_trend_graf():
+    activity_df['IndexValues'] =  activity_df.index
+    fig = px.line(activity_df, y='Rating', x='IndexValues', title='Latest Ratings Trend', markers=True, 
+                  hover_data={'IndexValues':False,'Album':True, 'Date':True  })
+    fig.update_layout(hoverlabel_font_color='white') 
+    fig.update_layout(autosize=True)
+    fig.update_xaxes(autorange="reversed")    
+    fig.update_xaxes(visible=False, fixedrange=True)
+    fig.update_yaxes(visible=True, fixedrange=True)      
+    fig.update_layout(title_font_size=20, title_font_color='white')
+    fig.update_layout(paper_bgcolor='rgb(0,0,0,0)')
+    fig.update_traces(marker_color='rgb(50,160,250)') 
+    fig.update_traces(line_color='rgb(50,160,250)')   
+    fig.update_layout(plot_bgcolor='rgb(24,24,24)')  
+    fig.update_layout(yaxis_range=[0.5,5.4], yaxis_tickmode='linear', yaxis_tick0=0.5, yaxis_dtick=0.5)
+    
+    fig.update_layout(font_color='white')  
+    return html.Div([
+            dcc.Graph( 
+            id='trend-graph',
+            figure=fig,
+            style={'height': '100%'}            )          
+    ],className="h-1/2 rounded-lg bg-gradient-to-tl from-gray-800 to-black")
 
 
-def ratings_graf4():
-    return html.Div([          
-    ],className="h-1/2 bg-gradient-to-br from-red-400 to-black")
 
 def activity_table():
-     return html.Div([
-          
+     return html.Div([          
     ],className="w-full bg-gradient-to-br from-green-400 to-black")
    
 
@@ -146,31 +175,23 @@ app.layout = html.Div([
         header_stat(totalRatedTracks_df),
         header_stat(totalStarsTracks_df) 
     ], className="flex flex-row justify-center px-[50px]"),
-
     ##dashboard body
-
-
     html.Div([
     ##graf container
         html.Div([            
-            #row 1
+            #col 1
             html.Div([
-                ratings_graf1(),
+                types_graf(),
                 html.Div('',className="m-3"),               
-                ratings_graf2()
+                album_ratings_graf()
             ],className="flex flex-col w-1/2 mx-3"),
-            #row 2
+            #col 2
             html.Div([
-                ratings_graf3(),
+                track_ratings_graph(),
                 html.Div('',className="m-3"),         
-                ratings_graf4()
+                activity_trend_graf()
             ], className="flex flex-col w-1/2 mx-3")                 
-        ], className="flex w-2/4"),
-        
-        ##table container
-        html.Div([
-            activity_table()
-        ],className="flex w-1/4 flex-row mx-3"),
+        ], className="flex w-4/5"),  
 
     ],className="flex justify-center w-full h-full")
 
@@ -179,4 +200,4 @@ app.layout = html.Div([
 
 
 if __name__ == '__main__':
-    app.run(debug=True,host="0.0.0.0")
+    app.run(debug=True,host="0.0.0.0") 
