@@ -26,7 +26,7 @@ def quantity_filters():
         #Range
         html.Div([
             html.Label('Date Range', className="text-xl text-white"),
-            dcc.RadioItems( ['Year', 'Decade'], value='Year',id='date-type', inline=True, className="text-white" ),  
+            dcc.RadioItems( ['Year', 'Decade'], value='Year',id='date-type', className="text-white" ),  
         ]),        
         #Sort by
         html.Div([
@@ -34,7 +34,7 @@ def quantity_filters():
             dcc.RadioItems(options=[
                 {'label': 'Date', 'value': 'category'},
                 {'label': 'Quantity', 'value': 'total'}
-            ], value='category', id='sort-type', inline=True, className="text-white"),             
+            ], value='category', id='sort-type', className="text-white"),             
         ]),
         #Order by
         html.Div([
@@ -42,7 +42,7 @@ def quantity_filters():
             dcc.RadioItems(options=[
                 {'label': 'Ascending', 'value': 'ascending'},
                 {'label': 'Descending', 'value': 'descending'}
-            ], value='ascending', id='order-type', inline=True, className="text-white"),             
+            ], value='ascending', id='order-type', className="text-white"),             
         ]), 
         #Rated
         html.Div([
@@ -53,7 +53,7 @@ def quantity_filters():
                 {'label': 'Only Unrated Albums', 'value': 'Unrated'}
             ], value='All', id='rated-type',  clearable=False)             
         ]),
-    ],className="w-1/6 h-full flex flex-col justify-between px-[25px] pt-[30px] pb-[100px]")
+    ],className="w-1/6 h-full flex flex-col justify-between px-[25px] py-[30px] ")
 
 @callback( 
     Output('quantity-albums-graph', 'figure'),   
@@ -66,8 +66,13 @@ def quantity_graph(date_type,sort_type,order_type,rated_type):
         df = yearsalbum_df
     else:
         df = yearsalbum_df[yearsalbum_df['Rated'] == rated_type] 
-    fig = px.histogram(df, x=date_type, color='Rated', color_discrete_sequence=['#721bbf', '#0a7d8a'])  
+    fig = px.histogram(df, x=date_type, color='Rated', color_discrete_sequence=['#721bbf', '#0a7d8a'], hover_data={'Rated':False })
+
     final_order = sort_type+' '+order_type
+
+    if date_type == 'Year':
+        fig.update_xaxes(rangeslider_visible=True)
+
     fig.update_xaxes(type='category') 
     fig.update_xaxes(categoryorder=final_order)    
     fig.update_xaxes(visible=True, fixedrange=True)
@@ -87,15 +92,15 @@ def rating_filters():
         #Range
         html.Div([
             html.Label('Date Range', className="text-xl text-white"),
-            dcc.RadioItems( ['Year', 'Decade'], value='Year',id='date-type-r', inline=True, className="text-white" ),  
+            dcc.RadioItems( ['Year', 'Decade'], value='Year',id='date-type-r', className="text-white" ),  
         ]),        
         #Sort by
         html.Div([
              html.Label('Sort by', className="text-xl text-white"),
             dcc.RadioItems(options=[
-                {'label': 'Date', 'value': 'category'},
+                {'label': 'Date'+' ', 'value': 'category'},
                 {'label': 'Average', 'value': 'total'}
-            ], value='category', id='sort-type-r', inline=True, className="text-white"),             
+            ], value='category', id='sort-type-r', className="text-white"),             
         ]),
         #Order by
         html.Div([
@@ -103,9 +108,9 @@ def rating_filters():
             dcc.RadioItems(options=[
                 {'label': 'Ascending', 'value': 'ascending'},
                 {'label': 'Descending', 'value': 'descending'}
-            ], value='ascending', id='order-type-r', inline=True, className="text-white"),             
+            ], value='ascending', id='order-type-r', className="text-white"),             
         ]),         
-    ],className="w-1/6 h-full flex flex-col justify-between px-[25px] pt-[30px] pb-[150px]")
+    ],className="w-1/6 h-full flex flex-col justify-between px-[25px] pt-[30px] pb-[100px]")
 
 
 @callback( 
@@ -117,6 +122,10 @@ def ratings_graph(date_type,sort_type,order_type):
     df = yearsalbum_df[yearsalbum_df['Rated'] == 'Rated'] 
     fig = px.histogram(df, y='Rating', x=date_type, histfunc='avg', color_discrete_sequence=['#721bbf'])  
     final_order = sort_type+' '+order_type
+
+    if date_type == 'Year':
+        fig.update_xaxes(rangeslider_visible=True)
+
     fig.update_xaxes(type='category') 
     fig.update_xaxes(categoryorder=final_order)    
     fig.update_xaxes(visible=True, fixedrange=True)
