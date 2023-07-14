@@ -36,3 +36,9 @@ Flask API/__pycache__/search_library.cpython-311.pyc
 Dash Dashboard/config.py
 Dash Dashboard/__pycache__/config.cpython-311.pyc
 .cache
+Dash Dashboard/__pycache__/app_artists.cpython-311.pyc
+Dash Dashboard/__pycache__/app_overview.cpython-311.pyc
+Dash Dashboard/__pycache__/app_years_decades.cpython-311.pyc
+Dash Dashboard/__pycache__/app_styles_genres.cpython-311.pyc
+.cache
+.cache

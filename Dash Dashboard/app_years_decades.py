@@ -1,4 +1,4 @@
-from dash import Dash, html, dcc, callback, Output, Input
+from dash import html, dcc, callback, Output, Input
 from config import engine
 import plotly.express as px
 import pandas as pd
@@ -10,14 +10,6 @@ from albums al left join album_ratings ar on al.id = ar.id_album left join artis
 
 
 yearsalbum_df = pd.read_sql(years_albums_q, engine)
-
-
-external_script = ["https://tailwindcss.com/", {"src": "https://cdn.tailwindcss.com"}]
-app = Dash(
-    __name__,
-    external_scripts=external_script,
-)
-app.scripts.config.serve_locally = True
 
 
 def quantity_filters():
@@ -146,7 +138,7 @@ def ratings_graph(date_type,sort_type,order_type):
     fig.update_layout(plot_bgcolor='rgb(24,24,24)')    
     return fig
 
-app.layout = html.Div([
+layout = html.Div([
         #container
         html.Div([    
             #row1
@@ -160,9 +152,6 @@ app.layout = html.Div([
                 html.Div([ dcc.Graph( id='rating-albums-graph',style={'height': '100%'})],className="w-5/6 h-full")                          
             ], className="flex h-[49%] rounded-lg bg-gradient-to-tr from-gray-800 to-black") 
         ], className="flex flex-col justify-between h-full w-full"),
-],className="flex flex-col w-full h-[900px] p-4")
+],className="flex flex-col w-full h-full p-4")
 #bg-gradient-to-br from-red-800 to-blue 
 
-
-if __name__ == '__main__':
-    app.run(debug=True,host="0.0.0.0") 

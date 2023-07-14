@@ -1,6 +1,5 @@
-from dash import Dash, html, dash_table, dcc, callback, Output, Input
+from dash import html, dash_table
 from config import engine
-import plotly.express as px
 import pandas as pd
 import textwrap
 
@@ -52,14 +51,6 @@ artists_df = pd.read_sql(artists_q, engine)
 tooltip_df = pd.read_sql(tooltip_q, engine)
 
 
-external_script = ["https://tailwindcss.com/", {"src": "https://cdn.tailwindcss.com"}]
-app = Dash(
-    __name__,
-    external_scripts=external_script,
-)
-app.scripts.config.serve_locally = True
-
-
 def artist_table():
      return html.Div([
           
@@ -105,7 +96,6 @@ def artist_table():
                     {'if': {'column_id': 'id'},
                     'width': '0%'},
                 ],
-
             
                 tooltip_data=[
                     {
@@ -115,13 +105,11 @@ def artist_table():
                     } 
                     for i in range(len(artists_df))
                 ],
-
-
                 tooltip_duration=None,
                 tooltip_delay=0,
 
             ),       
-    ],className="flex p-3 text-white flex-col items-center rounded-lg w-full h-full bg-gradient-to-tl from-gray-800 to-black")
+    ],className="flex text-white flex-col items-center rounded-lg w-full h-full bg-gradient-to-tl from-gray-800 to-black")
 
 
 
@@ -150,13 +138,7 @@ def create_tooltip(id,artist,rated,unrated):
 
 
 
-app.layout = html.Div([
+layout = html.Div([
         artist_table(),
+],className="flex flex-col w-full h-full p-4")
 
-
-],className="flex flex-col w-full h-[900px] p-4")
-
-
-
-if __name__ == '__main__':
-    app.run(debug=True,host="0.0.0.0") 

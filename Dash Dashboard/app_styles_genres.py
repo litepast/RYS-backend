@@ -1,11 +1,11 @@
-from dash import Dash, html, dcc, dash_table, callback, Output, Input
+from dash import Dash, html, dcc, dash_table
 from config import engine
 import plotly.express as px
 import pandas as pd
 
 
 styles_q= """
-select 'Tag' Tag, g.name Genre, sa.style_name Style, concat(al.name,' by ',art.name, ' : ', ifnull(ars.user_final_rating,'Unrated')) Album, 1 Quantity from styles_by_album sa left join styles s on sa.style_name=s.name left join genres g on s.genre_id = g.id left join albums al on al.id=sa.id_album
+select 'Genres & Styles' Tag, g.name Genre, sa.style_name Style, concat(al.name,' by ',art.name, ' : ', ifnull(ars.user_final_rating,'Unrated')) Album, 1 Quantity from styles_by_album sa left join styles s on sa.style_name=s.name left join genres g on s.genre_id = g.id left join albums al on al.id=sa.id_album
 left join artists art on art.id = al.artist_id
 left join album_ratings ars on al.id = ars.id_album
 where sa.style_name <> 'NOT_FOUND' order by 1; 
@@ -42,14 +42,6 @@ order by 2 desc, 3 desc;
 
 avg_genre_df = pd.read_sql(avg_genre_q, engine)
 
-
-external_script = ["https://tailwindcss.com/", {"src": "https://cdn.tailwindcss.com"}]
-app = Dash(
-    __name__,
-    external_scripts=external_script,
-)
-app.scripts.config.serve_locally = True
-
 def genres_treemap():
     fig = px.treemap(styles_df, path=['Tag','Genre','Style','Album'], values='Quantity', color_discrete_sequence=px.colors.qualitative.Pastel1)
     fig.update_layout(autosize=True)
@@ -79,7 +71,7 @@ def no_style_table():
                         {"name": i, "id": i} for i in no_style_df.columns
                     ],
                     data=no_style_df.to_dict('records'),          
-                    page_size=5,
+                    page_size=4,
                     sort_action="native",
                     sort_mode="multi",
                     cell_selectable=False,
@@ -128,7 +120,7 @@ def avg_style_table():
                     {"name": i, "id": i} for i in avg_style_df.columns
                 ],
                 data=avg_style_df.to_dict('records'),          
-                page_size=5,
+                page_size=4,
                 sort_action="native",
                 sort_mode="multi",
                 cell_selectable=False,
@@ -167,7 +159,7 @@ def avg_genre_table():
                     {"name": i, "id": i} for i in avg_genre_df.columns
                 ],
                 data=avg_genre_df.to_dict('records'),          
-                page_size=5,
+                page_size=4,
                 sort_action="native",
                 sort_mode="multi",
                 cell_selectable=False,
@@ -199,7 +191,7 @@ def avg_genre_table():
 
 
 
-app.layout = html.Div([
+layout = html.Div([
 
         #col1
         html.Div([    
@@ -235,9 +227,5 @@ app.layout = html.Div([
 
 
 
-],className="flex flex-row justify-between w-full h-[900px] p-4")
+],className="flex flex-row justify-between w-full h-full p-4")
 #bg-gradient-to-br from-red-800 to-blue 
-
-
-if __name__ == '__main__':
-    app.run(debug=True,host="0.0.0.0") 

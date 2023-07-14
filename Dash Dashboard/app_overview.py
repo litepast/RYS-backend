@@ -1,4 +1,4 @@
-from dash import Dash, html, dcc
+from dash import html, dcc
 from config import engine
 import plotly.express as px
 import pandas as pd
@@ -43,18 +43,6 @@ where ar.user_final_rating is not null
 order by 4 desc limit 20;"""
 
 activity_df = pd.read_sql(activity_q, engine)
-
-
-
-
-external_script = ["https://tailwindcss.com/", {"src": "https://cdn.tailwindcss.com"}]
-app = Dash(
-    __name__,
-    external_scripts=external_script,
-)
-app.scripts.config.serve_locally = True
-
-
 
 def header_stat(df):
     label = df.columns[0]
@@ -162,7 +150,7 @@ def activity_table():
     ],className="w-full bg-gradient-to-br from-green-400 to-black")
    
 
-app.layout = html.Div([
+layout = html.Div([
    ##hdashboard header
     html.Div([
         header_stat(totalAbums_df),
@@ -171,7 +159,7 @@ app.layout = html.Div([
         header_stat(totalTracks_df),
         header_stat(totalRatedTracks_df),
         header_stat(totalStarsTracks_df) 
-    ], className="flex flex-row justify-center px-[50px]"),
+    ], className="flex flex-row justify-center"),
     ##dashboard body
     html.Div([
     ##graf container
@@ -188,13 +176,8 @@ app.layout = html.Div([
                 html.Div('',className="m-3"),         
                 activity_trend_graf()
             ], className="flex flex-col w-1/2 mx-3")                 
-        ], className="flex w-4/5"),  
+        ], className="flex w-full"),  
 
     ],className="flex justify-center w-full h-full")
 
-],className="flex flex-col w-full h-[900px] pb-[50px]")
-#bg-gradient-to-br from-red-800 to-blue 
-
-
-if __name__ == '__main__':
-    app.run(debug=True,host="0.0.0.0") 
+],className="flex flex-col w-full h-full")
