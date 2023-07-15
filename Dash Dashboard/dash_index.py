@@ -1,8 +1,8 @@
 from dash import Dash, html, dcc, callback, Output, Input
-from app_overview import layout as overview_layout
-from app_artists import layout as artists_layout
-from app_years_decades import layout as years_layout
-from app_styles_genres import layout as styles_layout
+from ratings_layout import layout as ratings_layout
+from years_layout import layout as years_layout
+from artists_layout import layout as artists_layout
+from styles_layout import layout as styles_layout
 
 
 external_script = ["https://tailwindcss.com/", {"src": "https://cdn.tailwindcss.com"}]
@@ -21,7 +21,7 @@ app.scripts.config.serve_locally = True
 )
 def render_content(tab):
     if tab == "tab-1":
-        return overview_layout
+        return ratings_layout
     elif tab == "tab-2":
         return artists_layout
     elif tab == "tab-3":
@@ -29,7 +29,7 @@ def render_content(tab):
     elif tab == "tab-4":
         return styles_layout
     else:
-        return overview_layout
+        return ratings_layout
 
 
 app.layout = html.Div([
