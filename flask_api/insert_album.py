@@ -273,7 +273,7 @@ class Album():
                         session.add(record)                
                     msg = 'New album added to Library!'
                 else:
-                    raise Exception("Error connecting, try again!")
+                    raise Exception("Error connecting to Spotify!")
             except Exception as e:
                 session.rollback()
                 msg = e
