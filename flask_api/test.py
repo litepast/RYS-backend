@@ -1,33 +1,41 @@
-import pandas as pd
-from config import mysql_connection as engine
+from insert_album import Album
 
-tooltip_q="""select al.artist_id,  left(al.release_date,4) Year, al.name Album, ifnull(ar.user_final_rating,'Unrated')  Rating  from albums al left join album_ratings ar on al.id = ar.id_album
-order by 1, 2 asc"""
-
-
-tooltip_df = pd.read_sql(tooltip_q, engine)
+a = Album('3G36754KQVLyGuskraEAVA')
+msg, st = a.insert_album_data()
+print(msg, st)
 
 
-def create_tooltip():
-    id='053q0ukIDRgzwTr4vNSwab'
-    artist='Grimes'
-    df = tooltip_df[tooltip_df['artist_id'] == id]
-    df = df[['Year', 'Album', 'Rating']]
-    lines=[]
-    for row in df.to_dict('records'):
-        line=[]
-        for value in row.values():
-            line.append(value)
-        lines.append(line)    
-    max_length = max(len(line[1]) for line in lines)    
-    tooltip = "Your Albums by {}".format(artist)+"\n{:4} | {:{length}} | {:8}".format("Year", "Album", "Your Rating",length=max_length)
-    formatted_rows = ["\n{:4} | {:{length}} | {:8}".format(row[0], row[1], row[2], length=max_length) for row in lines] 
-    for formatted_row in formatted_rows:
-        tooltip=tooltip+formatted_row    
-    print(tooltip)
+
+# import pandas as pd
+# from config import mysql_connection as engine
+
+# tooltip_q="""select al.artist_id,  left(al.release_date,4) Year, al.name Album, ifnull(ar.user_final_rating,'Unrated')  Rating  from albums al left join album_ratings ar on al.id = ar.id_album
+# order by 1, 2 asc"""
 
 
-create_tooltip()
+# tooltip_df = pd.read_sql(tooltip_q, engine)
+
+
+# def create_tooltip():
+#     id='053q0ukIDRgzwTr4vNSwab'
+#     artist='Grimes'
+#     df = tooltip_df[tooltip_df['artist_id'] == id]
+#     df = df[['Year', 'Album', 'Rating']]
+#     lines=[]
+#     for row in df.to_dict('records'):
+#         line=[]
+#         for value in row.values():
+#             line.append(value)
+#         lines.append(line)    
+#     max_length = max(len(line[1]) for line in lines)    
+#     tooltip = "Your Albums by {}".format(artist)+"\n{:4} | {:{length}} | {:8}".format("Year", "Album", "Your Rating",length=max_length)
+#     formatted_rows = ["\n{:4} | {:{length}} | {:8}".format(row[0], row[1], row[2], length=max_length) for row in lines] 
+#     for formatted_row in formatted_rows:
+#         tooltip=tooltip+formatted_row    
+#     print(tooltip)
+
+
+# create_tooltip()
 
 
 

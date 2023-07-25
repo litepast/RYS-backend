@@ -183,15 +183,16 @@ class Album():
                 discogs_search = self.album_name+' '+self.album_artist           
             else:
                 discogs_search = 'Various '+self.album_name
-            print(discogs_search)
-            results = self.d.search(discogs_search, type='release,master')             
-            release = None
+            print('trying: ',discogs_search)
+            results = self.d.search(discogs_search, type='release')             
+            release = None       
 
             if results: 
                 for result in results:
                     if (result.genres and result.styles):
                         release = result
                         break
+            
             if release:
                 for genre in release.genres:                    
                     genres_rows = { column: None for column in genres_columns}
@@ -213,10 +214,11 @@ class Album():
             self.genres_data = genres_data
             self.styles_data = styles_data
         except DiscogsException:
-            print(e)
+            print('discogs exp: ', e)
+            
             self.all_success = False
         except Exception as e:
-            print(e)
+            print('Py exp: ', e)
             self.all_success = False
    
 
