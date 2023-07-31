@@ -104,3 +104,4 @@ Data/artists_dashboard/artists.csv
 Data/artists_dashboard/tooltip.csv
 Data/ratings_dashboard/activity.csv
 Data/ratings_dashboard/ratingsalbum.csv
+.cache

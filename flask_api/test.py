@@ -1,6 +1,6 @@
 from insert_album import Album
 
-a = Album('3G36754KQVLyGuskraEAVA')
+a = Album('0rPtXOMN42nsLDiShvGamv')
 msg, st = a.insert_album_data()
 print(msg, st)
 
