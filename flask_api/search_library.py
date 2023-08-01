@@ -87,7 +87,7 @@ class Library:
         if list_where:
             select = select + ' where ' + ' and '.join(list_where) + ' order by 2, 3'
         else:
-            select = select + ' order by 2, 3'
+            select = select + ' limit 2500'
                     
         return(select)
 
