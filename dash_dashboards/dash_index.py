@@ -1,4 +1,5 @@
 from dash import Dash, html, dcc, callback, Output, Input
+from flask_cors import CORS
 from ratings_layout import layout as ratings_layout
 from years_layout import layout as years_layout
 from artists_layout import layout as artists_layout
@@ -12,7 +13,7 @@ app = Dash(
     suppress_callback_exceptions=True
 )
 app.scripts.config.serve_locally = True
-
+server = app.server
 
 ##change the children of the body div according to the tab selected
 @callback(
