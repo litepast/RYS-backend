@@ -6,17 +6,22 @@ class UpdateRatings:
     def __init__(self, data_ratings):
         self.data_ratings = data_ratings
 
-    def update_ratings(self):
-        # print(self.data_ratings['data']['ar'])
-        # print(self.data_ratings['data']['tr'])
+    def rating_to_insert(self,value):
+        if value is None:
+            return 'null'
+        else:
+            return value
 
+    def update_ratings(self):   
         with Session(models.engine) as session:
             session.begin()
             try:
-                sav = 'null' if self.data_ratings['data']['ar']['simple_average_rating'] == 0 else self.data_ratings['data']['ar']['simple_average_rating']
-                war = 'null' if self.data_ratings['data']['ar']['weighted_average_rating'] == 0 else self.data_ratings['data']['ar']['weighted_average_rating']
-                cr = 'null' if self.data_ratings['data']['ar']['consistency_rating'] == 0 else self.data_ratings['data']['ar']['consistency_rating']
-                gr = 'null' if self.data_ratings['data']['ar']['greatness_rating'] == 0 else self.data_ratings['data']['ar']['greatness_rating']
+        
+
+                sav = self.rating_to_insert(self.data_ratings['data']['ar']['simple_average_rating'])
+                war = self.rating_to_insert(self.data_ratings['data']['ar']['weighted_average_rating'])
+                cr = self.rating_to_insert(self.data_ratings['data']['ar']['consistency_rating'])
+                gr = self.rating_to_insert(self.data_ratings['data']['ar']['greatness_rating']) 
                 sra = 'null' if self.data_ratings['data']['ar']['suggested_rating_a'] == 0 else self.data_ratings['data']['ar']['suggested_rating_a']
                 srb = 'null' if self.data_ratings['data']['ar']['suggested_rating_b'] == 0 else self.data_ratings['data']['ar']['suggested_rating_b']
                 srf = 'null' if self.data_ratings['data']['ar']['suggested_rating_final'] == 0 else self.data_ratings['data']['ar']['suggested_rating_final']
