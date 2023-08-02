@@ -5,6 +5,7 @@ from delete_album import DeleteAlbum
 from search_library import Library  
 from update_ratings import UpdateRatings
 from get_album_on_library import AlbumInLibrary
+from edit_album import EditAlbum
 from flask_cors import CORS
 
 
@@ -116,28 +117,25 @@ def update_album_ratings():
         return results
     
 
-
-@app.route('/api/v1/delete-album-data/<string:id_album>', methods=['DELETE'])
-def delete_album_from_catalog(id_album):
-    print('deleting?')
-    if request.method == 'DELETE':
-        del_album = DeleteAlbum(id_album)
-        result = del_album.delete_album()
+    
+@app.route('/api/v1/edit-album-catalog', methods=['PUT'])
+def edit_album_catalog():
+    if request.method == 'PUT':
+        params = request.get_json()
+        print(params['params'])
+        edit_album = EditAlbum(params)
+        result = edit_album.edit_album()
         if result:
             results = jsonify({
                 'status' : 200,
-                'text': 'Sucess deleting album',
-                'msg': result                
+                'msg': 'Album edited'                
             })
         else:
             results = jsonify({
                 'status' : 400,
-                'text': 'Error deleting album',
-                'msg': result                               
+                'msg': 'Album not edited'                               
             })
         return results
-        
-
 
 
 
