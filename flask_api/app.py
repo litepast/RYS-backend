@@ -137,6 +137,26 @@ def edit_album_catalog():
             })
         return results
 
+@app.route('/api/v1/delete-album-data/<string:id_album>', methods=['DELETE'])
+def delete_album_from_catalog(id_album):
+    print('deleting?')
+    if request.method == 'DELETE':
+        del_album = DeleteAlbum(id_album)
+        result = del_album.delete_album()
+        if result:
+            results = jsonify({
+                'status' : 200,
+                'text': 'Sucess deleting album',
+                'msg': result                
+            })
+        else:
+            results = jsonify({
+                'status' : 400,
+                'text': 'Error deleting album',
+                'msg': result                               
+            })
+        return results
+
 
 
 
