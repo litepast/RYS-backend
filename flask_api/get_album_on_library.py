@@ -45,7 +45,7 @@ class AlbumInLibrary:
                 query_styles = "select style_name from styles_by_album s where s.id_album='{}';".format(self.album_id)
 
                 query_tracks = """select t.id track_id, t.disc_number track_disc_number, t.track_number track_number_on_disc, t.name track_name,
-                art.name track_artist, tr.rating track_rating, tr.goated goated, tr.included, t.duration_ms track_duration_ms 
+                art.name track_artist, tr.rating track_rating, tr.goated goated, tr.included, t.duration_ms track_duration_ms, t.overall_number track_overall_number
                 from tracks t left join artists art on t.artist_id = art.id
                 left join track_ratings tr on tr.id_track = t.id
                 where t.album_id='{}' order by t.overall_number;""".format(self.album_id)
@@ -73,7 +73,7 @@ class AlbumInLibrary:
                 
                 
 
-                tracks_columns=['track_id', 'track_disc_number', 'track_number_on_disc', 'track_name','track_artist',
+                tracks_columns=['track_id', 'track_disc_number', 'track_number_on_disc', 'track_overall_number','track_name','track_artist',
                 'track_rating', 'goated', 'included', 'track_duration_ms']
                 discs = albumData['total_discs']
                 albumData['tracks'] = [ [] for i in range(discs)]
@@ -84,6 +84,7 @@ class AlbumInLibrary:
                     track_row['track_id'] = row[0]
                     track_row['track_disc_number'] = row[1]
                     track_row['track_number_on_disc'] = row[2]
+                    track_row['track_overall_number'] = row[9]
                     track_row['track_name'] = row[3]
                     track_row['track_artist'] = row[4]
                     track_row['track_rating'] = float(row[5]) if row[5] else None
