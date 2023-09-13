@@ -126,3 +126,5 @@ def update_csvs():
     except Exception as e:
         print(e)
 
+if __name__ == "__main__":
+    update_csvs()

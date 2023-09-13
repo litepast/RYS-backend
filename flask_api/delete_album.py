@@ -20,7 +20,9 @@ class DeleteAlbum:
 
                 delete_art="""delete from artists where
                             not exists (select * from tracks where artists.id = tracks.artist_id)
-                            and artists.id <> '0LyfQWJT6nXafLPZqxe9Of'"""
+                            and artists.id <> '0LyfQWJT6nXafLPZqxe9Of'
+                            and artists.id <> '6NeoLSPGwJLfeisvM36SMi'                            
+                            """
                 
                 
                 session.execute(text(delete_tr))
