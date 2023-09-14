@@ -1,157 +1,147 @@
 id,Artist,Rated Albums,Unrated Albums,Rated Tracks,Unrated Tracks,Goated Tracks,Average Track Rating,Average Album Rating
-3WrFJ7ztbogyGnTHbHJFl2,The Beatles,6,7,97,116,3,4.19,4.33
-3yY2gUcIsjMr8hjo51PoJ8,The Smiths,5,0,56,2,6,4.62,4.80
-4Z8W4fKeB5YxbusRsdQVPb,Radiohead,5,7,55,84,8,4.33,4.60
-0epOFNiUfyON9EYx7Tpr6V,The Strokes,3,0,31,0,2,4.42,4.67
-40Yq4vzPs9VNUrIBG5Jr2i,The Smashing Pumpkins,1,5,13,101,1,4.81,5.00
+4Z8W4fKeB5YxbusRsdQVPb,Radiohead,13,0,138,35,12,4.00,4.27
+3WrFJ7ztbogyGnTHbHJFl2,The Beatles,13,0,213,0,5,4.02,4.12
+3yY2gUcIsjMr8hjo51PoJ8,The Smiths,5,0,58,0,6,4.63,4.80
+40Yq4vzPs9VNUrIBG5Jr2i,The Smashing Pumpkins,5,1,98,16,5,4.38,4.60
+1GImnM7WYVp95431ypofy9,Caifanes,4,0,47,0,1,4.33,4.63
+1aSxMhuvixZ8h9dK9jIDwL,Kate Bush,3,0,35,0,3,4.53,4.83
+0epOFNiUfyON9EYx7Tpr6V,The Strokes,3,0,31,0,1,4.44,4.67
+1nJvji2KIlWSseXRSlNYsC,The Velvet Underground,3,0,27,0,1,4.43,4.67
+75U40yZLLPglFgXbDVnmVs,The Mars Volta,3,0,18,7,2,4.61,4.50
+3oDbviiivRWhXwIE8hxkVV,The Beach Boys,3,0,53,21,3,4.14,4.33
+4I2BJf80C0skQpp1sQmA0h,Belle and Sebastian,2,0,22,0,1,4.61,5.00
+4kwxTgCKMipBKhSnEstNKj,Animal Collective,2,0,20,0,2,4.55,4.75
+2ApaG60P4r0yhBoDCGD8YG,Elliott Smith,2,1,25,13,5,4.52,4.75
+4tZwfgrHOc3mvqYlEYSvVi,Daft Punk,2,1,27,13,2,4.50,4.75
+2ooIqOf4X2uz4mMptXCtie,Neutral Milk Hotel,2,0,23,0,2,4.33,4.75
+5E2rtn57BM2WPjwak4kGd5,At the Drive-In,2,0,24,0,0,4.33,4.75
+7M1FPw29m5FbicYzS2xdpi,King Crimson,2,0,10,6,0,4.25,4.50
+6olE6TJLqED3rqDCT0FyPh,Nirvana,2,1,27,12,1,4.09,4.50
+7w29UYBi0qsHi5RTcv3lmA,Björk,2,1,21,12,1,4.14,4.25
+0k17h0D3J5VfsdmQ1iZtE9,Pink Floyd,2,2,15,11,0,3.93,4.00
+6WH1V41LwGDGmlPUhSZLHO,Autechre,2,0,15,0,1,3.90,4.00
+7Ln80lUS6He07XvHI8qqHH,Arctic Monkeys,2,0,25,0,0,3.48,3.50
+5CG9X521RDFWCuAhlo6QoR,Fela Kuti,1,0,2,0,0,5.00,5.00
 5Wabl1lPdNOeIn0SQ5A1mp,Cocteau Twins,1,1,10,10,2,4.80,5.00
-2ooIqOf4X2uz4mMptXCtie,Neutral Milk Hotel,1,1,11,12,2,4.77,5.00
-2ApaG60P4r0yhBoDCGD8YG,Elliott Smith,1,2,13,25,4,4.69,5.00
-1aSxMhuvixZ8h9dK9jIDwL,Kate Bush,1,2,10,25,1,4.65,5.00
-4tZwfgrHOc3mvqYlEYSvVi,Daft Punk,1,2,14,26,1,4.61,5.00
+4svpOyfmQKuWpHLjgy4cdK,Godspeed You! Black Emperor,1,0,2,0,0,4.75,5.00
+2d0hyoQ5ynDBnkvAbJKORj,Rage Against The Machine,1,0,10,0,0,4.75,5.00
+56ZTgzPBDge0OvCGgMO3OY,Beach House,1,0,10,0,1,4.70,5.00
+6liAMWkVf5LH7YR9yfFy1Y,Portishead,1,3,11,33,2,4.68,5.00
+0oSGxfWSnnOXhD2fKuz2Gy,David Bowie,1,1,11,11,1,4.64,5.00
+1KsASRNugxU85T0u6zSg32,Tori Amos,1,0,12,0,0,4.63,5.00
+5K4W6rqBFWDnAN6FQUkS6x,Kanye West,1,3,13,62,0,4.62,5.00
 053q0ukIDRgzwTr4vNSwab,Grimes,1,1,14,13,1,4.61,5.00
+5gInJ5P5gQnOKPM3SUEVFt,Camera Obscura,1,0,10,0,1,4.60,5.00
 2QoU3awHVdcHS8LrZEKvSM,Wilco,1,0,11,0,1,4.59,5.00
-7Ln80lUS6He07XvHI8qqHH,Arctic Monkeys,1,2,13,24,0,3.77,4.00
-1Xyo4u8uXC1ZmMpatF05PJ,The Weeknd,0,1,1,13,0,5.00,-
-4svpOyfmQKuWpHLjgy4cdK,Godspeed You! Black Emperor,0,1,2,0,0,5.00,-
-0EmeFodog0BfCgMzAIvKQp,Shakira,0,1,0,11,0,-,-
-0g9vAlRPK9Gt3FKCekk4TW,Ab-Soul,0,0,0,0,0,-,-
-0IVcLMMbm05VIjnzPkGCyp,J Dilla,0,1,0,31,0,-,-
-0k17h0D3J5VfsdmQ1iZtE9,Pink Floyd,0,4,0,26,0,-,-
-0KDbBK1pnCWEL33tRNwDhD,Catherine O'Hara,0,0,0,1,0,-,-
-0LVrQUinPUBFvVD5pLqmWY,Doves,0,0,0,1,0,-,-
-0LyfQWJT6nXafLPZqxe9Of,Various Artists,0,2,0,0,0,-,-
-0oSGxfWSnnOXhD2fKuz2Gy,David Bowie,0,2,0,22,0,-,-
-0wNZvrIMNUCs24G0wFg2D6,Jeff Rosenstock,0,1,0,17,0,-,-
-0x8J72N9ilqcIZbWEKB8T2,Mychael Danna,0,0,0,1,0,-,-
-12Chz98pHFMPJEknJQMWvI,Muse,0,2,0,23,0,-,-
-164hs3x1Tsp3FgJWNHee1r,The Citizens of Halloween,0,0,0,2,0,-,-
+0wNZvrIMNUCs24G0wFg2D6,Jeff Rosenstock,1,0,17,0,1,4.56,5.00
+2aoFQUeHD1U7pL098lRsDU,Madvillain,1,0,22,0,2,4.55,5.00
+3CjlHNtplJyTf9npxaPl5w,CHVRCHES,1,0,13,3,1,4.54,5.00
+3CIRif6ZAedT7kZSPvj2A4,She & Him,1,0,14,0,0,4.54,5.00
+6kBDZFXuLrZgHnvmPu9NsG,Aphex Twin,1,0,13,0,1,4.54,5.00
+3EgMK920cIH5aLxFnJ6zSi,Boris,1,0,5,0,1,4.50,5.00
+4V8LLVI7PbaPR0K2TGSxFF,"Tyler, The Creator",1,1,12,14,1,4.50,5.00
+09xj0S68Y1OU1vHMCZAIvz,Café Tacvba,1,0,20,0,1,4.45,5.00
+34EP7KEpOjXcM2TCat1ISk,Wu-Tang Clan,1,0,15,0,1,4.40,5.00
+2VAvhf61GgLYmC6C8anyX1,Boards of Canada,1,0,18,0,3,4.36,5.00
+0LyfQWJT6nXafLPZqxe9Of,Various Artists,1,1,0,0,0,-,5.00
+1W8TbFzNS15VwsempfY12H,Charles Mingus,1,0,4,0,0,4.50,4.50
+4IwOItqRhsIoRuD5HP4vyC,Slint,1,0,6,0,1,4.42,4.50
+3kjuyTCjPG1WMFCiyc5IuB,Arcade Fire,1,0,10,0,2,4.35,4.50
+3iTsJGG39nMg9YiolUgLMQ,Morrissey,1,4,13,43,2,4.31,4.50
+09hVIj6vWgoCDtT03h8ZCa,A Tribe Called Quest,1,0,14,0,1,4.25,4.50
+1GAS0rb4L8VTPvizAx2O9J,Atmosphere,1,0,15,0,0,4.23,4.50
+6sFIWsNpZYqfjUpaCgueju,Carly Rae Jepsen,1,0,15,0,1,4.20,4.50
+7FBcuc1gsnv6Y1nwFtNRCb,My Chemical Romance,1,0,13,0,0,4.15,4.50
+1ZwdS5xdxEREPySFridCfh,2Pac,1,0,25,0,0,4.14,4.50
+7L6u6TyhjuwubrcojPeNgf,Burzum,1,0,4,0,1,4.00,4.50
+4XYH5Be5pn1qkxhfaID3J5,Jane Birkin,1,0,4,0,0,4.38,4.00
+12Chz98pHFMPJEknJQMWvI,Muse,1,0,12,0,0,4.13,4.00
+4wLIbcoqmqI4WZHDiBxeCB,Sleater-Kinney,1,0,13,0,1,4.04,4.00
+31TPClRtHm23RisEBtV3X7,Justin Timberlake,1,0,12,0,1,3.96,4.00
+2DaxqgrOhkeH0fpeiQq2f4,Oasis,1,2,12,51,0,3.75,4.00
+7lbSsjYACZHn1MSDXPxNF2,Hikaru Utada,1,0,12,0,0,3.50,3.50
+3z6Gk257P9jNcZbBXJNX5i,Regina Spektor,0,1,2,19,0,5.00,-
+5BvJzeQpmsdsFp4HGUYUEx,Vampire Weekend,0,4,4,47,0,4.75,-
+1HVwzNriKEjaeE06okqSpx,Carla Bruni,0,0,1,0,0,4.50,-
+47QqI0kuVSCrV0KVRBZ3km,Meaghan Smith,0,0,1,0,0,4.50,-
+0LVrQUinPUBFvVD5pLqmWY,Doves,0,0,1,0,0,4.50,-
+4W48hZAnAHVOC2c8WH8pcq,The Temper Trap,0,0,1,0,0,4.50,-
+3yEnArbNHyTCwMRvD9SBy4,Wolfmother,0,0,1,0,0,4.50,-
+6CWTBjOJK75cTE8Xv8u1kj,Feist,0,0,1,0,0,4.50,-
+1Xyo4u8uXC1ZmMpatF05PJ,The Weeknd,0,1,3,11,0,4.50,-
+77tT1kLj6mCWtFNqiOmP9H,Daryl Hall & John Oates,0,0,1,0,0,4.50,-
+0x8J72N9ilqcIZbWEKB8T2,Mychael Danna,0,0,1,0,0,4.00,-
+35C0NSLogAwImm8HAMqEmG,Black Lips,0,0,1,0,0,4.00,-
+2cUnvdrMWIMACo3fSxCrWW,Mumm-ra,0,0,1,0,0,4.00,-
+70cRZdQywnSFp9pnc2WTCE,Simon & Garfunkel,0,0,1,0,0,4.00,-
+01C9OoXDvCKkGcf735Tcfo,Serge Gainsbourg,0,0,7,0,0,3.86,-
 168dgYui7ExaU612eooDF1,Brand New,0,1,0,12,0,-,-
 16tbi6bWXBzJ9pOMZ5gIC7,Life Without Buildings,0,1,0,10,0,-,-
-1CoZyIx7UvdxT5c8UkMzHd,Jorja Smith,0,0,0,0,0,-,-
-1GAS0rb4L8VTPvizAx2O9J,Atmosphere,0,1,0,15,0,-,-
 1gIa65d5ICT2xVWiUJ3u27,Tom Zé,0,1,0,14,0,-,-
-1GImnM7WYVp95431ypofy9,Caifanes,0,4,0,47,0,-,-
 1gR0gsQYfi6joyO1dlp76N,Justice,0,1,0,12,0,-,-
-1HVwzNriKEjaeE06okqSpx,Carla Bruni,0,0,0,1,0,-,-
 1KHydwFySZY3YcWyo2q2dF,Neurosis,0,1,0,8,0,-,-
-1KsASRNugxU85T0u6zSg32,Tori Amos,0,1,0,30,0,-,-
 1LBMTH4i180mwTLvTW84H3,Cast - The Nightmare Before Christmas,0,0,0,2,0,-,-
-1LxdCpPSFpzNBKyQI22aDz,Les Rallizes Dénudés,0,2,0,8,0,-,-
-1lYT0A0LV5DUfxr6doRP3d,The Stone Roses,0,1,0,12,0,-,-
-1nJvji2KIlWSseXRSlNYsC,The Velvet Underground,0,3,0,27,0,-,-
-1R84VlXnFFULOsWWV8IrCQ,Panda Bear,0,1,0,7,0,-,-
-1tqZaCwM57UFKjWoYwMLrw,The Cardigans,0,3,0,37,0,-,-
-1W8TbFzNS15VwsempfY12H,Charles Mingus,0,1,0,4,0,-,-
-1ZwdS5xdxEREPySFridCfh,2Pac,0,1,0,25,0,-,-
-20JZFwl6HVl6yg8a4H3ZqK,Panic! At The Disco,0,0,0,1,0,-,-
-28ExwzUQsvgJooOI0X1mr3,Jay Rock,0,0,0,0,0,-,-
-2cUnvdrMWIMACo3fSxCrWW,Mumm-ra,0,0,0,1,0,-,-
-2d0hyoQ5ynDBnkvAbJKORj,Rage Against The Machine,0,1,0,10,0,-,-
-2DaxqgrOhkeH0fpeiQq2f4,Oasis,0,3,0,63,0,-,-
-2h93pZq0e7k5yf4dywlkpM,Frank Ocean,0,1,0,17,0,-,-
-2Iv9xUxQZyMxknah773Sdw,Ed Ivory,0,0,0,1,0,-,-
-2lZkXWxkZsZzBocxMjN1or,Sunny Day Real Estate,0,1,0,13,0,-,-
-2MRBDr0crHWE5JwPceFncq,Juan Gabriel,0,1,0,19,0,-,-
-2p4FqHnazRucYQHyDCdBrJ,Simple Plan,0,0,0,0,0,-,-
-2TImI3DW7o5MdRXJs4D37h,SOB X RBE,0,0,0,0,0,-,-
-2uH0RyPcX7fnCcT90HFDQX,Manic Street Preachers,0,1,0,13,0,-,-
-2VAvhf61GgLYmC6C8anyX1,Boards of Canada,0,1,0,18,0,-,-
-2VYQTNDsvvKN9wmU5W7xpj,Marilyn Manson,0,0,0,1,0,-,-
-2ye2Wgw4gimLv2eAKyk1NB,Metallica,0,1,0,8,0,-,-
-2YZyLoL8N0Wb9xBt1NhZWg,Kendrick Lamar,0,5,0,68,0,-,-
-2zRt0sfxNnqI8gLR7d8gWt,She Wants Revenge,0,0,0,1,0,-,-
-31TPClRtHm23RisEBtV3X7,Justin Timberlake,0,1,0,12,0,-,-
-33ZXBbTDWd3gX0Wd0ewwxC,Le Volume Courbe,0,1,0,13,0,-,-
-34EP7KEpOjXcM2TCat1ISk,Wu-Tang Clan,0,1,0,9,0,-,-
-35C0NSLogAwImm8HAMqEmG,Black Lips,0,0,0,1,0,-,-
-36E7oYfz3LLRto6l2WmDcD,Pulp,0,1,0,12,0,-,-
-3Ayl7mCk0nScecqOzvNp6s,Jimmy Eat World,0,1,0,15,0,-,-
-3CIRif6ZAedT7kZSPvj2A4,She & Him,0,1,0,14,0,-,-
-3CjlHNtplJyTf9npxaPl5w,CHVRCHES,0,1,0,16,0,-,-
-3EgMK920cIH5aLxFnJ6zSi,Boris,0,2,0,16,0,-,-
-3g2kUQ6tHLLbmkV7T4GPtL,Fiona Apple,0,1,0,11,0,-,-
-3iTsJGG39nMg9YiolUgLMQ,Morrissey,0,5,0,57,0,-,-
-3KH6DLHeoFZgVbtKiLXb6L,The Field Mice,0,2,0,44,0,-,-
-3kjuyTCjPG1WMFCiyc5IuB,Arcade Fire,0,1,0,10,0,-,-
-3nFkdlSjzX9mRTtwJOzDYB,JAY-Z,0,1,0,15,0,-,-
-3oDbviiivRWhXwIE8hxkVV,The Beach Boys,0,3,0,74,0,-,-
-3qBKjEOanahMxlRojwCzhI,Zacari,0,0,0,0,0,-,-
-2yQf6b8hxahZaT5dHlWaB1,Raekwon,0,1,0,18,0,-,-
-3tFvFDca4inwWMY5vupFbX,The Cooltrane Quartet,0,1,0,1,0,-,-
-3uo0ix4Y67XHVWBhXXIY1S,Xavier Wulf,0,0,0,0,0,-,-
 3WaJSfKnzc65VDgmj2zU8B,Interpol,0,1,0,11,0,-,-
-00FQb4jTyendYWaN8pK0wa,Lana Del Rey,0,1,0,14,0,-,-
-3yEnArbNHyTCwMRvD9SBy4,Wolfmother,0,0,0,1,0,-,-
-01C9OoXDvCKkGcf735Tcfo,Serge Gainsbourg,0,0,0,7,0,-,-
-3z6Gk257P9jNcZbBXJNX5i,Regina Spektor,0,1,0,21,0,-,-
-066X20Nz7iquqkkCW6Jxy6,LCD Soundsystem,0,1,0,16,0,-,-
-47QqI0kuVSCrV0KVRBZ3km,Meaghan Smith,0,0,0,1,0,-,-
-4AA474G2hRfrHyGrfyDseO,Mozzy,0,0,0,0,0,-,-
+3nFkdlSjzX9mRTtwJOzDYB,JAY-Z,0,1,0,15,0,-,-
+3KH6DLHeoFZgVbtKiLXb6L,The Field Mice,0,2,0,44,0,-,-
+3g2kUQ6tHLLbmkV7T4GPtL,Fiona Apple,0,0,0,1,0,-,-
 4aaBjq7VqqQvpSF69GglvO,Moloko,0,1,0,10,0,-,-
-4I2BJf80C0skQpp1sQmA0h,Belle and Sebastian,0,2,0,22,0,-,-
-4IwOItqRhsIoRuD5HP4vyC,Slint,0,1,0,6,0,-,-
-4kwxTgCKMipBKhSnEstNKj,Animal Collective,0,2,0,20,0,-,-
+3Ayl7mCk0nScecqOzvNp6s,Jimmy Eat World,0,1,0,13,0,-,-
+36E7oYfz3LLRto6l2WmDcD,Pulp,0,1,0,12,0,-,-
 4MXUO7sVCaFgFjoTI5ox5c,Sufjan Stevens,0,1,0,22,0,-,-
 4PtVXWSOmF4Tox1jj6ctSq,Plastilina Mosh,0,1,0,29,0,-,-
 4qwv0DPSYiEZvWwclqubKE,maudlin of the Well,0,2,0,20,0,-,-
-09hVIj6vWgoCDtT03h8ZCa,A Tribe Called Quest,0,1,0,14,0,-,-
-3qwabfaWewpfli7hMNM3O8,Róisín Murphy,0,1,0,12,0,-,-
+33ZXBbTDWd3gX0Wd0ewwxC,Le Volume Courbe,0,1,0,13,0,-,-
 4UXqAaa6dQYAk18Lv7PEgX,Fall Out Boy,0,0,0,1,0,-,-
-4V8LLVI7PbaPR0K2TGSxFF,"Tyler, The Creator",0,2,0,26,0,-,-
-4W48hZAnAHVOC2c8WH8pcq,The Temper Trap,0,0,0,1,0,-,-
-4wLIbcoqmqI4WZHDiBxeCB,Sleater-Kinney,0,1,0,13,0,-,-
-4XYH5Be5pn1qkxhfaID3J5,Jane Birkin,0,1,0,4,0,-,-
-09xj0S68Y1OU1vHMCZAIvz,Café Tacvba,0,1,0,20,0,-,-
+3qwabfaWewpfli7hMNM3O8,Róisín Murphy,0,1,0,12,0,-,-
+2zRt0sfxNnqI8gLR7d8gWt,She Wants Revenge,0,0,0,1,0,-,-
+2YZyLoL8N0Wb9xBt1NhZWg,Kendrick Lamar,0,4,0,55,0,-,-
 50NoVNy9GU1lCrDV8iGpyu,Ol' Dirty Bastard,0,1,0,17,0,-,-
 54QMjE4toDfiCryzYWCpXX,Metronomy,0,1,0,11,0,-,-
-56ZTgzPBDge0OvCGgMO3OY,Beach House,0,1,0,10,0,-,-
-5BvJzeQpmsdsFp4HGUYUEx,Vampire Weekend,0,3,0,33,0,-,-
+2ye2Wgw4gimLv2eAKyk1NB,Metallica,0,1,0,8,0,-,-
 5CE2IfdYZEQGIDsfiRm8SI,DJ Shadow,0,1,0,16,0,-,-
-5CG9X521RDFWCuAhlo6QoR,Fela Kuti,0,1,0,2,0,-,-
-5E2rtn57BM2WPjwak4kGd5,At the Drive-In,0,2,0,24,0,-,-
-5gInJ5P5gQnOKPM3SUEVFt,Camera Obscura,0,1,0,10,0,-,-
-5IcR3N7QB1j6KBL8eImZ8m,ScHoolboy Q,0,0,0,0,0,-,-
+2VYQTNDsvvKN9wmU5W7xpj,Marilyn Manson,0,0,0,1,0,-,-
+2uH0RyPcX7fnCcT90HFDQX,Manic Street Preachers,0,1,0,13,0,-,-
+2MRBDr0crHWE5JwPceFncq,Juan Gabriel,0,1,0,19,0,-,-
 5INjqkS1o8h1imAzPqGZBb,Tame Impala,0,2,0,25,0,-,-
-5K4W6rqBFWDnAN6FQUkS6x,Kanye West,0,4,0,75,0,-,-
+2lZkXWxkZsZzBocxMjN1or,Sunny Day Real Estate,0,1,0,13,0,-,-
 5KPaeBm0fVfCSZLydp9jdy,LOOΠΔ / ODD EYE CIRCLE,0,1,0,8,0,-,-
 5l8VQNuIg0turYE1VtM9zV,Leonard Cohen,0,2,0,18,0,-,-
 5me0Irg2ANcsgc93uaYrpb,The Notorious B.I.G.,0,2,0,43,0,-,-
-5qBZETtyzfYnXOobDXbmcD,Danny Elfman,0,0,0,17,0,-,-
+2Iv9xUxQZyMxknah773Sdw,Ed Ivory,0,0,0,1,0,-,-
 5UqTO8smerMvxHYA5xsXb6,Sonic Youth,0,1,0,14,0,-,-
-0b3fYxnG6tlR0zLtBJd8DF,DANGERDOOM,0,1,0,16,0,-,-
+2h93pZq0e7k5yf4dywlkpM,Frank Ocean,0,1,0,17,0,-,-
 5xeBMeW0YzWIXSVzAxhM8O,of Montreal,0,1,0,12,0,-,-
 63LljpkL9zSFiMggvYQKnh,Patrick Stewart,0,0,0,1,0,-,-
-68kEuyFKyqrdQQLLsmiatm,Vince Staples,0,0,0,0,0,-,-
 6awzBEyEEwWHOjLox1DkLr,Girl Talk,0,1,0,14,0,-,-
 6bYFkBNvayh3nGqxcPp7Sv,Ulver,0,1,0,5,0,-,-
-6CWTBjOJK75cTE8Xv8u1kj,Feist,0,0,0,1,0,-,-
+066X20Nz7iquqkkCW6Jxy6,LCD Soundsystem,0,1,0,16,0,-,-
 6J7biCazzYhU3gM9j1wfid,Jamiroquai,0,1,0,20,0,-,-
-6kBDZFXuLrZgHnvmPu9NsG,Aphex Twin,0,1,0,13,0,-,-
-6liAMWkVf5LH7YR9yfFy1Y,Portishead,0,2,0,22,0,-,-
-6LuN9FCkKOj5PcnpouEgny,Khalid,0,0,0,0,0,-,-
+0b3fYxnG6tlR0zLtBJd8DF,DANGERDOOM,0,1,0,16,0,-,-
+0dmPX6ovclgOy8WWJaFEUU,Kraftwerk,0,1,0,7,0,-,-
 6nS5roXSAGhTGr34W6n7Et,Disclosure,0,1,0,16,0,-,-
 6ns6XAOsw4B0nDUIovAOUO,GZA,0,1,0,13,0,-,-
-6olE6TJLqED3rqDCT0FyPh,Nirvana,0,3,0,39,0,-,-
+20JZFwl6HVl6yg8a4H3ZqK,Panic! At The Disco,0,0,0,1,0,-,-
 6RWjTQqILL7a1tQ0VapyLK,The Magnetic Fields,0,1,0,69,0,-,-
-6sFIWsNpZYqfjUpaCgueju,Carly Rae Jepsen,0,1,0,15,0,-,-
+0EmeFodog0BfCgMzAIvKQp,Shakira,0,1,0,11,0,-,-
 6UUrUCIZtQeOf8tC0WuzRy,Sigur Rós,0,2,0,18,0,-,-
 6vbY3hOaCAhC7VjucswgdS,Twista,0,0,0,1,0,-,-
-6WH1V41LwGDGmlPUhSZLHO,Autechre,0,2,0,15,0,-,-
+2yQf6b8hxahZaT5dHlWaB1,Raekwon,0,1,0,18,0,-,-
 6zvul52xwTWzilBZl6BUbT,Pixies,0,1,0,15,0,-,-
-70cRZdQywnSFp9pnc2WTCE,Simon & Garfunkel,0,0,0,1,0,-,-
+0IVcLMMbm05VIjnzPkGCyp,J Dilla,0,1,0,31,0,-,-
 72X6FHxaShda0XeQw3vbeF,Slowdive,0,1,0,10,0,-,-
-75U40yZLLPglFgXbDVnmVs,The Mars Volta,0,3,0,25,0,-,-
-77tT1kLj6mCWtFNqiOmP9H,Daryl Hall & John Oates,0,0,0,1,0,-,-
-7bu3H8JO7d0UbMoVzbo70s,The Cure,0,4,0,117,0,-,-
+00FQb4jTyendYWaN8pK0wa,Lana Del Rey,0,1,0,14,0,-,-
+0KDbBK1pnCWEL33tRNwDhD,Catherine O'Hara,0,0,0,1,0,-,-
+7bu3H8JO7d0UbMoVzbo70s,The Cure,0,3,0,47,0,-,-
 7CyeXFnOrfC1N6z4naIpgo,The Ronettes,0,1,0,12,0,-,-
 7dGJo4pcD2V6oG8kP0tJRR,Eminem,0,1,0,20,0,-,-
+1tqZaCwM57UFKjWoYwMLrw,The Cardigans,0,3,0,37,0,-,-
 7FIoB5PHdrMZVC3q2HE5MS,George Harrison,0,1,0,28,0,-,-
 7hJcb9fa4alzcOq3EaNPoG,Snoop Dogg,0,1,0,13,0,-,-
-7L6u6TyhjuwubrcojPeNgf,Burzum,0,1,0,4,0,-,-
-7lbSsjYACZHn1MSDXPxNF2,Hikaru Utada,0,1,0,12,0,-,-
-0dmPX6ovclgOy8WWJaFEUU,Kraftwerk,0,1,0,7,0,-,-
-7M1FPw29m5FbicYzS2xdpi,King Crimson,0,2,0,16,0,-,-
+1R84VlXnFFULOsWWV8IrCQ,Panda Bear,0,1,0,7,0,-,-
+164hs3x1Tsp3FgJWNHee1r,The Citizens of Halloween,0,0,0,2,0,-,-
+1lYT0A0LV5DUfxr6doRP3d,The Stone Roses,0,1,0,12,0,-,-
+1LxdCpPSFpzNBKyQI22aDz,Les Rallizes Dénudés,0,1,0,7,0,-,-
 7oEkUINVIj1Nr3Wnj8tzqr,Gilberto Gil,0,1,0,14,0,-,-
 7vX3cMVyW8gtDA4y855ynF,Rodrigo y Gabriela,0,1,0,9,0,-,-
-7w29UYBi0qsHi5RTcv3lmA,Björk,0,3,0,33,0,-,-
+5qBZETtyzfYnXOobDXbmcD,Danny Elfman,0,0,0,17,0,-,-
