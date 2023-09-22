@@ -1,33 +1,9 @@
-
 import pandas as pd
 
-data = [
-    {
-        "name": "John",
-        "age": 30,
-        "city": "New York"
-    },
-    {
-        "name": "Alice",
-        "age": 25,
-        "city": "San Francisco"
-    },
-    {
-        "name": "Bob",
-        "age": 35,
-        "city": "Seattle"
-    },
-     {
-        "name": "Lulu",
-        "age": 55,
-        "city": "Tokyo"
-    }
-]
+data = {'Sport': ['soccer', 'soccer', 'basketball', 'basketball'],
+        'Action': ['goal', 'ball', '3-pointer', 'net']}
 
 df = pd.DataFrame(data)
+data_dict = df.groupby('Sport')['Action'].apply(list).to_dict()
 
-print(df)
-
-##new df from data where age is greater than 31
-df2 = df[df["age"] > 31]
-print(df2)
+print(data_dict)
