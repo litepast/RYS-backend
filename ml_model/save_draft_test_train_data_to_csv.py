@@ -6,7 +6,7 @@ import pandas as pd
 with Session(engine) as session:
         session.begin()
         try:
-            q="""select lower(a.name)  album, lower(t.name) song from tracks t left join albums a on t.album_id = a.id
+            q="""select a.name album, t.name song from tracks t left join albums a on t.album_id = a.id
             order by a.name, t.overall_number"""
 
             test_df=pd.read_sql(q, engine)
