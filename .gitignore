@@ -115,3 +115,4 @@ flask_api/__pycache__/models.cpython-311.pyc
 flask_api/__pycache__/search_album.cpython-311.pyc
 flask_api/__pycache__/search_library.cpython-311.pyc
 flask_api/__pycache__/update_ratings.cpython-311.pyc
+src/create_csv_tableau/__pycache__/config_tableau.cpython-311.pyc

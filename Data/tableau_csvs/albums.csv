@@ -138,7 +138,7 @@ Album_id,Album,Album_Artist,Type,Year,Decade,Suggested_Rating,Rating,Updated_dat
 1Ye7yrA7vAlQnoooj8yDXb,Love,The Beatles,Compilation,2006,2000.0,,,2023-09-12 21:29:23
 1zfh94JtrSuduoJzGitL9D,Live At Earls Court,Morrissey,Album,2005,2000.0,,,2023-09-12 19:12:52
 1zOxlHQGGV6EH7n4OIFTyh,XO,Elliott Smith,Album,1998,1990.0,,,2023-06-26 01:06:14
-20IklXmkirz07Lpv6jnLNB,Expensive Shit,Fela Kuti,Single,1975,1970.0,5.0,5.0,2023-08-09 23:37:52
+20IklXmkirz07Lpv6jnLNB,Expensive Shit,Fela Kuti,Single,1975,1970.0,4.79,5.0,2023-10-22 22:39:14
 20r762YmB5HeofjMCiPMLv,My Beautiful Dark Twisted Fantasy,Kanye West,Album,2010,2010.0,4.58,5.0,2023-08-10 01:17:44
 21EglTSwzUorpiXpMBNW2E,Uptown Saturday Night,Camp Lo,Album,1997,1990.0,,,2023-09-12 16:29:12
 21LZ1OSKbxSU5I7QBUalW8,Feels,Animal Collective,Album,2005,2000.0,3.81,4.0,2023-09-13 22:38:27
@@ -197,7 +197,7 @@ Album_id,Album,Album_Artist,Type,Year,Decade,Suggested_Rating,Rating,Updated_dat
 2Om4oR7plGGub1aYe5uB7B,Songs Of Love And Hate,Leonard Cohen,Album,1971,1970.0,,,2023-06-01 22:52:51
 2P2Xwvh2xWXIZ1OWY9S9o5,Watch The Throne (Deluxe),JAY-Z,Album,2011,2010.0,,,2023-06-01 22:39:58
 2qIu18hUz5c6BzY3Rh6fIJ,Volume One,She & Him,Album,2008,2000.0,4.57,5.0,2023-08-09 22:48:21
-2rT82YYlV9UoxBYLIezkRq,Lift Your Skinny Fists Like Antennas to Heaven,Godspeed You! Black Emperor,Album,2000,2000.0,,,2023-09-12 11:59:18
+2rT82YYlV9UoxBYLIezkRq,Lift Your Skinny Fists Like Antennas to Heaven,Godspeed You! Black Emperor,Album,2000,2000.0,,,2023-10-23 00:49:52
 2scB1uhcCI1TSf6b9TCZK3,FutureSex/LoveSounds,Justin Timberlake,Album,2006,2000.0,3.99,4.0,2023-08-10 00:36:36
 2Se4ZylF9NkFGD92yv1aZC,The Piper at the Gates of Dawn,Pink Floyd,Album,1967,1960.0,,,2023-09-12 11:55:56
 2SZZihZiCsFo87NKxDfxlH,Selected Ambient Works Volume II,Aphex Twin,Album,1994,1990.0,,,2023-09-12 16:38:30
@@ -273,7 +273,8 @@ Album_id,Album,Album_Artist,Type,Year,Decade,Suggested_Rating,Rating,Updated_dat
 3QTxxZucih0hympCczXXuO,El Ultimo Concierto A (Remastered),Soda Stereo,Album,1997,1990.0,,,2023-09-12 14:36:42
 3R06MVz2i8ynBUfar35Ixk,在動物園散步才是正經事,my little airport,Album,2004,2000.0,,,2023-09-12 19:15:21
 3rHeq4F5wnaLBjNtuz7Yvh,Get Behind Me Satan,The White Stripes,Album,2005,2000.0,,,2023-09-12 21:25:20
-3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Aphex Twin,EP,1996,1990.0,,,2023-09-12 16:38:45
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Bad Bunny,Album,2022,2020.0,,,2023-10-23 14:39:30
+3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Aphex Twin,EP,1996,1990.0,3.59,4.0,2023-10-23 01:51:08
 3tQd5mwBtVyxCoEo4htGAV,Enter The Wu-Tang (36 Chambers) [Expanded Edition],Wu-Tang Clan,Album,1993,1990.0,4.56,5.0,2023-08-09 22:46:16
 3tshnNFNhHrO6NUQ0BHw42,Dig Me Out (Remastered),Sleater-Kinney,Album,1997,1990.0,4.0,4.0,2023-08-09 22:55:49
 3UoOO8m0oxxvUHXUKf3qcZ,Riot!,Paramore,Album,2007,2000.0,,,2023-09-12 19:18:44

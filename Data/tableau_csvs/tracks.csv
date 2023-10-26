@@ -1951,7 +1951,7 @@ Album_id,Album,Track,Artist_Track,Number,Goated,Rating,Duration
 1zOxlHQGGV6EH7n4OIFTyh,XO,A Question Mark,Elliott Smith,12,0,,161093
 1zOxlHQGGV6EH7n4OIFTyh,XO,"Everybody Cares, Everybody Understands",Elliott Smith,13,0,,265106
 1zOxlHQGGV6EH7n4OIFTyh,XO,I Didn't Understand,Elliott Smith,14,0,,137533
-20IklXmkirz07Lpv6jnLNB,Expensive Shit,Expensive Shit,Fela Kuti,1,0,5.0,793200
+20IklXmkirz07Lpv6jnLNB,Expensive Shit,Expensive Shit,Fela Kuti,1,0,4.5,793200
 20IklXmkirz07Lpv6jnLNB,Expensive Shit,Water No Get Enemy,Fela Kuti,2,0,5.0,660480
 20r762YmB5HeofjMCiPMLv,My Beautiful Dark Twisted Fantasy,Dark Fantasy,Kanye West,1,0,4.5,280786
 20r762YmB5HeofjMCiPMLv,My Beautiful Dark Twisted Fantasy,Gorgeous,Kanye West,2,0,3.5,357653
@@ -2759,7 +2759,7 @@ Album_id,Album,Track,Artist_Track,Number,Goated,Rating,Duration
 2qIu18hUz5c6BzY3Rh6fIJ,Volume One,Swing Low Sweet Chariot,She & Him,13,0,3.5,96973
 2rT82YYlV9UoxBYLIezkRq,Lift Your Skinny Fists Like Antennas to Heaven,Storm,Godspeed You! Black Emperor,1,0,,1352413
 2rT82YYlV9UoxBYLIezkRq,Lift Your Skinny Fists Like Antennas to Heaven,Static,Godspeed You! Black Emperor,2,0,,1355946
-2rT82YYlV9UoxBYLIezkRq,Lift Your Skinny Fists Like Antennas to Heaven,Sleep,Godspeed You! Black Emperor,3,0,,1397746
+2rT82YYlV9UoxBYLIezkRq,Lift Your Skinny Fists Like Antennas to Heaven,Sleep,Godspeed You! Black Emperor,3,1,5.0,1397746
 2rT82YYlV9UoxBYLIezkRq,Lift Your Skinny Fists Like Antennas to Heaven,Like Antennas To Heaven…,Godspeed You! Black Emperor,4,0,,1137586
 2scB1uhcCI1TSf6b9TCZK3,FutureSex/LoveSounds,FutureSex / LoveSound,Justin Timberlake,1,0,5.0,241960
 2scB1uhcCI1TSf6b9TCZK3,FutureSex/LoveSounds,SexyBack (feat. Timbaland),Justin Timberlake,2,0,5.0,242733
@@ -3816,12 +3816,35 @@ Album_id,Album,Track,Artist_Track,Number,Goated,Rating,Duration
 3rHeq4F5wnaLBjNtuz7Yvh,Get Behind Me Satan,As Ugly As I Seem,The White Stripes,11,0,,249960
 3rHeq4F5wnaLBjNtuz7Yvh,Get Behind Me Satan,Red Rain,The White Stripes,12,0,,232733
 3rHeq4F5wnaLBjNtuz7Yvh,Get Behind Me Satan,I'm Lonely (But I Ain't That Lonely Yet),The White Stripes,13,0,,259573
-3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Girl Boy - NLS Mix,Aphex Twin,1,0,,292200
-3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Milk Man,Aphex Twin,2,0,,248933
-3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Inkey$,Aphex Twin,3,0,,84373
-3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Girl Boy - £18 Snarerush Mix,Aphex Twin,4,0,,117560
-3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Beetles,Aphex Twin,5,0,,91106
-3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Girl Boy - Redruth Mix,Aphex Twin,6,0,,100866
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Moscow Mule,Bad Bunny,1,0,,245939
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Después de la Playa,Bad Bunny,2,0,,230400
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Me Porto Bonito,Bad Bunny,3,0,,178567
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Tití Me Preguntó,Bad Bunny,4,0,,243716
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Un Ratito,Bad Bunny,5,0,,176936
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Yo No Soy Celoso,Bad Bunny,6,0,,230704
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Tarot,Bad Bunny,7,0,,237894
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Neverita,Bad Bunny,8,0,,173119
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,La Corriente,Bad Bunny,9,0,,198367
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Efecto,Bad Bunny,10,0,,213061
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Party,Bad Bunny,11,0,,227628
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Aguacero,Bad Bunny,12,0,,210989
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Enséñame a Bailar,Bad Bunny,13,0,,176000
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Ojitos Lindos,Bad Bunny,14,0,,258298
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Dos Mil 16,Bad Bunny,15,0,,208615
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,El Apagón,Bad Bunny,16,0,,201816
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Otro Atardecer,Bad Bunny,17,0,,244444
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Un Coco,Bad Bunny,18,0,,196412
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Andrea,Bad Bunny,19,0,,339611
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Me Fui de Vacaciones,Bad Bunny,20,0,,180929
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Un Verano Sin Ti,Bad Bunny,21,0,,148143
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Agosto,Bad Bunny,22,0,,139041
+3RQQmkQEvNCY4prGKE6oc5,Un Verano Sin Ti,Callaita,Bad Bunny,23,0,,250533
+3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Girl Boy - NLS Mix,Aphex Twin,1,0,4.5,292200
+3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Milk Man,Aphex Twin,2,0,4.5,248933
+3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Inkey$,Aphex Twin,3,0,3.0,84373
+3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Girl Boy - £18 Snarerush Mix,Aphex Twin,4,0,3.0,117560
+3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Beetles,Aphex Twin,5,0,4.0,91106
+3TfLuGfGoYS978gsEsyTwZ,Girl/Boy EP,Girl Boy - Redruth Mix,Aphex Twin,6,0,3.0,100866
 3tQd5mwBtVyxCoEo4htGAV,Enter The Wu-Tang (36 Chambers) [Expanded Edition],"Bring Da Ruckus (feat. RZA, Ghostface Killah, Raekwon & Inspectah Deck)",Wu-Tang Clan,1,0,5.0,251466
 3tQd5mwBtVyxCoEo4htGAV,Enter The Wu-Tang (36 Chambers) [Expanded Edition],"Shame On a Nigga (feat. Raekwon, Ol' Dirty Bastard & Method Man)",Wu-Tang Clan,2,0,5.0,177066
 3tQd5mwBtVyxCoEo4htGAV,Enter The Wu-Tang (36 Chambers) [Expanded Edition],Clan In Da Front (feat. RZA & GZA),Wu-Tang Clan,3,0,4.5,273320
