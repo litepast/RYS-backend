@@ -123,6 +123,7 @@ def update_csvs():
         yearsalbum_df.to_csv("./Data/years_dashboard/yearsAbums.csv", header=True, index=False)
         artists_df.to_csv("./Data/artists_dashboard/artists.csv", header=True, index=False)
         tooltip_df.to_csv("./Data/artists_dashboard/tooltip.csv", header=True, index=False)
+        print("yeah bb")
     except Exception as e:
         print(e)
 

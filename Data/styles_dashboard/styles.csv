@@ -1,62 +1,182 @@
 Tag,Genre,Style,Album,Quantity
+Genres & Styles,Rock,Hard Rock,Akuma No Uta by Boris : Unrated,1
+Genres & Styles,Rock,Sludge Metal,Akuma No Uta by Boris : Unrated,1
+Genres & Styles,Rock,Stoner Rock,Akuma No Uta by Boris : Unrated,1
+Genres & Styles,Rock,Indie Rock,The Pains of Being Pure at Heart by The Pains Of Being Pure At Heart : 4.00,1
+Genres & Styles,Rock,Lo-Fi,The Pains of Being Pure at Heart by The Pains Of Being Pure At Heart : 4.00,1
+Genres & Styles,Rock,Shoegaze,The Pains of Being Pure at Heart by The Pains Of Being Pure At Heart : 4.00,1
 Genres & Styles,Rock,Pop Rock,The Smile Sessions by The Beach Boys : 4.50,1
 Genres & Styles,Rock,Psychedelic Rock,The Smile Sessions by The Beach Boys : 4.50,1
+Genres & Styles,Rock,Dream Pop,Bloom by Beach House : Unrated,1
+Genres & Styles,Rock,Ethereal,Bloom by Beach House : Unrated,1
+Genres & Styles,Rock,Indie Rock,Bloom by Beach House : Unrated,1
+Genres & Styles,Jazz,Avant-garde Jazz,Let My Children Hear Music by Charles Mingus : Unrated,1
+Genres & Styles,Jazz,Big Band,Let My Children Hear Music by Charles Mingus : Unrated,1
+Genres & Styles,Jazz,Post Bop,Let My Children Hear Music by Charles Mingus : Unrated,1
+Genres & Styles,Rock,Folk Rock,Bryter Layter by Nick Drake : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Deltron 3030 by Deltron 3030 : Unrated,1
+Genres & Styles,Electronic,Experimental,Deltron 3030 by Deltron 3030 : Unrated,1
+Genres & Styles,Electronic,Leftfield,Deltron 3030 by Deltron 3030 : Unrated,1
 Genres & Styles,Rock,Pop Rock,Endless Summer by The Beach Boys : 3.50,1
 Genres & Styles,Rock,Surf,Endless Summer by The Beach Boys : 3.50,1
+Genres & Styles,Electronic,Deep House,Caracal (Deluxe) by Disclosure : Unrated,1
+Genres & Styles,Electronic,Downtempo,Caracal (Deluxe) by Disclosure : Unrated,1
+Genres & Styles,Electronic,House,Caracal (Deluxe) by Disclosure : Unrated,1
+Genres & Styles,Electronic,UK Garage,Caracal (Deluxe) by Disclosure : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Mellon Collie And The Infinite Sadness by The Smashing Pumpkins : 5.00,1
+Genres & Styles,Rock,Alternative Rock,Houdini by Melvins : Unrated,1
+Genres & Styles,Rock,Doom Metal,Houdini by Melvins : Unrated,1
+Genres & Styles,Rock,Heavy Metal,Houdini by Melvins : Unrated,1
+Genres & Styles,Electronic,Big Beat,Their Law The Singles 1990 - 2005 by The Prodigy : Unrated,1
+Genres & Styles,Electronic,Breakbeat,Their Law The Singles 1990 - 2005 by The Prodigy : Unrated,1
+Genres & Styles,Electronic,Hardcore,Their Law The Singles 1990 - 2005 by The Prodigy : Unrated,1
 Genres & Styles,Rock,Prog Rock,Wish You Were Here by Pink Floyd : 4.00,1
+Genres & Styles,Rock,Alternative Rock,Automatic For The People by R.E.M. : Unrated,1
+Genres & Styles,Rock,Pop Rock,Automatic For The People by R.E.M. : Unrated,1
+Genres & Styles,Electronic,Downtempo,Demon Days by Gorillaz : Unrated,1
+Genres & Styles,Electronic,Leftfield,Demon Days by Gorillaz : Unrated,1
+Genres & Styles,Rock,Lo-Fi,Demon Days by Gorillaz : Unrated,1
+Genres & Styles,Hip Hop,Pop Rap,Demon Days by Gorillaz : Unrated,1
+Genres & Styles,Electronic,Trip Hop,Demon Days by Gorillaz : Unrated,1
 Genres & Styles,Electronic,Experimental,Deloused in the Comatorium by The Mars Volta : 5.00,1
 Genres & Styles,Rock,Prog Rock,Deloused in the Comatorium by The Mars Volta : 5.00,1
+Genres & Styles,Rock,Nu Metal,Mezmerize by System Of A Down : 4.00,1
 Genres & Styles,Funk / Soul,Rhythm & Blues,Presenting the Fabulous Ronettes Featuring Veronica by The Ronettes : Unrated,1
+Genres & Styles,Rock,Art Rock,Plastic Ono Band by John Lennon : Unrated,1
+Genres & Styles,Rock,Pop Rock,Plastic Ono Band by John Lennon : Unrated,1
 Genres & Styles,Rock,Indie Rock,Doolittle by Pixies : Unrated,1
+Genres & Styles,Rock,Indie Rock,Fever To Tell by Yeah Yeah Yeahs : Unrated,1
 Genres & Styles,Rock,Pop Rock,Abbey Road (Remastered) by The Beatles : 5.00,1
-Genres & Styles,Rock,Alternative Rock,Gish by The Smashing Pumpkins : 5.00,1
+Genres & Styles,Rock,Heavy Metal,Let Love In (2011 Remastered Version) by Nick Cave & The Bad Seeds : Unrated,1
+Genres & Styles,Rock,Speed Metal,Let Love In (2011 Remastered Version) by Nick Cave & The Bad Seeds : Unrated,1
+Genres & Styles,Rock,Thrash,Let Love In (2011 Remastered Version) by Nick Cave & The Bad Seeds : Unrated,1
+Genres & Styles,Rock,Alternative Rock,It's Blitz! by Yeah Yeah Yeahs : Unrated,1
+Genres & Styles,Rock,Indie Rock,It's Blitz! by Yeah Yeah Yeahs : Unrated,1
+Genres & Styles,Electronic,Synth-pop,It's Blitz! by Yeah Yeah Yeahs : Unrated,1
+Genres & Styles,Rock,Alternative Rock,MTV Unplugged by Café Tacvba : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Tremulant by The Mars Volta : 3.50,1
 Genres & Styles,Electronic,Experimental,Tremulant by The Mars Volta : 3.50,1
 Genres & Styles,Rock,Psychedelic Rock,Tremulant by The Mars Volta : 3.50,1
+Genres & Styles,Rock,Alternative Rock,Absolution by Muse : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Soviet Kitsch by Regina Spektor : Unrated,1
+Genres & Styles,Pop,Ballad,Soviet Kitsch by Regina Spektor : Unrated,1
+Genres & Styles,Pop,Chanson,Soviet Kitsch by Regina Spektor : Unrated,1
+Genres & Styles,"Folk, World, & Country",Folk,Soviet Kitsch by Regina Spektor : Unrated,1
+Genres & Styles,Pop,Indie Pop,Soviet Kitsch by Regina Spektor : Unrated,1
+Genres & Styles,Rock,Punk,Soviet Kitsch by Regina Spektor : Unrated,1
 Genres & Styles,Rock,Art Rock,White Light / White Heat by The Velvet Underground : 4.50,1
 Genres & Styles,Rock,Avantgarde,White Light / White Heat by The Velvet Underground : 4.50,1
 Genres & Styles,Electronic,Experimental,White Light / White Heat by The Velvet Underground : 4.50,1
 Genres & Styles,Rock,Psychedelic Rock,White Light / White Heat by The Velvet Underground : 4.50,1
+Genres & Styles,Electronic,Ambient,Talkie Walkie by Air : Unrated,1
+Genres & Styles,Electronic,Downtempo,Talkie Walkie by Air : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Talkie Walkie by Air : Unrated,1
 Genres & Styles,Latin,MPB,Gilberto Gil (1968) by Gilberto Gil : Unrated,1
 Genres & Styles,Rock,Pop Rock,Let It Be (Remastered) by The Beatles : 3.50,1
+Genres & Styles,Rock,Art Rock,GIMME SOME TRUTH. (Deluxe) by John Lennon : Unrated,1
+Genres & Styles,Rock,Pop Rock,GIMME SOME TRUTH. (Deluxe) by John Lennon : Unrated,1
+Genres & Styles,Rock,Pop Rock,El Ultimo Concierto B (Remastered) by Soda Stereo : Unrated,1
+Genres & Styles,Rock,New Wave,Closer by Joy Division : Unrated,1
+Genres & Styles,Rock,Post-Punk,Closer by Joy Division : Unrated,1
+Genres & Styles,Rock,Art Rock,Never for Ever (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Pop Rock,Never for Ever (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Prog Rock,Never for Ever (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Lazer Guided Melodies by Spiritualized : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,Lazer Guided Melodies by Spiritualized : Unrated,1
 Genres & Styles,Hip Hop,Conscious,untitled unmastered. by Kendrick Lamar : Unrated,1
 Genres & Styles,Electronic,Experimental,untitled unmastered. by Kendrick Lamar : Unrated,1
 Genres & Styles,Hip Hop,Jazzy Hip-Hop,untitled unmastered. by Kendrick Lamar : Unrated,1
-Genres & Styles,Rock,Alternative Rock,Your Arsenal by Morrissey : Unrated,1
-Genres & Styles,Rock,Glam,Your Arsenal by Morrissey : Unrated,1
-Genres & Styles,Rock,Indie Rock,Your Arsenal by Morrissey : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Black Holes and Revelations by Muse : Unrated,1
+Genres & Styles,Rock,Art Rock,Station to Station (2016 Remaster) by David Bowie : Unrated,1
+Genres & Styles,Funk / Soul,Funk,Station to Station (2016 Remaster) by David Bowie : Unrated,1
+Genres & Styles,Funk / Soul,Rhythm & Blues,Station to Station (2016 Remaster) by David Bowie : Unrated,1
+Genres & Styles,Rock,Space Rock,Station to Station (2016 Remaster) by David Bowie : Unrated,1
 Genres & Styles,Electronic,Dance-pop,Statues by Moloko : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Black Market Music by Placebo : Unrated,1
+Genres & Styles,Pop,Indie Pop,The Boy With the Arab Strap by Belle and Sebastian : Unrated,1
+Genres & Styles,Rock,Indie Rock,The Boy With the Arab Strap by Belle and Sebastian : Unrated,1
 Genres & Styles,Rock,Beat,Help! (Remastered) by The Beatles : 4.00,1
 Genres & Styles,Stage & Screen,Soundtrack,Help! (Remastered) by The Beatles : 4.00,1
 Genres & Styles,Rock,Indie Rock,Relationship Of Command by At the Drive-In : 5.00,1
 Genres & Styles,Rock,Post-Hardcore,Relationship Of Command by At the Drive-In : 5.00,1
+Genres & Styles,Rock,Coldwave,Pornography by The Cure : Unrated,1
+Genres & Styles,Rock,Goth Rock,Pornography by The Cure : Unrated,1
+Genres & Styles,Rock,New Wave,Pornography by The Cure : Unrated,1
+Genres & Styles,Electronic,Dubstep,James Blake by James Blake : Unrated,1
+Genres & Styles,Electronic,Leftfield,James Blake by James Blake : Unrated,1
+Genres & Styles,Rock,Pop Rock,One Of The Boys by Katy Perry : Unrated,1
+Genres & Styles,Rock,Soft Rock,One Of The Boys by Katy Perry : Unrated,1
+Genres & Styles,Rock,Art Rock,Talking Heads '77 by Talking Heads : Unrated,1
+Genres & Styles,Rock,New Wave,Talking Heads '77 by Talking Heads : Unrated,1
+Genres & Styles,Rock,Alternative Rock,A Rush of Blood to the Head by Coldplay : Unrated,1
+Genres & Styles,Rock,Pop Rock,A Rush of Blood to the Head by Coldplay : Unrated,1
+Genres & Styles,Pop,Indie Pop,Pure Heroine by Lorde : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Pure Heroine by Lorde : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Yankee Hotel Foxtrot by Wilco : 5.00,1
 Genres & Styles,Rock,Country Rock,Yankee Hotel Foxtrot by Wilco : 5.00,1
 Genres & Styles,Rock,Indie Rock,Yankee Hotel Foxtrot by Wilco : 5.00,1
 Genres & Styles,Electronic,Acid Jazz,Emergency on Planet Earth (Remastered) by Jamiroquai : Unrated,1
+Genres & Styles,Hip Hop,Boom Bap,Dah Shinin' by Smif-N-Wessun : Unrated,1
+Genres & Styles,Hip Hop,Hardcore Hip-Hop,Dah Shinin' by Smif-N-Wessun : Unrated,1
+Genres & Styles,Electronic,Downtempo,Preemptive Strike by DJ Shadow : Unrated,1
+Genres & Styles,Hip Hop,Instrumental,Preemptive Strike by DJ Shadow : Unrated,1
+Genres & Styles,Electronic,Trip Hop,Preemptive Strike by DJ Shadow : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Good News For People Who Love Bad News by Modest Mouse : Unrated,1
+Genres & Styles,Rock,Indie Rock,Good News For People Who Love Bad News by Modest Mouse : Unrated,1
 Genres & Styles,Rock,Alternative Rock,OK Computer OKNOTOK 1997 2017 by Radiohead : 5.00,1
 Genres & Styles,Rock,Art Rock,OK Computer OKNOTOK 1997 2017 by Radiohead : 5.00,1
 Genres & Styles,Electronic,Experimental,OK Computer OKNOTOK 1997 2017 by Radiohead : 5.00,1
 Genres & Styles,Rock,Indie Rock,OK Computer OKNOTOK 1997 2017 by Radiohead : 5.00,1
 Genres & Styles,Rock,Indie Rock,The Stone Roses by The Stone Roses : Unrated,1
+Genres & Styles,Rock,Indie Rock,The Boy With No Name by Travis : Unrated,1
+Genres & Styles,Rock,Acoustic,Roman Candle by Elliott Smith : Unrated,1
+Genres & Styles,Rock,Indie Rock,Roman Candle by Elliott Smith : Unrated,1
 Genres & Styles,Rock,Indie Rock,In the Aeroplane Over the Sea by Neutral Milk Hotel : 5.00,1
 Genres & Styles,Rock,Lo-Fi,In the Aeroplane Over the Sea by Neutral Milk Hotel : 5.00,1
+Genres & Styles,Rock,Art Rock,Blackstar by David Bowie : Unrated,1
+Genres & Styles,Electronic,Experimental,Blackstar by David Bowie : Unrated,1
+Genres & Styles,Rock,Glam,Blackstar by David Bowie : Unrated,1
+Genres & Styles,Jazz,Jazz-Rock,Blackstar by David Bowie : Unrated,1
+Genres & Styles,Rock,Prog Rock,Blackstar by David Bowie : Unrated,1
 Genres & Styles,Rock,Acoustic,Elliott Smith by Elliott Smith : 4.50,1
 Genres & Styles,Rock,Folk Rock,Elliott Smith by Elliott Smith : 4.50,1
 Genres & Styles,Rock,Indie Rock,Elliott Smith by Elliott Smith : 4.50,1
 Genres & Styles,Rock,Lo-Fi,Elliott Smith by Elliott Smith : 4.50,1
+Genres & Styles,Electronic,Ambient,Peel Session by Boards of Canada : 3.50,1
+Genres & Styles,Electronic,Downtempo,Peel Session by Boards of Canada : 3.50,1
+Genres & Styles,Electronic,IDM,Peel Session by Boards of Canada : 3.50,1
+Genres & Styles,Rock,Alternative Rock,Pisces Iscariot (Remastered) by The Smashing Pumpkins : Unrated,1
+Genres & Styles,Rock,Pop Rock,The Best Of 1980 - 1990 by U2 : Unrated,1
 Genres & Styles,Rock,Acoustic,Rodrigo y Gabriela by Rodrigo y Gabriela : Unrated,1
 Genres & Styles,"Folk, World, & Country",Flamenco,Rodrigo y Gabriela by Rodrigo y Gabriela : Unrated,1
+Genres & Styles,Rock,Post Rock,Yanqui U.X.O. by Godspeed You! Black Emperor : Unrated,1
+Genres & Styles,Rock,Pop Rock,Imagine by John Lennon : Unrated,1
+Genres & Styles,Stage & Screen,Soundtrack,Imagine by John Lennon : Unrated,1
+Genres & Styles,Hip Hop,Gangsta,Straight Outta Compton by N.W.A. : Unrated,1
+Genres & Styles,Hip Hop,Hardcore Hip-Hop,Straight Outta Compton by N.W.A. : Unrated,1
+Genres & Styles,Electronic,Abstract,One Word Extinguisher by Prefuse 73 : Unrated,1
+Genres & Styles,Electronic,Glitch Hop,One Word Extinguisher by Prefuse 73 : Unrated,1
+Genres & Styles,Electronic,IDM,One Word Extinguisher by Prefuse 73 : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Every Open Eye by CHVRCHES : Unrated,1
+Genres & Styles,Electronic,Experimental,Night Ripper by Girl Talk : Unrated,1
+Genres & Styles,Electronic,Hip Hop,Night Ripper by Girl Talk : Unrated,1
+Genres & Styles,Electronic,IDM,Night Ripper by Girl Talk : Unrated,1
 Genres & Styles,Rock,Prog Rock,Red (Expanded & Remastered Original Album Mix) by King Crimson : 4.50,1
 Genres & Styles,Rock,Alternative Rock,"Hissing Fauna, Are You The Destroyer? by of Montreal : Unrated",1
 Genres & Styles,Rock,Indie Rock,"Hissing Fauna, Are You The Destroyer? by of Montreal : Unrated",1
+Genres & Styles,Rock,Dream Pop,Depression Cherry by Beach House : Unrated,1
+Genres & Styles,Rock,Ethereal,Depression Cherry by Beach House : Unrated,1
+Genres & Styles,Pop,Indie Pop,Depression Cherry by Beach House : Unrated,1
+Genres & Styles,Rock,Indie Rock,Depression Cherry by Beach House : Unrated,1
 Genres & Styles,Electronic,Abstract,Madvillainy by Madvillain : 5.00,1
 Genres & Styles,Electronic,Experimental,Madvillainy by Madvillain : 5.00,1
 Genres & Styles,Hip Hop,Jazzy Hip-Hop,Madvillainy by Madvillain : 5.00,1
 Genres & Styles,Electronic,Leftfield,Madvillainy by Madvillain : 5.00,1
 Genres & Styles,Rock,Folk Rock,Father of the Bride by Vampire Weekend : Unrated,1
 Genres & Styles,Rock,Indie Rock,Father of the Bride by Vampire Weekend : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Memo Rex Commander y el Corazón Atómico de la Vía Láctea by Zoé : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,Memo Rex Commander y el Corazón Atómico de la Vía Láctea by Zoé : Unrated,1
+Genres & Styles,Rock,Britpop,The Masterplan by Oasis : Unrated,1
 Genres & Styles,Rock,Beat,With The Beatles (Remastered) by The Beatles : 3.50,1
 Genres & Styles,Rock,Rock & Roll,With The Beatles (Remastered) by The Beatles : 3.50,1
 Genres & Styles,Electronic,Breaks,Feed the Animals by Girl Talk : Unrated,1
@@ -66,61 +186,165 @@ Genres & Styles,Rock,Indie Rock,Feed the Animals by Girl Talk : Unrated,1
 Genres & Styles,Hip Hop,Instrumental,Feed the Animals by Girl Talk : Unrated,1
 Genres & Styles,Rock,Pop Rock,Feed the Animals by Girl Talk : Unrated,1
 Genres & Styles,Rock,Rock & Roll,Feed the Animals by Girl Talk : Unrated,1
+Genres & Styles,Rock,Acoustic,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Rock,Art Rock,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Rock,Britpop,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Electronic,Dub,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Pop,Europop,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Rock,Indie Rock,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Rock,Krautrock,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Rock,Lo-Fi,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Rock,Mod,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Rock,New Wave,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Rock,Punk,Blur: The Best Of by Blur : Unrated,1
+Genres & Styles,Rock,Alternative Rock,No Need To Argue (The Complete Sessions 1994-1995) by The Cranberries : Unrated,1
+Genres & Styles,Hip Hop,Conscious,The Miseducation of Lauryn Hill by Ms. Lauryn Hill : Unrated,1
+Genres & Styles,Funk / Soul,Contemporary R&B,The Miseducation of Lauryn Hill by Ms. Lauryn Hill : Unrated,1
 Genres & Styles,Rock,Indie Rock,Any Other City by Life Without Buildings : Unrated,1
 Genres & Styles,Rock,Pop Rock,Any Other City by Life Without Buildings : Unrated,1
+Genres & Styles,Hip Hop,Conscious,The Infamous by Mobb Deep : Unrated,1
+Genres & Styles,Hip Hop,Hardcore Hip-Hop,The Infamous by Mobb Deep : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Viva La Vida or Death and All His Friends by Coldplay : Unrated,1
+Genres & Styles,Pop,Indie Pop,Viva La Vida or Death and All His Friends by Coldplay : Unrated,1
+Genres & Styles,Rock,Pop Rock,Viva La Vida or Death and All His Friends by Coldplay : Unrated,1
+Genres & Styles,Rock,Alternative Rock,The Man Who by Travis : Unrated,1
+Genres & Styles,Rock,Britpop,The Man Who by Travis : Unrated,1
+Genres & Styles,Rock,Indie Rock,The Man Who by Travis : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Southpaw Grammar by Morrissey : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Origin of Symmetry by Muse : 4.00,1
 Genres & Styles,Electronic,Ambient,Ágætis byrjun by Sigur Rós : Unrated,1
 Genres & Styles,Rock,Post Rock,Ágætis byrjun by Sigur Rós : Unrated,1
+Genres & Styles,Rock,Indie Rock,Vaya by At the Drive-In : Unrated,1
+Genres & Styles,Electronic,Downtempo,Heligoland by Massive Attack : Unrated,1
+Genres & Styles,Electronic,Trip Hop,Heligoland by Massive Attack : Unrated,1
+Genres & Styles,Rock,Post-Metal,"10,000 Days by TOOL : Unrated",1
+Genres & Styles,Rock,Progressive Metal,"10,000 Days by TOOL : Unrated",1
+Genres & Styles,Hip Hop,Gangsta,Wu-Tang Iron Flag by Wu-Tang Clan : Unrated,1
+Genres & Styles,Hip Hop,Thug Rap,Wu-Tang Iron Flag by Wu-Tang Clan : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Our Love To Admire by Interpol : Unrated,1
+Genres & Styles,Rock,Indie Rock,Our Love To Admire by Interpol : Unrated,1
 Genres & Styles,Pop,Indie Pop,Modern Vampires of the City by Vampire Weekend : Unrated,1
 Genres & Styles,Rock,Indie Rock,Modern Vampires of the City by Vampire Weekend : Unrated,1
 Genres & Styles,Rock,Pop Rock,Modern Vampires of the City by Vampire Weekend : Unrated,1
+Genres & Styles,Rock,Black Metal,Nattens Madrigal by Ulver : Unrated,1
+Genres & Styles,Rock,Folk Metal,Nattens Madrigal by Ulver : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Amnesiac by Radiohead : 3.50,1
 Genres & Styles,Electronic,Experimental,Amnesiac by Radiohead : 3.50,1
+Genres & Styles,Rock,Blues Rock,Sun by Cat Power : Unrated,1
+Genres & Styles,Rock,Folk Rock,Sun by Cat Power : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Hatful of Hollow by The Smiths : 5.00,1
 Genres & Styles,Rock,Indie Rock,Hatful of Hollow by The Smiths : 5.00,1
+Genres & Styles,Electronic,Electro,The Fame by Lady Gaga : Unrated,1
+Genres & Styles,Pop,Europop,The Fame by Lady Gaga : Unrated,1
+Genres & Styles,Electronic,Synth-pop,The Fame by Lady Gaga : Unrated,1
+Genres & Styles,Rock,Art Rock,Remain in Light by Talking Heads : Unrated,1
+Genres & Styles,Rock,New Wave,Remain in Light by Talking Heads : Unrated,1
+Genres & Styles,Rock,Blues Rock,The Doors by The Doors : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,The Doors by The Doors : Unrated,1
 Genres & Styles,Rock,Beat,The Beatles (Remastered) by The Beatles : 4.50,1
 Genres & Styles,Rock,Rock & Roll,The Beatles (Remastered) by The Beatles : 4.50,1
+Genres & Styles,Hip Hop,Cut-up/DJ,Paul's Boutique (20th Anniversary Edition / Remastered) by Beastie Boys : Unrated,1
+Genres & Styles,Electronic,Hip Hop,Paul's Boutique (20th Anniversary Edition / Remastered) by Beastie Boys : Unrated,1
+Genres & Styles,Rock,Blues Rock,The Greatest by Cat Power : Unrated,1
 Genres & Styles,Electronic,Garage House,Settle (Deluxe) by Disclosure : Unrated,1
 Genres & Styles,Electronic,House,Settle (Deluxe) by Disclosure : Unrated,1
 Genres & Styles,Electronic,UK Garage,Settle (Deluxe) by Disclosure : Unrated,1
 Genres & Styles,Pop,Indie Pop,Where'd You Learn To Kiss That Way? by The Field Mice : Unrated,1
+Genres & Styles,Rock,Alternative Rock,The Soft Bulletin by The Flaming Lips : Unrated,1
+Genres & Styles,Electronic,Experimental,The Soft Bulletin by The Flaming Lips : Unrated,1
+Genres & Styles,Rock,Indie Rock,The Soft Bulletin by The Flaming Lips : Unrated,1
+Genres & Styles,Rock,Speed Metal,Ride The Lightning (Remastered) by Metallica : Unrated,1
+Genres & Styles,Rock,Thrash,Ride The Lightning (Remastered) by Metallica : Unrated,1
+Genres & Styles,Rock,Pop Rock,Double Fantasy by John Lennon : Unrated,1
+Genres & Styles,Electronic,Drone,Allelujah! Don't Bend! Ascend! by Godspeed You! Black Emperor : Unrated,1
+Genres & Styles,Rock,Post Rock,Allelujah! Don't Bend! Ascend! by Godspeed You! Black Emperor : Unrated,1
 Genres & Styles,Hip Hop,Conscious,The Low End Theory by A Tribe Called Quest : 4.50,1
 Genres & Styles,Hip Hop,Jazzy Hip-Hop,The Low End Theory by A Tribe Called Quest : 4.50,1
+Genres & Styles,Rock,Beat,Anthology 1 by The Beatles : Unrated,1
+Genres & Styles,Rock,Pop Rock,Anthology 1 by The Beatles : Unrated,1
+Genres & Styles,Rock,Rock & Roll,Anthology 1 by The Beatles : Unrated,1
 Genres & Styles,Rock,Acoustic,Little Earthquakes by Tori Amos : 5.00,1
 Genres & Styles,Rock,Folk Rock,Illinois by Sufjan Stevens : Unrated,1
 Genres & Styles,Pop,Indie Pop,Illinois by Sufjan Stevens : Unrated,1
 Genres & Styles,Stage & Screen,Theme,Illinois by Sufjan Stevens : Unrated,1
+Genres & Styles,Rock,Folk Rock,People by Animal Collective : Unrated,1
+Genres & Styles,Electronic,Minimal,People by Animal Collective : Unrated,1
+Genres & Styles,Rock,Folk Rock,North Star Deserter by Vic Chesnutt : Unrated,1
 Genres & Styles,Hip Hop,Conscious,"When Life Gives You Lemons, You Paint That Shit Gold by Atmosphere : 4.50",1
+Genres & Styles,Electronic,Experimental,I by Meshuggah : Unrated,1
+Genres & Styles,Rock,Thrash,I by Meshuggah : Unrated,1
 Genres & Styles,Rock,Doom Metal,The Eye of Every Storm by Neurosis : Unrated,1
 Genres & Styles,Rock,Post-Metal,The Eye of Every Storm by Neurosis : Unrated,1
 Genres & Styles,Electronic,Trip Hop,Roseland NYC Live by Portishead : Unrated,1
 Genres & Styles,Rock,Acoustic,MTV Unplugged In New York by Nirvana : 4.00,1
 Genres & Styles,Rock,Grunge,MTV Unplugged In New York by Nirvana : 4.00,1
+Genres & Styles,Hip Hop,Conscious,MM...FOOD by MF DOOM : Unrated,1
+Genres & Styles,Hip Hop,Bass Music,Speakerboxxx/The Love Below by Outkast : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Speakerboxxx/The Love Below by Outkast : Unrated,1
+Genres & Styles,Funk / Soul,Funk,Speakerboxxx/The Love Below by Outkast : Unrated,1
+Genres & Styles,Electronic,Future Jazz,Speakerboxxx/The Love Below by Outkast : Unrated,1
+Genres & Styles,Electronic,Hip Hop,Speakerboxxx/The Love Below by Outkast : Unrated,1
+Genres & Styles,Hip Hop,Thug Rap,Speakerboxxx/The Love Below by Outkast : Unrated,1
 Genres & Styles,Rock,Beat,Beatles For Sale (Remastered) by The Beatles : 3.50,1
 Genres & Styles,Rock,Pop Rock,Beatles For Sale (Remastered) by The Beatles : 3.50,1
 Genres & Styles,Rock,Rock & Roll,Beatles For Sale (Remastered) by The Beatles : 3.50,1
 Genres & Styles,Rock,Alternative Rock,I Might Be Wrong by Radiohead : 4.00,1
 Genres & Styles,Rock,Art Rock,I Might Be Wrong by Radiohead : 4.00,1
+Genres & Styles,Rock,Parody,"Running With Scissors by ""Weird Al"" Yankovic : Unrated",1
+Genres & Styles,Rock,Pop Rock,"Running With Scissors by ""Weird Al"" Yankovic : Unrated",1
 Genres & Styles,Rock,Britpop,(What's The Story) Morning Glory? [Remastered] by Oasis : 4.00,1
 Genres & Styles,Hip Hop,Conscious,Greatest Hits by 2Pac : 4.50,1
 Genres & Styles,Hip Hop,Gangsta,Greatest Hits by 2Pac : 4.50,1
 Genres & Styles,Rock,Alternative Rock,El Silencio by Caifanes : 5.00,1
+Genres & Styles,Rock,Art Rock,Hounds of Love (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Pop Rock,Hounds of Love (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Superunknown by Soundgarden : Unrated,1
+Genres & Styles,Rock,Grunge,Superunknown by Soundgarden : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Favourite Worst Nightmare by Arctic Monkeys : 3.00,1
 Genres & Styles,Rock,Indie Rock,Favourite Worst Nightmare by Arctic Monkeys : 3.00,1
+Genres & Styles,Rock,Beat,Love by The Beatles : Unrated,1
+Genres & Styles,Rock,Pop Rock,Love by The Beatles : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Live At Earls Court by Morrissey : Unrated,1
+Genres & Styles,Rock,Indie Rock,Live At Earls Court by Morrissey : Unrated,1
 Genres & Styles,Rock,Indie Rock,XO by Elliott Smith : Unrated,1
 Genres & Styles,Jazz,Afrobeat,Expensive Shit by Fela Kuti : 5.00,1
 Genres & Styles,Funk / Soul,Funk,Expensive Shit by Fela Kuti : 5.00,1
 Genres & Styles,Rock,Avantgarde,My Beautiful Dark Twisted Fantasy by Kanye West : 5.00,1
 Genres & Styles,Funk / Soul,Contemporary R&B,My Beautiful Dark Twisted Fantasy by Kanye West : 5.00,1
 Genres & Styles,Hip Hop,Pop Rap,My Beautiful Dark Twisted Fantasy by Kanye West : 5.00,1
+Genres & Styles,Hip Hop,Conscious,Uptown Saturday Night by Camp Lo : Unrated,1
+Genres & Styles,Hip Hop,Jazzy Hip-Hop,Uptown Saturday Night by Camp Lo : Unrated,1
+Genres & Styles,Electronic,Experimental,Feels by Animal Collective : 4.00,1
+Genres & Styles,Rock,Folk Rock,Feels by Animal Collective : 4.00,1
+Genres & Styles,Rock,Indie Rock,Feels by Animal Collective : 4.00,1
+Genres & Styles,Rock,Psychedelic Rock,Feels by Animal Collective : 4.00,1
+Genres & Styles,Rock,Indie Rock,Clap Your Hands Say Yeah by Clap Your Hands Say Yeah : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Evil Empire by Rage Against The Machine : Unrated,1
+Genres & Styles,Rock,Funk Metal,Evil Empire by Rage Against The Machine : Unrated,1
+Genres & Styles,Rock,Hard Rock,Evil Empire by Rage Against The Machine : Unrated,1
 Genres & Styles,Rock,Pop Rock,Emmerdale (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Pop,Ballad,Mediocre by Ximena Sariñana : Unrated,1
+Genres & Styles,Rock,Pop Rock,Mediocre by Ximena Sariñana : Unrated,1
+Genres & Styles,Rock,Indie Rock,Napoleon Sweetheart EP by Northern Portrait : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Nigga Please by Ol' Dirty Bastard : Unrated,1
+Genres & Styles,Hip Hop,Gangsta,Nigga Please by Ol' Dirty Bastard : Unrated,1
 Genres & Styles,Rock,Black Metal,Hvis Lyset Tar Oss by Burzum : 4.50,1
+Genres & Styles,Rock,Doom Metal,Neurosis & Jarboe by Neurosis : Unrated,1
+Genres & Styles,Electronic,Experimental,Neurosis & Jarboe by Neurosis : Unrated,1
+Genres & Styles,Pop,Ballad,Aprendiendo a Aprender by Carla Morrison : Unrated,1
+Genres & Styles,Pop,Indie Pop,Aprendiendo a Aprender by Carla Morrison : Unrated,1
+Genres & Styles,Rock,Pop Rock,Brand New Eyes by Paramore : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Aeroplane Flies High by The Smashing Pumpkins : 4.50,1
 Genres & Styles,Funk / Soul,Contemporary R&B,First Love by Hikaru Utada : 3.50,1
 Genres & Styles,Pop,J-pop,First Love by Hikaru Utada : 3.50,1
 Genres & Styles,Electronic,Synth-pop,First Love by Hikaru Utada : 3.50,1
 Genres & Styles,Pop,Vocal,First Love by Hikaru Utada : 3.50,1
 Genres & Styles,"Folk, World, & Country",Folk,Songs Of Leonard Cohen by Leonard Cohen : Unrated,1
+Genres & Styles,Funk / Soul,Contemporary R&B,Thriller by Michael Jackson : 4.00,1
+Genres & Styles,Electronic,Disco,Thriller by Michael Jackson : 4.00,1
+Genres & Styles,Funk / Soul,Soul,Thriller by Michael Jackson : 4.00,1
+Genres & Styles,Pop,Indie Pop,Melodrama by Lorde : Unrated,1
 Genres & Styles,Rock,Emo,The Devil And God Are Raging Inside Me by Brand New : Unrated,1
 Genres & Styles,Rock,Indie Rock,The Devil And God Are Raging Inside Me by Brand New : Unrated,1
 Genres & Styles,Rock,Pop Rock,Magical Mystery Tour (Remastered) by The Beatles : 4.50,1
@@ -130,15 +354,38 @@ Genres & Styles,Rock,Soft Rock,Magical Mystery Tour (Remastered) by The Beatles 
 Genres & Styles,Stage & Screen,Soundtrack,Magical Mystery Tour (Remastered) by The Beatles : 4.50,1
 Genres & Styles,Rock,Heavy Metal,Leaving Your Body Map by maudlin of the Well : Unrated,1
 Genres & Styles,Rock,Prog Rock,Leaving Your Body Map by maudlin of the Well : Unrated,1
+Genres & Styles,Rock,Doom Metal,A Sun That Never Sets by Neurosis : Unrated,1
+Genres & Styles,Rock,Post-Metal,A Sun That Never Sets by Neurosis : Unrated,1
+Genres & Styles,Rock,Sludge Metal,A Sun That Never Sets by Neurosis : Unrated,1
 Genres & Styles,Rock,Alternative Rock,El Diablito by Caifanes : 4.50,1
+Genres & Styles,Rock,Indie Rock,The World Won't Listen by The Smiths : Unrated,1
 Genres & Styles,Rock,Art Rock,Pet Sounds by The Beach Boys : 5.00,1
 Genres & Styles,Rock,Pop Rock,Pet Sounds by The Beach Boys : 5.00,1
 Genres & Styles,Rock,Psychedelic Rock,Pet Sounds by The Beach Boys : 5.00,1
 Genres & Styles,Rock,Surf,Pet Sounds by The Beach Boys : 5.00,1
+Genres & Styles,Rock,Art Rock,The Dreaming (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Pop Rock,The Dreaming (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Prog Rock,The Dreaming (2018 Remaster) by Kate Bush : Unrated,1
 Genres & Styles,Hip Hop,Hardcore Hip-Hop,The Eminem Show by Eminem : Unrated,1
 Genres & Styles,Hip Hop,Pop Rap,The Eminem Show by Eminem : Unrated,1
-Genres & Styles,Rock,Art Rock,The Dreaming by Kate Bush : 5.00,1
-Genres & Styles,Rock,Pop Rock,The Dreaming by Kate Bush : 5.00,1
+Genres & Styles,Rock,Art Rock,Low (2017 Remaster) by David Bowie : Unrated,1
+Genres & Styles,Rock,Avantgarde,Low (2017 Remaster) by David Bowie : Unrated,1
+Genres & Styles,Electronic,Downtempo,Low (2017 Remaster) by David Bowie : Unrated,1
+Genres & Styles,Electronic,Experimental,Low (2017 Remaster) by David Bowie : Unrated,1
+Genres & Styles,Rock,Pop Rock,Low (2017 Remaster) by David Bowie : Unrated,1
+Genres & Styles,Rock,Alternative Rock,The Battle Of Los Angeles by Rage Against The Machine : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Teenage Dream by Katy Perry : Unrated,1
+Genres & Styles,Electronic,Experimental,Debut by Björk : Unrated,1
+Genres & Styles,Electronic,House,Debut by Björk : Unrated,1
+Genres & Styles,Pop,Indie Pop,Melody's Echo Chamber by Melody's Echo Chamber : Unrated,1
+Genres & Styles,Rock,Indie Rock,Melody's Echo Chamber by Melody's Echo Chamber : Unrated,1
+Genres & Styles,Funk / Soul,Psychedelic,Melody's Echo Chamber by Melody's Echo Chamber : Unrated,1
+Genres & Styles,Rock,Shoegaze,Melody's Echo Chamber by Melody's Echo Chamber : Unrated,1
+Genres & Styles,Rock,Dream Pop,iTunes Session (2010) by Beach House : 3.50,1
+Genres & Styles,Rock,Indie Rock,iTunes Session (2010) by Beach House : 3.50,1
+Genres & Styles,Rock,Ethereal,The Waves by Tamaryn : Unrated,1
+Genres & Styles,Rock,New Wave,The Waves by Tamaryn : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,The Waves by Tamaryn : Unrated,1
 Genres & Styles,Rock,Grunge,Nevermind (Remastered) by Nirvana : 5.00,1
 Genres & Styles,Rock,Indie Rock,69 Love Songs by The Magnetic Fields : Unrated,1
 Genres & Styles,Electronic,Synth-pop,69 Love Songs by The Magnetic Fields : Unrated,1
@@ -146,9 +393,23 @@ Genres & Styles,Rock,Psychedelic Rock,The Velvet Underground (45th Anniversary) 
 Genres & Styles,Hip Hop,Gangsta,Ready to Die (The Remaster) by The Notorious B.I.G. : Unrated,1
 Genres & Styles,Rock,Art Rock,A Moon Shaped Pool by Radiohead : 4.50,1
 Genres & Styles,Rock,Indie Rock,A Moon Shaped Pool by Radiohead : 4.50,1
+Genres & Styles,Hip Hop,Boom Bap,Ironman by Ghostface Killah : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Ironman by Ghostface Killah : Unrated,1
+Genres & Styles,Hip Hop,Gangsta,Ironman by Ghostface Killah : Unrated,1
+Genres & Styles,Hip Hop,Hardcore Hip-Hop,Ironman by Ghostface Killah : Unrated,1
+Genres & Styles,Hip Hop,Thug Rap,Ironman by Ghostface Killah : Unrated,1
+Genres & Styles,Stage & Screen,Video Game Music,THE KING OF FIGHTERS '98 ORIGINAL SOUND TRACK by SNK SOUND TEAM : Unrated,1
+Genres & Styles,Rock,Death Metal,Unquestionable Presence by Atheist : Unrated,1
+Genres & Styles,Rock,Progressive Metal,Unquestionable Presence by Atheist : Unrated,1
+Genres & Styles,Rock,Technical Death Metal,Unquestionable Presence by Atheist : Unrated,1
 Genres & Styles,Rock,Avantgarde,Estudando o samba by Tom Zé : Unrated,1
 Genres & Styles,Latin,Samba,Estudando o samba by Tom Zé : Unrated,1
 Genres & Styles,Pop,Chanson,Jane Birkin & Serge Gainsbourg by Jane Birkin : 4.00,1
+Genres & Styles,Rock,Dream Pop,B-Sides and Rarities by Beach House : Unrated,1
+Genres & Styles,Pop,Indie Pop,B-Sides and Rarities by Beach House : Unrated,1
+Genres & Styles,Hip Hop,Conscious,8 Diagrams by Wu-Tang Clan : Unrated,1
+Genres & Styles,Hip Hop,Hardcore Hip-Hop,8 Diagrams by Wu-Tang Clan : Unrated,1
+Genres & Styles,Hip Hop,Thug Rap,8 Diagrams by Wu-Tang Clan : Unrated,1
 Genres & Styles,Rock,Heavy Metal,Master Of Puppets (Remastered) by Metallica : Unrated,1
 Genres & Styles,Rock,Thrash,Master Of Puppets (Remastered) by Metallica : Unrated,1
 Genres & Styles,Rock,Alternative Rock,El Nervio Del Volcan by Caifanes : 4.50,1
@@ -163,6 +424,13 @@ Genres & Styles,Rock,Post Rock,Spiderland by Slint : 4.50,1
 Genres & Styles,Electronic,Disco,Discovery by Daft Punk : 5.00,1
 Genres & Styles,Electronic,French House,Discovery by Daft Punk : 5.00,1
 Genres & Styles,Electronic,House,Discovery by Daft Punk : 5.00,1
+Genres & Styles,Rock,Indie Rock,Antics by Interpol : Unrated,1
+Genres & Styles,Electronic,Abstract,Drukqs by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Acid,Drukqs by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Ambient,Drukqs by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Drum n Bass,Drukqs by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Experimental,Drukqs by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,IDM,Drukqs by Aphex Twin : Unrated,1
 Genres & Styles,Pop,Ballad,Songs Of Love And Hate by Leonard Cohen : Unrated,1
 Genres & Styles,"Folk, World, & Country",Folk,Songs Of Love And Hate by Leonard Cohen : Unrated,1
 Genres & Styles,Rock,Folk Rock,Songs Of Love And Hate by Leonard Cohen : Unrated,1
@@ -172,19 +440,53 @@ Genres & Styles,Pop,Ballad,Volume One by She & Him : 5.00,1
 Genres & Styles,Rock,Beat,Volume One by She & Him : 5.00,1
 Genres & Styles,Rock,Pop Rock,Volume One by She & Him : 5.00,1
 Genres & Styles,Funk / Soul,Soul,Volume One by She & Him : 5.00,1
-Genres & Styles,Rock,Alternative Rock,Siamese Dream (2011 - Remaster) by The Smashing Pumpkins : 5.00,1
+Genres & Styles,Electronic,Experimental,Lift Your Skinny Fists Like Antennas to Heaven by Godspeed You! Black Emperor : Unrated,1
+Genres & Styles,Rock,Post Rock,Lift Your Skinny Fists Like Antennas to Heaven by Godspeed You! Black Emperor : Unrated,1
 Genres & Styles,Funk / Soul,Contemporary R&B,FutureSex/LoveSounds by Justin Timberlake : 4.00,1
+Genres & Styles,Rock,Acid Rock,The Piper at the Gates of Dawn by Pink Floyd : Unrated,1
+Genres & Styles,Rock,Art Rock,The Piper at the Gates of Dawn by Pink Floyd : Unrated,1
+Genres & Styles,Rock,Avantgarde,The Piper at the Gates of Dawn by Pink Floyd : Unrated,1
+Genres & Styles,Electronic,Experimental,The Piper at the Gates of Dawn by Pink Floyd : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,The Piper at the Gates of Dawn by Pink Floyd : Unrated,1
+Genres & Styles,Electronic,Ambient,Selected Ambient Works Volume II by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Dark Ambient,Selected Ambient Works Volume II by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Experimental,Selected Ambient Works Volume II by Aphex Twin : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Psychocandy (Expanded Version) by The Jesus and Mary Chain : Unrated,1
+Genres & Styles,Rock,Indie Rock,Psychocandy (Expanded Version) by The Jesus and Mary Chain : Unrated,1
+Genres & Styles,Electronic,Abstract,Human After All by Daft Punk : Unrated,1
+Genres & Styles,Electronic,Electro,Human After All by Daft Punk : Unrated,1
+Genres & Styles,Electronic,Experimental,Human After All by Daft Punk : Unrated,1
+Genres & Styles,Electronic,House,Human After All by Daft Punk : Unrated,1
 Genres & Styles,Rock,Post Rock,Slow Riot for New Zero Kanada by Godspeed You! Black Emperor : 5.00,1
+Genres & Styles,Rock,Alternative Rock,Sleeping With Ghosts by Placebo : Unrated,1
+Genres & Styles,Electronic,Ambient,In A Beautiful Place Out In The Country by Boards of Canada : Unrated,1
+Genres & Styles,Electronic,IDM,In A Beautiful Place Out In The Country by Boards of Canada : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Apocalypse 91… The Enemy Strikes Black by Public Enemy : Unrated,1
+Genres & Styles,Classical,Contemporary,Rzewski: The People United Will Never Be Defeated! by Frederic Rzewski : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Bury The Hatchet by The Cranberries : Unrated,1
+Genres & Styles,Rock,Pop Rock,Bury The Hatchet by The Cranberries : Unrated,1
 Genres & Styles,Rock,Emo,Acrobatic Tenement by At the Drive-In : 4.50,1
 Genres & Styles,Rock,Punk,Acrobatic Tenement by At the Drive-In : 4.50,1
+Genres & Styles,Rock,Heavy Metal,Crack the Skye by Mastodon : Unrated,1
+Genres & Styles,Rock,Prog Rock,Crack the Skye by Mastodon : Unrated,1
+Genres & Styles,Rock,Stoner Rock,Crack the Skye by Mastodon : Unrated,1
 Genres & Styles,Rock,Avantgarde,"""Bath"" by maudlin of the Well : Unrated",1
 Genres & Styles,Rock,Prog Rock,"""Bath"" by maudlin of the Well : Unrated",1
 Genres & Styles,Rock,Progressive Metal,"""Bath"" by maudlin of the Well : Unrated",1
+Genres & Styles,Hip Hop,Hardcore Hip-Hop,The W by Wu-Tang Clan : Unrated,1
+Genres & Styles,Electronic,Experimental,ObZen by Meshuggah : Unrated,1
+Genres & Styles,Electronic,Industrial,ObZen by Meshuggah : Unrated,1
+Genres & Styles,Rock,Thrash,ObZen by Meshuggah : Unrated,1
 Genres & Styles,Electronic,Drone,Boris at Last - Feedbacker by Boris : 5.00,1
 Genres & Styles,Rock,Psychedelic Rock,Boris at Last - Feedbacker by Boris : 5.00,1
 Genres & Styles,Rock,Sludge Metal,Boris at Last - Feedbacker by Boris : 5.00,1
 Genres & Styles,Rock,Alternative Rock,The New Abnormal by The Strokes : 5.00,1
 Genres & Styles,Electronic,Synth-pop,The New Abnormal by The Strokes : 5.00,1
+Genres & Styles,Reggae,Dancehall,Kala by M.I.A. : Unrated,1
+Genres & Styles,Electronic,Grime,Kala by M.I.A. : Unrated,1
+Genres & Styles,Electronic,Hip Hop,Kala by M.I.A. : Unrated,1
+Genres & Styles,Electronic,Ambient,Filosofem by Burzum : Unrated,1
+Genres & Styles,Rock,Black Metal,Filosofem by Burzum : Unrated,1
 Genres & Styles,Rock,Psychedelic Rock,'77 LIVE (2022 Remastered) by Les Rallizes Dénudés : Unrated,1
 Genres & Styles,Rock,Garage Rock,Is This It by The Strokes : 5.00,1
 Genres & Styles,Rock,Indie Rock,Is This It by The Strokes : 5.00,1
@@ -193,27 +495,55 @@ Genres & Styles,Rock,Alternative Rock,Contra by Vampire Weekend : Unrated,1
 Genres & Styles,Rock,Indie Rock,Contra by Vampire Weekend : Unrated,1
 Genres & Styles,Rock,Art Rock,Frances the Mute by The Mars Volta : 5.00,1
 Genres & Styles,Rock,Psychedelic Rock,Frances the Mute by The Mars Volta : 5.00,1
+Genres & Styles,Rock,Dream Pop,Beach House by Beach House : Unrated,1
+Genres & Styles,Rock,Ethereal,Beach House by Beach House : Unrated,1
+Genres & Styles,Rock,Indie Rock,Beach House by Beach House : Unrated,1
 Genres & Styles,Stage & Screen,Soundtrack,Nightmare Before Christmas Special Edition by Various Artists : Unrated,1
+Genres & Styles,Electronic,Abstract,Perdition City by Ulver : Unrated,1
+Genres & Styles,Electronic,Electro,Perdition City by Ulver : Unrated,1
+Genres & Styles,Electronic,Experimental,Perdition City by Ulver : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Cuando La Sangre Galopa by Jaguares : Unrated,1
 Genres & Styles,Electronic,Downtempo,Dummy by Portishead : 5.00,1
 Genres & Styles,Electronic,Trip Hop,Dummy by Portishead : 5.00,1
+Genres & Styles,Rock,Alternative Rock,In / Casino / Out by At the Drive-In : Unrated,1
+Genres & Styles,Rock,Emo,In / Casino / Out by At the Drive-In : Unrated,1
+Genres & Styles,Rock,Post-Hardcore,In / Casino / Out by At the Drive-In : Unrated,1
 Genres & Styles,Rock,Alternative Rock,The Bends by Radiohead : 4.50,1
 Genres & Styles,Funk / Soul,Contemporary R&B,channel ORANGE by Frank Ocean : Unrated,1
 Genres & Styles,Funk / Soul,Neo Soul,channel ORANGE by Frank Ocean : Unrated,1
+Genres & Styles,Hip Hop,Gangsta,AmeriKKKa's Most Wanted by Ice Cube : Unrated,1
 Genres & Styles,Rock,Alternative Rock,You Are the Quarry by Morrissey : Unrated,1
 Genres & Styles,Rock,Indie Rock,You Are the Quarry by Morrissey : Unrated,1
+Genres & Styles,Electronic,Electro,Portal 2: Songs to Test by (Collectors Edition) by Aperture Science Psychoacoustic Laboratories : Unrated,1
+Genres & Styles,Electronic,Experimental,Portal 2: Songs to Test by (Collectors Edition) by Aperture Science Psychoacoustic Laboratories : Unrated,1
+Genres & Styles,Electronic,IDM,Portal 2: Songs to Test by (Collectors Edition) by Aperture Science Psychoacoustic Laboratories : Unrated,1
+Genres & Styles,Electronic,Industrial,Portal 2: Songs to Test by (Collectors Edition) by Aperture Science Psychoacoustic Laboratories : Unrated,1
+Genres & Styles,Stage & Screen,Score,Portal 2: Songs to Test by (Collectors Edition) by Aperture Science Psychoacoustic Laboratories : Unrated,1
+Genres & Styles,Stage & Screen,Soundtrack,Portal 2: Songs to Test by (Collectors Edition) by Aperture Science Psychoacoustic Laboratories : Unrated,1
+Genres & Styles,Stage & Screen,Video Game Music,Portal 2: Songs to Test by (Collectors Edition) by Aperture Science Psychoacoustic Laboratories : Unrated,1
 Genres & Styles,Rock,Prog Rock,Animals by Pink Floyd : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Daydream Nation (Remastered Original Album) by Sonic Youth : Unrated,1
 Genres & Styles,Electronic,Noise,Daydream Nation (Remastered Original Album) by Sonic Youth : Unrated,1
 Genres & Styles,Rock,Psychedelic Rock,Lonerism by Tame Impala : Unrated,1
 Genres & Styles,Rock,Emo,Three Cheers for Sweet Revenge by My Chemical Romance : 4.50,1
 Genres & Styles,Rock,Punk,Three Cheers for Sweet Revenge by My Chemical Romance : 4.50,1
+Genres & Styles,Pop,Ballad,Celebrando 25 Años De Juan Gabriel En El Palacio De Bellas Artes by Juan Gabriel : Unrated,1
+Genres & Styles,Latin,Bolero,Celebrando 25 Años De Juan Gabriel En El Palacio De Bellas Artes by Juan Gabriel : Unrated,1
+Genres & Styles,Pop,Vocal,Celebrando 25 Años De Juan Gabriel En El Palacio De Bellas Artes by Juan Gabriel : Unrated,1
 Genres & Styles,Electronic,Abstract,( ) by Sigur Rós : Unrated,1
 Genres & Styles,Electronic,Ambient,( ) by Sigur Rós : Unrated,1
 Genres & Styles,Electronic,Experimental,( ) by Sigur Rós : Unrated,1
 Genres & Styles,Rock,Post Rock,( ) by Sigur Rós : Unrated,1
 Genres & Styles,Rock,Shoegaze,( ) by Sigur Rós : Unrated,1
+Genres & Styles,Rock,Acoustic,The Shepherd's Dog by Iron & Wine : Unrated,1
+Genres & Styles,"Folk, World, & Country",Folk,The Shepherd's Dog by Iron & Wine : Unrated,1
+Genres & Styles,Rock,Folk Rock,The Shepherd's Dog by Iron & Wine : Unrated,1
+Genres & Styles,Rock,Indie Rock,The Shepherd's Dog by Iron & Wine : Unrated,1
+Genres & Styles,Rock,Lo-Fi,The Shepherd's Dog by Iron & Wine : Unrated,1
 Genres & Styles,Electronic,Downtempo,Portishead by Portishead : Unrated,1
 Genres & Styles,Electronic,Trip Hop,Portishead by Portishead : Unrated,1
+Genres & Styles,Rock,Art Rock,Comme à la radio by Brigitte Fontaine : Unrated,1
+Genres & Styles,Rock,Avantgarde,Comme à la radio by Brigitte Fontaine : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Pablo Honey by Radiohead : 2.50,1
 Genres & Styles,Rock,Indie Rock,Pablo Honey by Radiohead : 2.50,1
 Genres & Styles,Rock,Alternative Rock,Past Masters (Vols. 1 & 2 / Remastered) by The Beatles : 4.00,1
@@ -221,35 +551,102 @@ Genres & Styles,Rock,Psychedelic Rock,Past Masters (Vols. 1 & 2 / Remastered) by
 Genres & Styles,Rock,Rock & Roll,Past Masters (Vols. 1 & 2 / Remastered) by The Beatles : 4.00,1
 Genres & Styles,Rock,Alternative Rock,Room On Fire by The Strokes : 4.00,1
 Genres & Styles,Rock,Indie Rock,Room On Fire by The Strokes : 4.00,1
+Genres & Styles,Pop,Europop,Aquarium (Special Edition) by Aqua : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Aquarium (Special Edition) by Aqua : Unrated,1
+Genres & Styles,Rock,Art Rock,Aladdin Sane (2013 Remaster) by David Bowie : Unrated,1
+Genres & Styles,Rock,Glam,Aladdin Sane (2013 Remaster) by David Bowie : Unrated,1
+Genres & Styles,Rock,Indie Rock,Is Is EP by Yeah Yeah Yeahs : Unrated,1
+Genres & Styles,Rock,New Wave,Is Is EP by Yeah Yeah Yeahs : Unrated,1
+Genres & Styles,Rock,Punk,Is Is EP by Yeah Yeah Yeahs : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Cuatro Caminos by Café Tacvba : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Eye To The Telescope by KT Tunstall : Unrated,1
+Genres & Styles,Rock,Folk Rock,Eye To The Telescope by KT Tunstall : Unrated,1
+Genres & Styles,Rock,Alternative Rock,De Stijl by The White Stripes : Unrated,1
+Genres & Styles,Rock,Garage Rock,De Stijl by The White Stripes : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Galore - The Singles 1987-1997 by The Cure : Unrated,1
 Genres & Styles,Rock,New Wave,Galore - The Singles 1987-1997 by The Cure : Unrated,1
 Genres & Styles,Electronic,Synth-pop,Galore - The Singles 1987-1997 by The Cure : Unrated,1
 Genres & Styles,Hip Hop,Hardcore Hip-Hop,Liquid Swords by GZA : Unrated,1
+Genres & Styles,Hip Hop,Boom Bap,Illmatic by Nas : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Illmatic by Nas : Unrated,1
 Genres & Styles,Electronic,Experimental,Homogenic by Björk : 4.00,1
 Genres & Styles,Rock,Beat,Please Please Me (Remastered) by The Beatles : 4.00,1
 Genres & Styles,Pop,Vocal,Please Please Me (Remastered) by The Beatles : 4.00,1
+Genres & Styles,Rock,Beat,Anthology 2 by The Beatles : Unrated,1
+Genres & Styles,Rock,Pop Rock,Anthology 2 by The Beatles : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,Anthology 2 by The Beatles : Unrated,1
+Genres & Styles,Rock,Rock & Roll,Anthology 2 by The Beatles : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Show Your Bones by Yeah Yeah Yeahs : Unrated,1
+Genres & Styles,Rock,Indie Rock,Show Your Bones by Yeah Yeah Yeahs : Unrated,1
 Genres & Styles,Rock,Britpop,Different Class by Pulp : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Paid In Full by Eric B. & Rakim : Unrated,1
 Genres & Styles,Rock,Indie Rock,Let's Get Out Of This Country by Camera Obscura : 5.00,1
 Genres & Styles,Rock,Pop Rock,Let's Get Out Of This Country by Camera Obscura : 5.00,1
+Genres & Styles,Rock,Alternative Rock,The Downward Spiral by Nine Inch Nails : Unrated,1
+Genres & Styles,Electronic,Industrial,The Downward Spiral by Nine Inch Nails : Unrated,1
+Genres & Styles,Rock,Industrial Metal,The Downward Spiral by Nine Inch Nails : Unrated,1
+Genres & Styles,Rock,Alternative Rock,ep’s 1988-1991 and rare tracks by my bloody valentine : Unrated,1
+Genres & Styles,Rock,Shoegaze,ep’s 1988-1991 and rare tracks by my bloody valentine : Unrated,1
 Genres & Styles,Electronic,Downtempo,Post by Björk : 4.50,1
 Genres & Styles,Electronic,Trip Hop,Post by Björk : 4.50,1
 Genres & Styles,Rock,Classic Rock,Revolver (Remastered) by The Beatles : 4.50,1
 Genres & Styles,Pop,Vocal,Revolver (Remastered) by The Beatles : 4.50,1
+Genres & Styles,Electronic,Ambient,Zauberberg by GAS : Unrated,1
+Genres & Styles,Electronic,Modern Classical,Zauberberg by GAS : Unrated,1
+Genres & Styles,Electronic,Techno,Zauberberg by GAS : Unrated,1
 Genres & Styles,Rock,Alternative Rock,On Avery Island by Neutral Milk Hotel : 4.50,1
 Genres & Styles,Rock,Indie Rock,On Avery Island by Neutral Milk Hotel : 4.50,1
 Genres & Styles,Rock,Lo-Fi,On Avery Island by Neutral Milk Hotel : 4.50,1
+Genres & Styles,Rock,Pop Rock,El Ultimo Concierto A (Remastered) by Soda Stereo : Unrated,1
+Genres & Styles,Rock,Indie Rock,在動物園散步才是正經事 by my little airport : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Get Behind Me Satan by The White Stripes : Unrated,1
+Genres & Styles,Rock,Blues Rock,Get Behind Me Satan by The White Stripes : Unrated,1
+Genres & Styles,Electronic,Abstract,Girl/Boy EP by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Drum n Bass,Girl/Boy EP by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,IDM,Girl/Boy EP by Aphex Twin : Unrated,1
 Genres & Styles,Hip Hop,Boom Bap,Enter The Wu-Tang (36 Chambers) [Expanded Edition] by Wu-Tang Clan : 5.00,1
 Genres & Styles,Hip Hop,Hardcore Hip-Hop,Enter The Wu-Tang (36 Chambers) [Expanded Edition] by Wu-Tang Clan : 5.00,1
 Genres & Styles,Rock,Indie Rock,Dig Me Out (Remastered) by Sleater-Kinney : 4.00,1
-Genres & Styles,Rock,Alternative Rock,Vauxhall And I by Morrissey : Unrated,1
+Genres & Styles,Rock,Emo,Riot! by Paramore : Unrated,1
+Genres & Styles,Rock,Pop Rock,Riot! by Paramore : Unrated,1
+Genres & Styles,Rock,Alternative Rock,loveless by my bloody valentine : Unrated,1
+Genres & Styles,Rock,Shoegaze,loveless by my bloody valentine : Unrated,1
+Genres & Styles,Rock,Indie Rock,I Can Hear The Heart Beating As One by Yo La Tengo : Unrated,1
+Genres & Styles,Rock,Post Rock,Enjoy Eternal Bliss by Yndi Halda : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Diary (2009 Edition) by Sunny Day Real Estate : Unrated,1
 Genres & Styles,Rock,Emo,Diary (2009 Edition) by Sunny Day Real Estate : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Siamese Dream (2011 - Remaster) by The Smashing Pumpkins : Unrated,1
+Genres & Styles,"Folk, World, & Country",Country,A Very She & Him Christmas by She & Him : Unrated,1
+Genres & Styles,"Folk, World, & Country",Folk,A Very She & Him Christmas by She & Him : Unrated,1
+Genres & Styles,Pop,Holiday,A Very She & Him Christmas by She & Him : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Globoscopio by Azul Violeta : Unrated,1
+Genres & Styles,Rock,Hard Rock,Globoscopio by Azul Violeta : Unrated,1
 Genres & Styles,Electronic,Electro,Computer World (2009 Remaster) by Kraftwerk : Unrated,1
 Genres & Styles,Electronic,Synth-pop,Computer World (2009 Remaster) by Kraftwerk : Unrated,1
+Genres & Styles,Rock,Indie Rock,Wounded Rhymes by Lykke Li : Unrated,1
+Genres & Styles,Rock,Pop Rock,Wounded Rhymes by Lykke Li : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Rocanlover by Zoé : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Louder Than Bombs by The Smiths : Unrated,1
+Genres & Styles,Rock,Indie Rock,Louder Than Bombs by The Smiths : Unrated,1
 Genres & Styles,Rock,Prog Rock,Meddle by Pink Floyd : Unrated,1
 Genres & Styles,Rock,Psychedelic Rock,Meddle by Pink Floyd : Unrated,1
+Genres & Styles,Electronic,Ambient,Twoism by Boards of Canada : Unrated,1
+Genres & Styles,Electronic,IDM,Twoism by Boards of Canada : Unrated,1
+Genres & Styles,"Folk, World, & Country",Country,Volume Two by She & Him : Unrated,1
+Genres & Styles,Rock,Country Rock,Volume Two by She & Him : Unrated,1
+Genres & Styles,"Folk, World, & Country",Folk,Volume Two by She & Him : Unrated,1
+Genres & Styles,Rock,Indie Rock,Volume Two by She & Him : Unrated,1
+Genres & Styles,Electronic,Dance-pop,Like a Prayer by Madonna : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Like a Prayer by Madonna : Unrated,1
 Genres & Styles,Rock,Art Rock,The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster) by David Bowie : 5.00,1
 Genres & Styles,Rock,Glam,The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster) by David Bowie : 5.00,1
+Genres & Styles,Rock,Post Rock,The Earth Is Not a Cold Dead Place by Explosions In The Sky : Unrated,1
+Genres & Styles,Electronic,Experimental,Yoshimi Battles the Pink Robots by The Flaming Lips : Unrated,1
+Genres & Styles,Rock,Indie Rock,Yoshimi Battles the Pink Robots by The Flaming Lips : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Yoshimi Battles the Pink Robots by The Flaming Lips : Unrated,1
+Genres & Styles,Electronic,Downtempo,Mezzanine by Massive Attack : Unrated,1
+Genres & Styles,Electronic,Trip Hop,Mezzanine by Massive Attack : Unrated,1
+Genres & Styles,Rock,Black Metal,Transilvanian Hunger by Darkthrone : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Third by Portishead : Unrated,1
 Genres & Styles,Electronic,Experimental,Third by Portishead : Unrated,1
 Genres & Styles,Rock,Lo-Fi,Third by Portishead : Unrated,1
@@ -257,33 +654,90 @@ Genres & Styles,Electronic,Trip Hop,Third by Portishead : Unrated,1
 Genres & Styles,Electronic,Experimental,Ruby Blue by Róisín Murphy : Unrated,1
 Genres & Styles,Electronic,Future Jazz,Ruby Blue by Róisín Murphy : Unrated,1
 Genres & Styles,Electronic,Leftfield,Ruby Blue by Róisín Murphy : Unrated,1
+Genres & Styles,Rock,Alternative Rock,X&Y by Coldplay : Unrated,1
+Genres & Styles,Rock,Pop Rock,X&Y by Coldplay : Unrated,1
+Genres & Styles,Rock,Acoustic,Sung Tongs by Animal Collective : Unrated,1
+Genres & Styles,Electronic,Experimental,Sung Tongs by Animal Collective : Unrated,1
+Genres & Styles,Rock,Indie Rock,Sung Tongs by Animal Collective : Unrated,1
 Genres & Styles,Hip Hop,Conscious,DAMN. by Kendrick Lamar : Unrated,1
+Genres & Styles,Pop,Indie Pop,Love Is Dead by CHVRCHES : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Love Is Dead by CHVRCHES : Unrated,1
+Genres & Styles,Electronic,Big Beat,The Fat of the Land by The Prodigy : Unrated,1
+Genres & Styles,Electronic,Breakbeat,The Fat of the Land by The Prodigy : Unrated,1
+Genres & Styles,Electronic,Breaks,The Fat of the Land by The Prodigy : Unrated,1
 Genres & Styles,Electronic,Techno,Justice by Justice : Unrated,1
 Genres & Styles,Rock,Alternative Rock,My Iron Lung by Radiohead : 4.00,1
-Genres & Styles,Rock,Alternative Rock,Kill Uncle by Morrissey : Unrated,1
-Genres & Styles,Rock,Indie Rock,Viva Hate by Morrissey : 4.50,1
+Genres & Styles,Rock,Alternative Rock,Neon Bible by Arcade Fire : Unrated,1
+Genres & Styles,Rock,Indie Rock,Neon Bible by Arcade Fire : Unrated,1
+Genres & Styles,Electronic,Electro,Celebration (Bonus Track Version) by Madonna : Unrated,1
+Genres & Styles,Electronic,House,Celebration (Bonus Track Version) by Madonna : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Celebration (Bonus Track Version) by Madonna : Unrated,1
+Genres & Styles,Pop,Indie Pop,The Fallen Aristocracy EP by Northern Portrait : Unrated,1
+Genres & Styles,Rock,Indie Rock,The Fallen Aristocracy EP by Northern Portrait : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Machina / The Machines Of God by The Smashing Pumpkins : Unrated,1
+Genres & Styles,Rock,Alternative Rock,"""Heroes"" (2017 Remaster) by David Bowie : Unrated",1
+Genres & Styles,Rock,Art Rock,"""Heroes"" (2017 Remaster) by David Bowie : Unrated",1
+Genres & Styles,Electronic,Experimental,"""Heroes"" (2017 Remaster) by David Bowie : Unrated",1
 Genres & Styles,Pop,Baroque Pop,Life by The Cardigans : Unrated,1
 Genres & Styles,Pop,Indie Pop,Life by The Cardigans : Unrated,1
+Genres & Styles,Rock,Pop Rock,Anthology 3 by The Beatles : Unrated,1
+Genres & Styles,Rock,Rock & Roll,Anthology 3 by The Beatles : Unrated,1
 Genres & Styles,Pop,Indie Pop,Begin to Hope by Regina Spektor : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Rage Against The Machine by Rage Against The Machine : 5.00,1
 Genres & Styles,Rock,Funk Metal,Rage Against The Machine by Rage Against The Machine : 5.00,1
+Genres & Styles,Rock,Alternative Rock,V the Volcanic by Kristeen Young : Unrated,1
 Genres & Styles,Rock,Prog Rock,The Dark Side of the Moon by Pink Floyd : 4.00,1
 Genres & Styles,Rock,Psychedelic Rock,The Dark Side of the Moon by Pink Floyd : 4.00,1
+Genres & Styles,Rock,Alternative Rock,Let It Be (Expanded) by The Replacements : Unrated,1
+Genres & Styles,Rock,Lo-Fi,Let It Be (Expanded) by The Replacements : Unrated,1
+Genres & Styles,Rock,Punk,Let It Be (Expanded) by The Replacements : Unrated,1
+Genres & Styles,Rock,Rock & Roll,Let It Be (Expanded) by The Replacements : Unrated,1
 Genres & Styles,Electronic,Disco,Random Access Memories by Daft Punk : 4.50,1
 Genres & Styles,Electronic,Electro,Random Access Memories by Daft Punk : 4.50,1
 Genres & Styles,Funk / Soul,Funk,Random Access Memories by Daft Punk : 4.50,1
 Genres & Styles,Electronic,Synth-pop,Random Access Memories by Daft Punk : 4.50,1
+Genres & Styles,Electronic,Hardcore,Bambi's Dilemma by Melt-Banana : Unrated,1
+Genres & Styles,Electronic,Noise,Bambi's Dilemma by Melt-Banana : Unrated,1
+Genres & Styles,Rock,Punk,Bambi's Dilemma by Melt-Banana : Unrated,1
+Genres & Styles,Electronic,Electro House,Random Album Title by deadmau5 : Unrated,1
+Genres & Styles,Electronic,House,Random Album Title by deadmau5 : Unrated,1
+Genres & Styles,Electronic,Minimal,Random Album Title by deadmau5 : Unrated,1
+Genres & Styles,Electronic,Progressive House,Random Album Title by deadmau5 : Unrated,1
+Genres & Styles,Electronic,Trance,Random Album Title by deadmau5 : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Heathen Chemistry by Oasis : Unrated,1
+Genres & Styles,Rock,Britpop,Heathen Chemistry by Oasis : Unrated,1
+Genres & Styles,Rock,Indie Rock,Heathen Chemistry by Oasis : Unrated,1
 Genres & Styles,Pop,Indie Pop,The Bones of What You Believe (Special Edition) by CHVRCHES : 5.00,1
 Genres & Styles,Electronic,Synth-pop,The Bones of What You Believe (Special Edition) by CHVRCHES : 5.00,1
+Genres & Styles,Rock,Blues Rock,The White Stripes by The White Stripes : Unrated,1
+Genres & Styles,Rock,Garage Rock,The White Stripes by The White Stripes : Unrated,1
+Genres & Styles,Rock,Indie Rock,The White Stripes by The White Stripes : Unrated,1
+Genres & Styles,Rock,Pop Punk,Café Tacvba by Café Tacvba : Unrated,1
+Genres & Styles,Rock,Pop Rock,Café Tacvba by Café Tacvba : Unrated,1
+Genres & Styles,Rock,Art Rock,Fear of Music by Talking Heads : Unrated,1
+Genres & Styles,Rock,New Wave,Fear of Music by Talking Heads : Unrated,1
+Genres & Styles,Rock,Post-Punk,Fear of Music by Talking Heads : Unrated,1
+Genres & Styles,Hip Hop,Boom Bap,Wu-Tang Forever by Wu-Tang Clan : Unrated,1
+Genres & Styles,Hip Hop,Hardcore Hip-Hop,Wu-Tang Forever by Wu-Tang Clan : Unrated,1
 Genres & Styles,Rock,Pop Rock,All Things Must Pass (2014 Remaster) by George Harrison : Unrated,1
+Genres & Styles,Rock,Death Metal,Mental Funeral by Autopsy : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Turn On The Bright Lights by Interpol : Unrated,1
 Genres & Styles,Rock,Indie Rock,Turn On The Bright Lights by Interpol : Unrated,1
 Genres & Styles,Rock,Post-Punk,Turn On The Bright Lights by Interpol : Unrated,1
+Genres & Styles,Electronic,Ambient,Geogaddi by Boards of Canada : Unrated,1
+Genres & Styles,Electronic,IDM,Geogaddi by Boards of Canada : Unrated,1
 Genres & Styles,Hip Hop,Hardcore Hip-Hop,Return to the 36 Chambers: The Dirty Version by Ol' Dirty Bastard : Unrated,1
 Genres & Styles,Hip Hop,Cut-up/DJ,Endtroducing..... by DJ Shadow : Unrated,1
 Genres & Styles,Electronic,Downtempo,Endtroducing..... by DJ Shadow : Unrated,1
 Genres & Styles,Hip Hop,Instrumental,Endtroducing..... by DJ Shadow : Unrated,1
 Genres & Styles,Electronic,Trip Hop,Endtroducing..... by DJ Shadow : Unrated,1
+Genres & Styles,Electronic,Dub,Gorillaz by Gorillaz : Unrated,1
+Genres & Styles,Electronic,Experimental,Gorillaz by Gorillaz : Unrated,1
+Genres & Styles,Electronic,Leftfield,Gorillaz by Gorillaz : Unrated,1
+Genres & Styles,Rock,Lo-Fi,Gorillaz by Gorillaz : Unrated,1
+Genres & Styles,Rock,Punk,Gorillaz by Gorillaz : Unrated,1
+Genres & Styles,Electronic,Trip Hop,Gorillaz by Gorillaz : Unrated,1
+Genres & Styles,Electronic,UK Garage,Gorillaz by Gorillaz : Unrated,1
 Genres & Styles,Electronic,Experimental,Strawberry Jam by Animal Collective : 4.50,1
 Genres & Styles,Rock,Indie Rock,Strawberry Jam by Animal Collective : 4.50,1
 Genres & Styles,Electronic,Abstract,Vespertine by Björk : Unrated,1
@@ -299,29 +753,117 @@ Genres & Styles,Rock,Indie Rock,If You're Feeling Sinister by Belle and Sebastia
 Genres & Styles,Hip Hop,Conscious,The College Dropout by Kanye West : Unrated,1
 Genres & Styles,Funk / Soul,Contemporary R&B,The College Dropout by Kanye West : Unrated,1
 Genres & Styles,Hip Hop,Pop Rap,The College Dropout by Kanye West : Unrated,1
+Genres & Styles,Rock,Britpop,Be Here Now (Remastered) by Oasis : Unrated,1
+Genres & Styles,Rock,Prog Rock,Larks' Tongues In Aspic (Expanded & Remastered Original Album Mix) by King Crimson : Unrated,1
+Genres & Styles,Electronic,Disco,Overpowered by Róisín Murphy : Unrated,1
+Genres & Styles,Funk / Soul,Funk,Overpowered by Róisín Murphy : Unrated,1
+Genres & Styles,Electronic,House,Overpowered by Róisín Murphy : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Overpowered by Róisín Murphy : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Born To Die by Lana Del Rey : Unrated,1
+Genres & Styles,Pop,Baroque Pop,Born To Die by Lana Del Rey : Unrated,1
+Genres & Styles,Rock,Dream Pop,Born To Die by Lana Del Rey : Unrated,1
+Genres & Styles,Pop,Indie Pop,Born To Die by Lana Del Rey : Unrated,1
+Genres & Styles,Electronic,Trip Hop,Born To Die by Lana Del Rey : Unrated,1
+Genres & Styles,Electronic,Downtempo,200 KM/H In The Wrong Lane (10th Anniversary Edition) by t.A.T.u. : Unrated,1
+Genres & Styles,Electronic,Synth-pop,200 KM/H In The Wrong Lane (10th Anniversary Edition) by t.A.T.u. : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Without You I'm Nothing by Placebo : Unrated,1
+Genres & Styles,Rock,Art Rock,The Eraser by Thom Yorke : Unrated,1
+Genres & Styles,Electronic,Electro,The Eraser by Thom Yorke : Unrated,1
+Genres & Styles,Electronic,Experimental,The Eraser by Thom Yorke : Unrated,1
+Genres & Styles,Electronic,IDM,The Eraser by Thom Yorke : Unrated,1
+Genres & Styles,Electronic,Leftfield,The Eraser by Thom Yorke : Unrated,1
 Genres & Styles,Rock,Art Rock,The Velvet Underground & Nico 45th Anniversary by The Velvet Underground : 5.00,1
 Genres & Styles,Electronic,Experimental,The Velvet Underground & Nico 45th Anniversary by The Velvet Underground : 5.00,1
 Genres & Styles,Rock,Psychedelic Rock,The Velvet Underground & Nico 45th Anniversary by The Velvet Underground : 5.00,1
+Genres & Styles,Rock,Alternative Rock,"Brother, Sister by mewithoutYou : Unrated",1
+Genres & Styles,Rock,Indie Rock,"Brother, Sister by mewithoutYou : Unrated",1
+Genres & Styles,Rock,Alternative Rock,SINO by Café Tacvba : Unrated,1
 Genres & Styles,Funk / Soul,Contemporary R&B,After Hours by The Weeknd : Unrated,1
 Genres & Styles,Electronic,Disco,After Hours by The Weeknd : Unrated,1
 Genres & Styles,Rock,New Wave,After Hours by The Weeknd : Unrated,1
 Genres & Styles,Hip Hop,Pop Rap,After Hours by The Weeknd : Unrated,1
 Genres & Styles,Electronic,Synth-pop,After Hours by The Weeknd : Unrated,1
 Genres & Styles,Electronic,Synthwave,After Hours by The Weeknd : Unrated,1
+Genres & Styles,Electronic,Acid Jazz,Travelling Without Moving (Remastered) by Jamiroquai : Unrated,1
+Genres & Styles,Electronic,Disco,Travelling Without Moving (Remastered) by Jamiroquai : Unrated,1
+Genres & Styles,Funk / Soul,Funk,Travelling Without Moving (Remastered) by Jamiroquai : Unrated,1
+Genres & Styles,Funk / Soul,Soul,Travelling Without Moving (Remastered) by Jamiroquai : Unrated,1
+Genres & Styles,Rock,Black Metal,Scorn Defeat (Special Edition) by Sigh : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Surfer Rosa by Pixies : Unrated,1
 Genres & Styles,Rock,Pop Rock,Rubber Soul (Remastered) by The Beatles : 4.50,1
+Genres & Styles,Rock,Alternative Rock,Definitely Maybe (Remastered) by Oasis : Unrated,1
+Genres & Styles,Rock,Britpop,Definitely Maybe (Remastered) by Oasis : Unrated,1
 Genres & Styles,Rock,Indie Rock,"Whatever People Say I Am, That's What I'm Not by Arctic Monkeys : 4.00",1
 Genres & Styles,Rock,Dream Pop,Teen Dream by Beach House : 5.00,1
 Genres & Styles,Rock,Indie Rock,Teen Dream by Beach House : 5.00,1
+Genres & Styles,Rock,Alternative Rock,Rain Dogs (2023 Remaster) by Tom Waits : Unrated,1
+Genres & Styles,Rock,Blues Rock,Rain Dogs (2023 Remaster) by Tom Waits : Unrated,1
+Genres & Styles,Electronic,Experimental,Rain Dogs (2023 Remaster) by Tom Waits : Unrated,1
+Genres & Styles,Jazz,Jazz-Rock,Rain Dogs (2023 Remaster) by Tom Waits : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Urban Hymns (Remastered 2016) by The Verve : Unrated,1
+Genres & Styles,Rock,Britpop,Urban Hymns (Remastered 2016) by The Verve : Unrated,1
 Genres & Styles,Rock,Dream Pop,Souvlaki by Slowdive : Unrated,1
 Genres & Styles,Rock,Indie Rock,Souvlaki by Slowdive : Unrated,1
 Genres & Styles,Rock,Shoegaze,Souvlaki by Slowdive : Unrated,1
+Genres & Styles,Rock,Heavy Metal,Metallica (Remastered) by Metallica : Unrated,1
+Genres & Styles,Rock,Thrash,Metallica (Remastered) by Metallica : Unrated,1
+Genres & Styles,Rock,Pop Rock,First Band On The Moon (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Britpop,Don't Believe The Truth by Oasis : Unrated,1
+Genres & Styles,Rock,Indie Rock,Don't Believe The Truth by Oasis : Unrated,1
+Genres & Styles,Rock,Rock & Roll,Don't Believe The Truth by Oasis : Unrated,1
+Genres & Styles,Funk / Soul,Gospel,Ladies and gentlemen we are floating in space by Spiritualized : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,Ladies and gentlemen we are floating in space by Spiritualized : Unrated,1
+Genres & Styles,Pop,Ballad,Greatest Hits: My Prerogative by Britney Spears : 3.50,1
+Genres & Styles,Funk / Soul,Contemporary R&B,Greatest Hits: My Prerogative by Britney Spears : 3.50,1
+Genres & Styles,Electronic,House,Greatest Hits: My Prerogative by Britney Spears : 3.50,1
+Genres & Styles,Electronic,Synth-pop,Greatest Hits: My Prerogative by Britney Spears : 3.50,1
+Genres & Styles,Pop,Vocal,Greatest Hits: My Prerogative by Britney Spears : 3.50,1
+Genres & Styles,Rock,Hard Rock,Songs For The Deaf by Queens of the Stone Age : Unrated,1
+Genres & Styles,Rock,Stoner Rock,Songs For The Deaf by Queens of the Stone Age : Unrated,1
+Genres & Styles,Electronic,Dance-pop,The Fame Monster by Lady Gaga : Unrated,1
+Genres & Styles,Pop,Europop,The Fame Monster by Lady Gaga : Unrated,1
+Genres & Styles,Electronic,Abstract,Windowlicker by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Ambient,Windowlicker by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Electro,Windowlicker by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Experimental,Windowlicker by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,IDM,Windowlicker by Aphex Twin : Unrated,1
+Genres & Styles,Rock,Acoustic,"Exuma, The Obeah Man by Exuma : Unrated",1
+Genres & Styles,Funk / Soul,Gospel,"Exuma, The Obeah Man by Exuma : Unrated",1
+Genres & Styles,Reggae,Junkanoo,"Exuma, The Obeah Man by Exuma : Unrated",1
+Genres & Styles,Funk / Soul,Psychedelic,"Exuma, The Obeah Man by Exuma : Unrated",1
+Genres & Styles,Rock,Alternative Rock,Ten by Pearl Jam : Unrated,1
+Genres & Styles,Rock,Grunge,Ten by Pearl Jam : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Darklands (Expanded Version) by The Jesus and Mary Chain : Unrated,1
+Genres & Styles,Rock,Indie Rock,Darklands (Expanded Version) by The Jesus and Mary Chain : Unrated,1
+Genres & Styles,Hip Hop,Gangsta,Music To Driveby by Compton's Most Wanted : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Með suð í eyrum við spilum endalaust by Sigur Rós : Unrated,1
+Genres & Styles,Electronic,Experimental,Með suð í eyrum við spilum endalaust by Sigur Rós : Unrated,1
+Genres & Styles,Rock,Indie Rock,Með suð í eyrum við spilum endalaust by Sigur Rós : Unrated,1
+Genres & Styles,Rock,Post Rock,Með suð í eyrum við spilum endalaust by Sigur Rós : Unrated,1
+Genres & Styles,Rock,Classic Rock,The Wall by Pink Floyd : Unrated,1
+Genres & Styles,Rock,Prog Rock,The Wall by Pink Floyd : Unrated,1
+Genres & Styles,Electronic,Ambient,ANIMA by Thom Yorke : Unrated,1
+Genres & Styles,Electronic,Experimental,ANIMA by Thom Yorke : Unrated,1
+Genres & Styles,Electronic,IDM,ANIMA by Thom Yorke : Unrated,1
+Genres & Styles,Rock,New Wave,Unknown Pleasures by Joy Division : Unrated,1
+Genres & Styles,Rock,Post-Punk,Unknown Pleasures by Joy Division : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Gran Turismo (Remastered) by The Cardigans : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Meat Is Murder by The Smiths : 4.50,1
 Genres & Styles,Rock,Indie Rock,Meat Is Murder by The Smiths : 4.50,1
+Genres & Styles,Electronic,Downtempo,Moon Safari by Air : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Moon Safari by Air : Unrated,1
+Genres & Styles,Stage & Screen,Soundtrack,Fallout 3: Original Game Soundtrack by Inon Zur : Unrated,1
+Genres & Styles,Stage & Screen,Video Game Music,Fallout 3: Original Game Soundtrack by Inon Zur : Unrated,1
+Genres & Styles,Rock,Art Rock,The Sensual World (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Pop Rock,The Sensual World (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Prog Rock,The Sensual World (2018 Remaster) by Kate Bush : Unrated,1
 Genres & Styles,Rock,Indie Rock,Vampire Weekend by Vampire Weekend : Unrated,1
 Genres & Styles,Hip Hop,Instrumental,Donuts by J Dilla : Unrated,1
-Genres & Styles,Rock,Art Rock,Hounds Of Love by Kate Bush : 4.50,1
-Genres & Styles,Electronic,Experimental,Hounds Of Love by Kate Bush : 4.50,1
-Genres & Styles,Rock,Pop Rock,Hounds Of Love by Kate Bush : 4.50,1
+Genres & Styles,Electronic,Synth-pop,GHV2 by Madonna : Unrated,1
+Genres & Styles,Rock,Art Rock,Scary Monsters (And Super Creeps) [2017 Remaster] by David Bowie : Unrated,1
+Genres & Styles,Rock,Avantgarde,Scary Monsters (And Super Creeps) [2017 Remaster] by David Bowie : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Violator (2006 Remaster) by Depeche Mode : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Black On Both Sides by Mos Def : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Clarity by Jimmy Eat World : Unrated,1
 Genres & Styles,Rock,Emo,Clarity by Jimmy Eat World : Unrated,1
 Genres & Styles,Rock,Pop Rock,Donde Estan Los Ladrones by Shakira : Unrated,1
@@ -330,6 +872,7 @@ Genres & Styles,Rock,Acoustic,Either/Or by Elliott Smith : 5.00,1
 Genres & Styles,Rock,Indie Rock,Either/Or by Elliott Smith : 5.00,1
 Genres & Styles,Rock,Lo-Fi,Either/Or by Elliott Smith : 5.00,1
 Genres & Styles,Rock,Pop Rock,Emmerdale by The Cardigans : Unrated,1
+Genres & Styles,Rock,Pop Rock,The Best Of 1990-2000 by U2 : Unrated,1
 Genres & Styles,Hip Hop,G-Funk,Doggystyle by Snoop Dogg : Unrated,1
 Genres & Styles,Hip Hop,Gangsta,Doggystyle by Snoop Dogg : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Tasty + B Sides by Plastilina Mosh : Unrated,1
@@ -337,22 +880,48 @@ Genres & Styles,Rock,Alternative Rock,Staring At The Sea - The Singles by The Cu
 Genres & Styles,Rock,New Wave,Staring At The Sea - The Singles by The Cure : Unrated,1
 Genres & Styles,Rock,Pop Rock,Staring At The Sea - The Singles by The Cure : Unrated,1
 Genres & Styles,Rock,Post-Punk,Staring At The Sea - The Singles by The Cure : Unrated,1
+Genres & Styles,Rock,Heavy Metal,Lateralus by TOOL : Unrated,1
+Genres & Styles,Rock,Prog Rock,Lateralus by TOOL : Unrated,1
 Genres & Styles,Rock,Ethereal,Heaven or Las Vegas by Cocteau Twins : 5.00,1
+Genres & Styles,Rock,Alternative Rock,Vauxhall and I (20th Anniversary Definitive Master) by Morrissey : Unrated,1
 Genres & Styles,Hip Hop,Conscious,Late Registration by Kanye West : Unrated,1
 Genres & Styles,Hip Hop,Pop Rap,Late Registration by Kanye West : Unrated,1
+Genres & Styles,Rock,Alternative Rock,America by Azul Violeta : Unrated,1
+Genres & Styles,Rock,Hard Rock,America by Azul Violeta : Unrated,1
+Genres & Styles,Rock,Indie Rock,The Lonesome Crowded West by Modest Mouse : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Hail To the Thief by Radiohead : 4.00,1
 Genres & Styles,Electronic,Experimental,Hail To the Thief by Radiohead : 4.00,1
-Genres & Styles,Rock,Art Rock,The Kick Inside by Kate Bush : 5.00,1
-Genres & Styles,Rock,Pop Rock,The Kick Inside by Kate Bush : 5.00,1
+Genres & Styles,Rock,Alternative Rock,Achtung Baby by U2 : Unrated,1
+Genres & Styles,Rock,Pop Rock,Achtung Baby by U2 : Unrated,1
 Genres & Styles,Rock,Acoustic,Bergtatt by Ulver : Unrated,1
 Genres & Styles,Rock,Black Metal,Bergtatt by Ulver : Unrated,1
 Genres & Styles,Electronic,Experimental,Bergtatt by Ulver : Unrated,1
 Genres & Styles,Rock,Folk Rock,Bergtatt by Ulver : Unrated,1
+Genres & Styles,Rock,Prog Rock,Amputechture by The Mars Volta : Unrated,1
+Genres & Styles,Electronic,Electro,Trip The Light Fantastic (International Version) by Sophie Ellis-Bextor : Unrated,1
+Genres & Styles,Pop,Europop,Trip The Light Fantastic (International Version) by Sophie Ellis-Bextor : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Trip The Light Fantastic (International Version) by Sophie Ellis-Bextor : Unrated,1
+Genres & Styles,Hip Hop,Pop Rap,Curtain Call: The Hits (Deluxe Edition) by Eminem : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Bona Drag by Morrissey : Unrated,1
+Genres & Styles,Hip Hop,Boom Bap,Big Shots by Charizma : Unrated,1
+Genres & Styles,Stage & Screen,Soundtrack,FINAL FANTASY X Original Soundtrack by SQUARE ENIX MUSIC : Unrated,1
+Genres & Styles,Stage & Screen,Video Game Music,FINAL FANTASY X Original Soundtrack by SQUARE ENIX MUSIC : Unrated,1
+Genres & Styles,Rock,Indie Rock,The Moon & Antarctica by Modest Mouse : Unrated,1
+Genres & Styles,Rock,Glam,Transformer by Lou Reed : Unrated,1
 Genres & Styles,Electronic,IDM,LP5 by Autechre : 4.00,1
+Genres & Styles,Electronic,Disco,Homework by Daft Punk : Unrated,1
+Genres & Styles,Electronic,Electro,Homework by Daft Punk : Unrated,1
+Genres & Styles,Electronic,French House,Homework by Daft Punk : Unrated,1
+Genres & Styles,Electronic,House,Homework by Daft Punk : Unrated,1
+Genres & Styles,Electronic,Techno,Homework by Daft Punk : Unrated,1
+Genres & Styles,Rock,Pop Rock,The Joshua Tree by U2 : Unrated,1
+Genres & Styles,Rock,Ska,El Circo by Maldita Vecindad Y Los Hijos Del 5to. Patio : Unrated,1
 Genres & Styles,Rock,Alternative Rock,In Rainbows by Radiohead : 5.00,1
 Genres & Styles,Rock,Art Rock,In Rainbows by Radiohead : 5.00,1
 Genres & Styles,Electronic,Experimental,In Rainbows by Radiohead : 5.00,1
 Genres & Styles,Rock,Indie Rock,In Rainbows by Radiohead : 5.00,1
+Genres & Styles,Electronic,Experimental,Honeycomb / Gotham by Animal Collective : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,Honeycomb / Gotham by Animal Collective : Unrated,1
 Genres & Styles,Rock,Britpop,Be Here Now by Oasis : Unrated,1
 Genres & Styles,Pop,Ballad,Norman Fucking Rockwell! by Lana Del Rey : Unrated,1
 Genres & Styles,Rock,Classic Rock,Norman Fucking Rockwell! by Lana Del Rey : Unrated,1
@@ -363,64 +932,150 @@ Genres & Styles,Rock,Soft Rock,Norman Fucking Rockwell! by Lana Del Rey : Unrate
 Genres & Styles,Electronic,Trip Hop,Norman Fucking Rockwell! by Lana Del Rey : Unrated,1
 Genres & Styles,Rock,Indie Rock,The Queen Is Dead by The Smiths : 5.00,1
 Genres & Styles,Rock,Jangle Pop,The Queen Is Dead by The Smiths : 5.00,1
-Genres & Styles,Rock,Alternative Rock,Definitely Maybe by Oasis : Unrated,1
-Genres & Styles,Rock,Britpop,Definitely Maybe by Oasis : Unrated,1
+Genres & Styles,Electronic,Experimental,Mapmaker by Parts & Labor : Unrated,1
+Genres & Styles,Rock,Indie Rock,Mapmaker by Parts & Labor : Unrated,1
+Genres & Styles,Rock,Blues Rock,Electric Ladyland by Jimi Hendrix : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,Electric Ladyland by Jimi Hendrix : Unrated,1
 Genres & Styles,Funk / Soul,Contemporary R&B,"IGOR by Tyler, The Creator : 5.00",1
 Genres & Styles,Funk / Soul,Neo Soul,"IGOR by Tyler, The Creator : 5.00",1
+Genres & Styles,Electronic,Downtempo,Here Comes The Fuzz by Mark Ronson : Unrated,1
+Genres & Styles,Funk / Soul,Funk,Here Comes The Fuzz by Mark Ronson : Unrated,1
+Genres & Styles,Electronic,Hip Hop,Here Comes The Fuzz by Mark Ronson : Unrated,1
+Genres & Styles,Electronic,House,Here Comes The Fuzz by Mark Ronson : Unrated,1
+Genres & Styles,Funk / Soul,Soul,Here Comes The Fuzz by Mark Ronson : Unrated,1
+Genres & Styles,Electronic,Abstract,Volta by Björk : Unrated,1
+Genres & Styles,Pop,Ballad,Volta by Björk : Unrated,1
+Genres & Styles,Electronic,Electro,Volta by Björk : Unrated,1
+Genres & Styles,Electronic,Leftfield,Volta by Björk : Unrated,1
+Genres & Styles,Electronic,Tribal,Volta by Björk : Unrated,1
 Genres & Styles,Electronic,Abstract,Person Pitch by Panda Bear : Unrated,1
 Genres & Styles,Electronic,Experimental,Person Pitch by Panda Bear : Unrated,1
 Genres & Styles,Rock,Indie Rock,Person Pitch by Panda Bear : Unrated,1
 Genres & Styles,Rock,Lo-Fi,Person Pitch by Panda Bear : Unrated,1
+Genres & Styles,Pop,Indie Pop,Youth Novels by Lykke Li : Unrated,1
+Genres & Styles,Pop,Vocal,Youth Novels by Lykke Li : Unrated,1
+Genres & Styles,Rock,Acoustic,From A Basement On The Hill by Elliott Smith : Unrated,1
+Genres & Styles,Rock,Indie Rock,From A Basement On The Hill by Elliott Smith : Unrated,1
+Genres & Styles,Rock,Pop Rock,From A Basement On The Hill by Elliott Smith : Unrated,1
+Genres & Styles,Rock,Acoustic,Moon Pix by Cat Power : Unrated,1
+Genres & Styles,Rock,Folk Rock,Moon Pix by Cat Power : Unrated,1
+Genres & Styles,Rock,Indie Rock,Moon Pix by Cat Power : Unrated,1
 Genres & Styles,Rock,Alternative Rock,LCD Soundsystem by LCD Soundsystem : Unrated,1
 Genres & Styles,Electronic,Electro,LCD Soundsystem by LCD Soundsystem : Unrated,1
 Genres & Styles,Pop,Ballad,En el Palacio de Bellas Artes by Juan Gabriel : Unrated,1
 Genres & Styles,Latin,Ranchera,En el Palacio de Bellas Artes by Juan Gabriel : Unrated,1
+Genres & Styles,Rock,Blackgaze,Écailles de lune by Alcest : Unrated,1
 Genres & Styles,Electronic,Experimental,Merriweather Post Pavilion by Animal Collective : 5.00,1
 Genres & Styles,Rock,Indie Rock,Merriweather Post Pavilion by Animal Collective : 5.00,1
 Genres & Styles,Funk / Soul,Psychedelic,Merriweather Post Pavilion by Animal Collective : 5.00,1
-Genres & Styles,Rock,Alternative Rock,Pisces Iscariot by The Smashing Pumpkins : 3.50,1
 Genres & Styles,Rock,Indie Rock,The Smiths by The Smiths : 5.00,1
 Genres & Styles,Rock,Jangle Pop,The Smiths by The Smiths : 5.00,1
+Genres & Styles,Rock,Garage Rock,Elephant by The White Stripes : Unrated,1
+Genres & Styles,Rock,Indie Rock,Elephant by The White Stripes : Unrated,1
+Genres & Styles,Rock,Punk,Elephant by The White Stripes : Unrated,1
+Genres & Styles,Rock,Rock & Roll,Elephant by The White Stripes : Unrated,1
 Genres & Styles,Rock,Alternative Rock,OK Computer by Radiohead : 5.00,1
 Genres & Styles,Rock,Art Rock,OK Computer by Radiohead : 5.00,1
 Genres & Styles,Electronic,Experimental,OK Computer by Radiohead : 5.00,1
+Genres & Styles,Stage & Screen,Video Game Music,THE KING OF FIGHTERS '99 ORIGINAL SOUND TRACK by SNK SOUND TEAM : Unrated,1
 Genres & Styles,Rock,Glam,Hunky Dory (2015 Remaster) by David Bowie : Unrated,1
 Genres & Styles,Rock,Pop Rock,Hunky Dory (2015 Remaster) by David Bowie : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Kid A by Radiohead : 5.00,1
 Genres & Styles,Electronic,Experimental,Kid A by Radiohead : 5.00,1
 Genres & Styles,Electronic,IDM,Kid A by Radiohead : 5.00,1
+Genres & Styles,Rock,Avantgarde,Through Silver In Blood by Neurosis : Unrated,1
+Genres & Styles,Rock,Doom Metal,Through Silver In Blood by Neurosis : Unrated,1
+Genres & Styles,Electronic,Experimental,Through Silver In Blood by Neurosis : Unrated,1
+Genres & Styles,Electronic,Hardcore,Through Silver In Blood by Neurosis : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Renegades by Rage Against The Machine : Unrated,1
+Genres & Styles,Rock,Funk Metal,Renegades by Rage Against The Machine : Unrated,1
+Genres & Styles,Rock,Nu Metal,Toxicity by System Of A Down : Unrated,1
+Genres & Styles,Rock,Heavy Metal,…And Justice for All (Remastered) by Metallica : Unrated,1
+Genres & Styles,Rock,Thrash,…And Justice for All (Remastered) by Metallica : Unrated,1
+Genres & Styles,Electronic,Hardcore,Leviathan by Mastodon : Unrated,1
+Genres & Styles,Rock,Heavy Metal,Leviathan by Mastodon : Unrated,1
 Genres & Styles,Electronic,Ambient,Music Has The Right To Children by Boards of Canada : 5.00,1
 Genres & Styles,Electronic,IDM,Music Has The Right To Children by Boards of Canada : 5.00,1
+Genres & Styles,Stage & Screen,Soundtrack,THE KING OF FIGHTERS '97 ORIGINAL SOUND TRACK by SNK SOUND TEAM : Unrated,1
+Genres & Styles,Stage & Screen,Video Game Music,THE KING OF FIGHTERS '97 ORIGINAL SOUND TRACK by SNK SOUND TEAM : Unrated,1
 Genres & Styles,Pop,Indie Pop,Snowball by The Field Mice : Unrated,1
+Genres & Styles,Pop,Ballad,Mientras Tú Dormías by Carla Morrison : Unrated,1
 Genres & Styles,Rock,Alternative Rock,KID A MNESIA by Radiohead : 4.50,1
 Genres & Styles,Electronic,Experimental,KID A MNESIA by Radiohead : 4.50,1
 Genres & Styles,Electronic,IDM,KID A MNESIA by Radiohead : 4.50,1
+Genres & Styles,Rock,Avantgarde,Reflective Depths Imbibe by Windham Hell : Unrated,1
+Genres & Styles,Rock,Black Metal,Reflective Depths Imbibe by Windham Hell : Unrated,1
 Genres & Styles,Rock,Psychedelic Rock,Sgt. Pepper's Lonely Hearts Club Band (Remastered) by The Beatles : 4.00,1
 Genres & Styles,Rock,Rock & Roll,Sgt. Pepper's Lonely Hearts Club Band (Remastered) by The Beatles : 4.00,1
+Genres & Styles,Rock,Alternative Rock,God Bless Your Black Heart by The Paper Chase : Unrated,1
+Genres & Styles,Rock,Indie Rock,God Bless Your Black Heart by The Paper Chase : Unrated,1
+Genres & Styles,Hip Hop,Horrorcore,6 Feet Deep by Gravediggaz : Unrated,1
+Genres & Styles,Rock,Post Rock,Not for Want of Trying by Maybeshewill : Unrated,1
+Genres & Styles,Rock,Art Rock,Птица by Auktyon : Unrated,1
+Genres & Styles,Rock,Avantgarde,Птица by Auktyon : Unrated,1
+Genres & Styles,Rock,Heavy Metal,Alien by Strapping Young Lad : Unrated,1
+Genres & Styles,Electronic,Industrial,Alien by Strapping Young Lad : Unrated,1
+Genres & Styles,Rock,Speed Metal,Alien by Strapping Young Lad : Unrated,1
 Genres & Styles,Jazz,Post Bop,The Black Saint And The Sinner Lady by Charles Mingus : 4.50,1
+Genres & Styles,Hip Hop,Hardcore Hip-Hop,The Marshall Mathers LP by Eminem : Unrated,1
+Genres & Styles,Hip Hop,Horrorcore,The Marshall Mathers LP by Eminem : Unrated,1
 Genres & Styles,Hip Hop,Conscious,THE MOUSE & THE MASK by DANGERDOOM : Unrated,1
+Genres & Styles,Electronic,Abstract,...I Care Because You Do by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Downtempo,...I Care Because You Do by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,IDM,...I Care Because You Do by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Techno,...I Care Because You Do by Aphex Twin : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Reptilectric by Zoé : Unrated,1
 Genres & Styles,Rock,Prog Rock,In The Court Of The Crimson King (Expanded & Remastered Original Album Mix) by King Crimson : 4.50,1
 Genres & Styles,Electronic,Synth-pop,Emotion by Carly Rae Jepsen : 4.50,1
+Genres & Styles,Rock,Dream Pop,Devotion by Beach House : Unrated,1
+Genres & Styles,Rock,Indie Rock,Devotion by Beach House : Unrated,1
+Genres & Styles,Electronic,Ambient,The Campfire Headphase by Boards of Canada : Unrated,1
+Genres & Styles,Electronic,Downtempo,The Campfire Headphase by Boards of Canada : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,Strange Days by The Doors : Unrated,1
 Genres & Styles,Rock,Beat,A Hard Day's Night (Remastered) by The Beatles : 4.00,1
 Genres & Styles,Rock,Pop Rock,A Hard Day's Night (Remastered) by The Beatles : 4.00,1
 Genres & Styles,Rock,Rock & Roll,A Hard Day's Night (Remastered) by The Beatles : 4.00,1
 Genres & Styles,Stage & Screen,Soundtrack,A Hard Day's Night (Remastered) by The Beatles : 4.00,1
+Genres & Styles,Rock,Garage Rock,White Blood Cells by The White Stripes : Unrated,1
+Genres & Styles,Rock,Indie Rock,White Blood Cells by The White Stripes : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Rising Down by The Roots : Unrated,1
+Genres & Styles,Rock,Heavy Metal,Ænima by TOOL : Unrated,1
+Genres & Styles,Rock,Prog Rock,Ænima by TOOL : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Funeral by Arcade Fire : 4.50,1
 Genres & Styles,Rock,Indie Rock,Funeral by Arcade Fire : 4.50,1
+Genres & Styles,Rock,Alternative Rock,Parachutes by Coldplay : Unrated,1
+Genres & Styles,Rock,Pop Rock,Parachutes by Coldplay : Unrated,1
 Genres & Styles,Rock,Pop Punk,WORRY. by Jeff Rosenstock : 5.00,1
 Genres & Styles,Rock,Punk,WORRY. by Jeff Rosenstock : 5.00,1
 Genres & Styles,Rock,Ska,WORRY. by Jeff Rosenstock : 5.00,1
 Genres & Styles,Rock,Alternative Rock,In Rainbows (Disk 2) by Radiohead : 4.00,1
+Genres & Styles,Rock,Art Rock,The Kick Inside (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Pop Rock,The Kick Inside (2018 Remaster) by Kate Bush : Unrated,1
+Genres & Styles,Rock,Prog Rock,The Kick Inside (2018 Remaster) by Kate Bush : Unrated,1
 Genres & Styles,Rock,Alternative Rock,The English Riviera by Metronomy : Unrated,1
 Genres & Styles,Electronic,Electro,The English Riviera by Metronomy : Unrated,1
 Genres & Styles,Rock,Indie Rock,The English Riviera by Metronomy : Unrated,1
 Genres & Styles,Rock,Pop Rock,The English Riviera by Metronomy : Unrated,1
 Genres & Styles,Electronic,Synth-pop,The English Riviera by Metronomy : Unrated,1
 Genres & Styles,Hip Hop,Conscious,"good kid, m.A.A.d city (Deluxe) by Kendrick Lamar : Unrated",1
+Genres & Styles,Rock,Dream Pop,Just For A Day by Slowdive : Unrated,1
+Genres & Styles,Rock,Indie Rock,Just For A Day by Slowdive : Unrated,1
+Genres & Styles,Rock,Shoegaze,Just For A Day by Slowdive : Unrated,1
+Genres & Styles,Electronic,Disco,The Essential Michael Jackson by Michael Jackson : Unrated,1
+Genres & Styles,Rock,Pop Rock,The Essential Michael Jackson by Michael Jackson : Unrated,1
+Genres & Styles,Electronic,Synth-pop,The Essential Michael Jackson by Michael Jackson : Unrated,1
+Genres & Styles,Electronic,Abstract,Richard D. James Album by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Acid,Richard D. James Album by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Drum n Bass,Richard D. James Album by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Experimental,Richard D. James Album by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,IDM,Richard D. James Album by Aphex Twin : Unrated,1
+Genres & Styles,Electronic,Jungle,Richard D. James Album by Aphex Twin : Unrated,1
 Genres & Styles,Pop,Indie Pop,Currents by Tame Impala : Unrated,1
 Genres & Styles,Rock,Indie Rock,Currents by Tame Impala : Unrated,1
 Genres & Styles,Rock,Psychedelic Rock,Currents by Tame Impala : Unrated,1
 Genres & Styles,Electronic,Synth-pop,Currents by Tame Impala : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Maladjusted by Morrissey : Unrated,1
+Genres & Styles,Rock,Indie Rock,Maladjusted by Morrissey : Unrated,1
 Genres & Styles,Electronic,Ambient,Selected Ambient Works 85-92 by Aphex Twin : 5.00,1
 Genres & Styles,Electronic,Electro,Selected Ambient Works 85-92 by Aphex Twin : 5.00,1
 Genres & Styles,Electronic,Experimental,Selected Ambient Works 85-92 by Aphex Twin : 5.00,1
@@ -432,11 +1087,30 @@ Genres & Styles,Electronic,Experimental,Visions by Grimes : Unrated,1
 Genres & Styles,Electronic,Leftfield,Visions by Grimes : Unrated,1
 Genres & Styles,Rock,New Wave,Visions by Grimes : Unrated,1
 Genres & Styles,Electronic,Synth-pop,Visions by Grimes : Unrated,1
+Genres & Styles,Hip Hop,Boom Bap,Tronic by Black Milk : Unrated,1
+Genres & Styles,Hip Hop,Bounce,Tronic by Black Milk : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Tronic by Black Milk : Unrated,1
+Genres & Styles,Electronic,Electro,Tronic by Black Milk : Unrated,1
+Genres & Styles,Hip Hop,Jazzy Hip-Hop,Tronic by Black Milk : Unrated,1
+Genres & Styles,Non-Music,Interview,El Primer Instinto by Jaguares : Unrated,1
+Genres & Styles,Rock,Pop Rock,El Primer Instinto by Jaguares : Unrated,1
+Genres & Styles,Electronic,Garage House,Settle (Special Edition) by Disclosure : Unrated,1
+Genres & Styles,Electronic,House,Settle (Special Edition) by Disclosure : Unrated,1
+Genres & Styles,Electronic,UK Garage,Settle (Special Edition) by Disclosure : Unrated,1
+Genres & Styles,Rock,Folk Rock,The Reminder by Feist : Unrated,1
+Genres & Styles,Pop,Indie Pop,The Reminder by Feist : Unrated,1
+Genres & Styles,Rock,Soft Rock,The Reminder by Feist : Unrated,1
 Genres & Styles,Hip Hop,Boom Bap,Only Built 4 Cuban Linx... by Raekwon : Unrated,1
 Genres & Styles,Hip Hop,Hardcore Hip-Hop,Only Built 4 Cuban Linx... by Raekwon : Unrated,1
+Genres & Styles,Rock,Acoustic,Kveldssanger by Ulver : Unrated,1
+Genres & Styles,"Folk, World, & Country",Folk,Kveldssanger by Ulver : Unrated,1
 Genres & Styles,Electronic,Ambient,Garbage by Autechre : 4.00,1
 Genres & Styles,Electronic,Downtempo,Garbage by Autechre : 4.00,1
 Genres & Styles,Electronic,IDM,Garbage by Autechre : 4.00,1
+Genres & Styles,Rock,Indie Rock,Figure 8 by Elliott Smith : Unrated,1
+Genres & Styles,Electronic,Ambient,Trans Canada Highway by Boards of Canada : Unrated,1
+Genres & Styles,Electronic,Downtempo,Trans Canada Highway by Boards of Canada : Unrated,1
+Genres & Styles,Electronic,IDM,Trans Canada Highway by Boards of Canada : Unrated,1
 Genres & Styles,Funk / Soul,Contemporary R&B,Life After Death (2014 Remastered Edition) by The Notorious B.I.G. : Unrated,1
 Genres & Styles,Hip Hop,Gangsta,Life After Death (2014 Remastered Edition) by The Notorious B.I.G. : Unrated,1
 Genres & Styles,Hip Hop,Hardcore Hip-Hop,Life After Death (2014 Remastered Edition) by The Notorious B.I.G. : Unrated,1
@@ -445,22 +1119,46 @@ Genres & Styles,Rock,Alternative Rock,Re by Café Tacvba : 5.00,1
 Genres & Styles,Latin,Bolero,Re by Café Tacvba : 5.00,1
 Genres & Styles,Latin,Danzon,Re by Café Tacvba : 5.00,1
 Genres & Styles,Latin,Norteño,Re by Café Tacvba : 5.00,1
+Genres & Styles,Jazz,Hard Bop,Blues & Roots by Charles Mingus : Unrated,1
+Genres & Styles,Jazz,Post Bop,Blues & Roots by Charles Mingus : Unrated,1
+Genres & Styles,Jazz,Free Jazz,A Love Supreme by John Coltrane : Unrated,1
+Genres & Styles,Jazz,Modal,A Love Supreme by John Coltrane : Unrated,1
+Genres & Styles,Jazz,Post Bop,A Love Supreme by John Coltrane : Unrated,1
 Genres & Styles,Rock,Alternative Rock,The Holy Bible 20 (Remastered) by Manic Street Preachers : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Beethoven Was Deaf by Morrissey : Unrated,1
+Genres & Styles,Rock,Indie Rock,Beethoven Was Deaf by Morrissey : Unrated,1
 Genres & Styles,Funk / Soul,Contemporary R&B,The Life Of Pablo by Kanye West : Unrated,1
 Genres & Styles,Electronic,Experimental,The Life Of Pablo by Kanye West : Unrated,1
 Genres & Styles,Funk / Soul,Gospel,The Life Of Pablo by Kanye West : Unrated,1
 Genres & Styles,Hip Hop,Pop Rap,The Life Of Pablo by Kanye West : Unrated,1
 Genres & Styles,Hip Hop,Trap,The Life Of Pablo by Kanye West : Unrated,1
+Genres & Styles,Rock,Alternative Rock,The Invisible Band by Travis : Unrated,1
+Genres & Styles,Rock,Pop Rock,The Invisible Band by Travis : Unrated,1
 Genres & Styles,Pop,Indie Pop,Dear Catastrophe Waitress by Belle and Sebastian : 5.00,1
 Genres & Styles,Rock,Indie Rock,Dear Catastrophe Waitress by Belle and Sebastian : 5.00,1
+Genres & Styles,Rock,Folk Rock,The Rip Tide by Beirut : Unrated,1
 Genres & Styles,Electronic,Experimental,Art Angels by Grimes : 5.00,1
 Genres & Styles,Electronic,Synth-pop,Art Angels by Grimes : 5.00,1
 Genres & Styles,Rock,Alternative Rock,"Strangeways, Here We Come by The Smiths : 4.50",1
 Genres & Styles,Rock,Indie Rock,"Strangeways, Here We Come by The Smiths : 4.50",1
 Genres & Styles,Rock,Jangle Pop,"Strangeways, Here We Come by The Smiths : 4.50",1
-Genres & Styles,Rock,Alternative Rock,Adore by The Smashing Pumpkins : Unrated,1
-Genres & Styles,Rock,Art Rock,Adore by The Smashing Pumpkins : Unrated,1
-Genres & Styles,Electronic,Synth-pop,Adore by The Smashing Pumpkins : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Placebo by Placebo : Unrated,1
+Genres & Styles,Electronic,Ambient,Hi Scores by Boards of Canada : Unrated,1
+Genres & Styles,Electronic,Downtempo,Hi Scores by Boards of Canada : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Covers by Placebo : Unrated,1
+Genres & Styles,Rock,Indie Rock,Covers by Placebo : Unrated,1
+Genres & Styles,Rock,Pop Rock,Covers by Placebo : Unrated,1
+Genres & Styles,Rock,Prog Rock,Discipline by King Crimson : Unrated,1
+Genres & Styles,Hip Hop,Conscious,The Best Part by J-Live : Unrated,1
+Genres & Styles,Rock,Acoustic,Ark by Animal Collective : Unrated,1
+Genres & Styles,Electronic,Trip Hop,Ark by Animal Collective : Unrated,1
+Genres & Styles,Electronic,Ambient,Pygmalion by Slowdive : Unrated,1
+Genres & Styles,Rock,Ethereal,Pygmalion by Slowdive : Unrated,1
+Genres & Styles,Rock,Post Rock,Pygmalion by Slowdive : Unrated,1
+Genres & Styles,Funk / Soul,Funk,Purple Rain by Prince : Unrated,1
+Genres & Styles,Funk / Soul,Minneapolis Sound,Purple Rain by Prince : Unrated,1
+Genres & Styles,Rock,Pop Rock,Purple Rain by Prince : Unrated,1
+Genres & Styles,Stage & Screen,Soundtrack,Purple Rain by Prince : Unrated,1
 Genres & Styles,Rock,Goth Rock,Caifanes by Caifanes : 4.50,1
 Genres & Styles,Rock,New Wave,Caifanes by Caifanes : 4.50,1
 Genres & Styles,Rock,Ethereal,Treasure by Cocteau Twins : Unrated,1
@@ -468,11 +1166,65 @@ Genres & Styles,Rock,New Wave,Treasure by Cocteau Twins : Unrated,1
 Genres & Styles,Rock,Post-Punk,Treasure by Cocteau Twins : Unrated,1
 Genres & Styles,Rock,Alternative Rock,I Killed My Best Friend by Le Volume Courbe : Unrated,1
 Genres & Styles,Rock,Indie Rock,I Killed My Best Friend by Le Volume Courbe : Unrated,1
+Genres & Styles,Rock,Art Rock,Lionheart by Kate Bush : Unrated,1
+Genres & Styles,Pop,Ballad,Lionheart by Kate Bush : Unrated,1
+Genres & Styles,Rock,Pop Rock,Lionheart by Kate Bush : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Soundpieces: Da Antidote by Lootpack : Unrated,1
+Genres & Styles,Rock,Blues Rock,Are You Experienced by Jimi Hendrix : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,Are You Experienced by Jimi Hendrix : Unrated,1
+Genres & Styles,Rock,Post Rock,F♯ A♯ ∞ by Godspeed You! Black Emperor : Unrated,1
+Genres & Styles,Rock,Acoustic,New Moon by Elliott Smith : Unrated,1
+Genres & Styles,Rock,Indie Rock,New Moon by Elliott Smith : Unrated,1
+Genres & Styles,Rock,Lo-Fi,New Moon by Elliott Smith : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Cabezas de Cera by Cabezas de Cera : Unrated,1
+Genres & Styles,Rock,Art Rock,Cabezas de Cera by Cabezas de Cera : Unrated,1
+Genres & Styles,Rock,Avantgarde,Cabezas de Cera by Cabezas de Cera : Unrated,1
 Genres & Styles,Electronic,French House,Alive 2007 by Daft Punk : Unrated,1
 Genres & Styles,Electronic,House,Alive 2007 by Daft Punk : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Arena Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Art Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Pop,Ballad,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Black Metal,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Blues Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Britpop,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Classic Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,"Folk, World, & Country",Country,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Electronic,Disco,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Emo,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Electronic,Experimental,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,"Folk, World, & Country",Folk,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Garage Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Glam,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Goth Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Grunge,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Hard Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Heavy Metal,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Indie Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Mod,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,New Wave,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Nu Metal,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Pop Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Power Pop,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Prog Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Psychedelic Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Punk,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Funk / Soul,Rhythm & Blues,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Rock & Roll,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Soft Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Speed Metal,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Rock,Stoner Rock,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Electronic,Synth-pop,Life (Remastered) by The Cardigans : Unrated,1
+Genres & Styles,Hip Hop,Boom Bap,Merry Go Round by Delinquent Habits : Unrated,1
+Genres & Styles,Hip Hop,Conscious,Merry Go Round by Delinquent Habits : Unrated,1
+Genres & Styles,Hip Hop,Hardcore Hip-Hop,Merry Go Round by Delinquent Habits : Unrated,1
+Genres & Styles,Hip Hop,Jazzy Hip-Hop,Merry Go Round by Delinquent Habits : Unrated,1
 Genres & Styles,Rock,Alternative Rock,Disintegration by The Cure : Unrated,1
 Genres & Styles,Rock,Goth Rock,Disintegration by The Cure : Unrated,1
 Genres & Styles,Rock,New Wave,Disintegration by The Cure : Unrated,1
+Genres & Styles,Rock,Alternative Rock,Gish (Remastered) by The Smashing Pumpkins : Unrated,1
+Genres & Styles,Rock,Grunge,Gish (Remastered) by The Smashing Pumpkins : Unrated,1
+Genres & Styles,Rock,Indie Rock,Gish (Remastered) by The Smashing Pumpkins : Unrated,1
 Genres & Styles,Rock,Alternative Rock,In Utero - 20th Anniversary Remaster by Nirvana : Unrated,1
 Genres & Styles,Rock,Grunge,In Utero - 20th Anniversary Remaster by Nirvana : Unrated,1
 Genres & Styles,Hip Hop,Conscious,To Pimp A Butterfly by Kendrick Lamar : Unrated,1
