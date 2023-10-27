@@ -3,9 +3,8 @@ import json
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
-path = 'C:\SideProjects\RateYourSpotify\rys frontend\src\data'
 
-def toJson(): 
+def genres_to_jason(): 
     with Session(models.engine) as session:
         session.begin()
         try:
@@ -46,5 +45,6 @@ def toJson():
             session.commit()
 
 
-toJson()
+if __name__ == "__main__":
+       genres_to_jason()
         

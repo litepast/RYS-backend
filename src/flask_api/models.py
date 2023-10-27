@@ -1,5 +1,10 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.automap import automap_base
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
 import config
 
 #engine = create_engine(config.mysql_connection)
