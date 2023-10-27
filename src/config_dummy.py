@@ -7,7 +7,6 @@ mysql_connection=''
 discogs_token=''
 client_id = ''
 client_secret = '' 
-genres_html = ''
 spotify_market=''
 
 auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
