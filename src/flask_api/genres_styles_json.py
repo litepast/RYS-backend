@@ -33,10 +33,10 @@ def genres_to_jason():
                 styles_object.append(styles_rows)
             
 
-            with open("genres.json", "w") as outfile:
+            with open("./data/genres_jsons/genres.json", "w") as outfile:
                  json.dump(genres_object, outfile)
 
-            with open("styles.json", "w") as outfile:
+            with open("./data/genres_jsons/styles.json", "w") as outfile:
                  json.dump(styles_object, outfile)
 
         except Exception as e:
