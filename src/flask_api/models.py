@@ -2,7 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.automap import automap_base
 import config
 
-engine = create_engine(config.mysql_connection)
+#engine = create_engine(config.mysql_connection)
+engine = config.engine
 Base = automap_base()
 Base.prepare(autoload_with=engine)
 rys_artist = Base.classes.artists

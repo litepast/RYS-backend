@@ -12,7 +12,7 @@ def task():
         update_csvs()
         print(datetime.datetime.now(), " - Updated the csvs for dash to display")
     else:
-        print(datetime.datetime.now(), " - No update in the db in the last 30 minutes or error?")
+        print(datetime.datetime.now(), " - No update in the db in the last 10 minutes")
 
 def scheduled_task():
     schedule.every(minutes).minutes.do(task)

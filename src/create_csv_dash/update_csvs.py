@@ -1,4 +1,9 @@
 import pandas as pd
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
 from config import engine
 
 def update_csvs():
@@ -122,8 +127,7 @@ def update_csvs():
         avg_genre_df.to_csv("./Data/styles_dashboard/avg_genre.csv", header=True, index=False)
         yearsalbum_df.to_csv("./Data/years_dashboard/yearsAbums.csv", header=True, index=False)
         artists_df.to_csv("./Data/artists_dashboard/artists.csv", header=True, index=False)
-        tooltip_df.to_csv("./Data/artists_dashboard/tooltip.csv", header=True, index=False)
-        print("yeah bb")
+        tooltip_df.to_csv("./Data/artists_dashboard/tooltip.csv", header=True, index=False)        
     except Exception as e:
         print(e)
 

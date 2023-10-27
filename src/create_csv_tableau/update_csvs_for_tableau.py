@@ -1,8 +1,12 @@
 import pandas as pd
-from config_tableau import engine
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+from config import engine
 
-def update_csvs():
-   
+def update_csvs():  
     try:        
         albums_q = """select 
                 a.id Album_id, a.name Album, art.name Album_Artist, at.name Type, left(a.release_date,4) as Year, left(a.release_date,4)-MOD(left(a.release_date,4),10) as Decade, 
@@ -25,28 +29,23 @@ def update_csvs():
                 """
         styles_q="""
                select ga.genre_name Genre, sa.style_name Style, al.id Album_id, al.name Album from albums al
-left join genres_by_album ga on al.id=ga.id_album
-left join styles_by_album sa on sa.id_album=al.id
-where ga.genre_name <> 'NOT_FOUND' or
-sa.style_name <> 'NOT_FOUND'"""
-
-
-       
+                left join genres_by_album ga on al.id=ga.id_album
+                left join styles_by_album sa on sa.id_album=al.id
+                where ga.genre_name <> 'NOT_FOUND' or
+                sa.style_name <> 'NOT_FOUND'"""
     
         albums_df = pd.read_sql(albums_q, engine)
         tracks_df = pd.read_sql(tracks_q, engine)
         artists_df = pd.read_sql(artists_q,  engine)
-        styles_df = pd.read_sql(styles_q,  engine)
-  
+        styles_df = pd.read_sql(styles_q,  engine)  
  
         albums_df.to_csv("./Data/tableau_csvs/albums.csv", header=True, index=False)
         tracks_df.to_csv("./Data/tableau_csvs/tracks.csv", header=True, index=False)
         artists_df.to_csv("./Data/tableau_csvs/artists.csv", header=True, index=False)
-        styles_df.to_csv("./Data/tableau_csvs/styles.csv", header=True, index=False)
-        
+        styles_df.to_csv("./Data/tableau_csvs/styles.csv", header=True, index=False)       
  
     except Exception as e:
         print(e)
 
 if __name__ == "__main__":
-    update_csvs()
+       update_csvs()

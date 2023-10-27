@@ -1,5 +1,4 @@
 import pandas as pd
-import config
 import datetime
 import time
 import models
@@ -8,6 +7,12 @@ from discogs_client.exceptions import HTTPError as DiscogsException
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 from get_bg_color import best_color
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+import config
 
 class Album():
    

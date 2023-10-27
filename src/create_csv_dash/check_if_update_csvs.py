@@ -1,7 +1,12 @@
 import datetime
-from config import engine
 from sqlalchemy import text
 from sqlalchemy.orm import Session
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+from config import engine
 
 
 def check_if_update_csvs():
@@ -21,7 +26,7 @@ def check_if_update_csvs():
             if(difference_minutes < minutes_check ):
                 update_csvs = True
             else:
-                with open("./create_csv_dash/etl_date.txt", "r") as f:
+                with open("./src/create_csv_dash/etl_date.txt", "r") as f:
                     etl_date = f.read()
                     etl_date = datetime.datetime.strptime(etl_date, '%Y-%m-%d %H:%M:%S.%f')
                     diff = current_date - etl_date
@@ -32,7 +37,7 @@ def check_if_update_csvs():
                          update_csvs = False
             
             #save current date to etl_date.txt
-            with open("./create_csv_dash/etl_date.txt", "w") as f:
+            with open("./src/create_csv_dash/etl_date.txt", "w") as f:
                 f.write(str(current_date))
             
 
