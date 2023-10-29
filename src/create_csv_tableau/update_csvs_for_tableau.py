@@ -6,6 +6,8 @@ parent = os.path.dirname(current)
 sys.path.append(parent)
 from config import engine
 
+#script creats csvs files used in the tableau dashboard datasource
+
 def update_csvs():  
     try:        
         albums_q = """select 

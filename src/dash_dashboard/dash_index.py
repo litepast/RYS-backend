@@ -12,6 +12,8 @@ parent = os.path.dirname(current)
 sys.path.append(parent)
 from config import project_path
 
+#launches the dash app, imports and embeds all the layouts, displaying them in different tabs
+
 with open(project_path+'src/create_csv_dash/etl_date.txt', 'r') as file:
     date_etl = file.readline()
 
