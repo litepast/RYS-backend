@@ -1,9 +1,15 @@
 from dash import html, dash_table
 import pandas as pd
 import textwrap
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+from config import project_path
 
-artists_df = pd.read_csv("./Data/artists_dashboard/artists.csv")
-tooltip_df = pd.read_csv("./Data/artists_dashboard/tooltip.csv")
+artists_df = pd.read_csv(project_path+"/Data/artists_dashboard/artists.csv")
+tooltip_df = pd.read_csv(project_path+"./Data/artists_dashboard/tooltip.csv")
 
 
 

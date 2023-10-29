@@ -4,6 +4,19 @@ from ratings_layout import layout as ratings_layout
 from years_layout import layout as years_layout
 from artists_layout import layout as artists_layout
 from styles_layout import layout as styles_layout
+from datetime import datetime
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+from config import project_path
+
+with open(project_path+'src/create_csv_dash/etl_date.txt', 'r') as file:
+    date_etl = file.readline()
+
+date_time_object = datetime.strptime(date_etl, "%Y-%m-%d %H:%M:%S.%f")
+last_date = date_time_object.strftime("%A, %B %d, %Y %H:%M:%S")
 
 
 external_script = ["https://tailwindcss.com/", {"src": "https://cdn.tailwindcss.com"}]
@@ -14,6 +27,7 @@ app = Dash(
 )
 app.scripts.config.serve_locally = True
 server = app.server
+
 
 ##change the children of the body div according to the tab selected
 @callback(
@@ -55,7 +69,7 @@ app.layout = html.Div([
         ], className="flex w-auto h-auto justify-start"),
 
 
-        html.Div("Data as of THIS DATE",className="w-auto h-auto  text-center text-xs text-gray-50 "),
+        html.Div("Data as of "+last_date,className="w-auto h-auto  text-center text-sm text-gray-50 "),
 
 
 

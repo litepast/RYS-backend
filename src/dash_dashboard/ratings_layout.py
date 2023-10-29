@@ -1,17 +1,23 @@
 from dash import html, dcc
 import plotly.express as px
 import pandas as pd
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+from config import project_path
 
-totalAbums_df = pd.read_csv("./Data/ratings_dashboard/totalAbums.csv")
-totalRatedAbums_df =pd.read_csv("./Data/ratings_dashboard/totalRatedAbums.csv")
-totalStarsAbums_df = pd.read_csv("./Data/ratings_dashboard/totalStarsAbums.csv")
-totalTracks_df = pd.read_csv("./Data/ratings_dashboard/totalTracks.csv")
-totalRatedTracks_df = pd.read_csv("./Data/ratings_dashboard/totalRatedTracks.csv")
-totalStarsTracks_df = pd.read_csv("./Data/ratings_dashboard/totalStarsTracks.csv")
-ratingsalbum_df = pd.read_csv("./Data/ratings_dashboard/ratingsalbum.csv")
-ratingstrack_df = pd.read_csv("./Data/ratings_dashboard/ratingstrack.csv")
-types_df = pd.read_csv("./Data/ratings_dashboard/types.csv")
-activity_df= pd.read_csv("./Data/ratings_dashboard/activity.csv")
+totalAbums_df = pd.read_csv(project_path+"./Data/ratings_dashboard/totalAbums.csv")
+totalRatedAbums_df =pd.read_csv(project_path+"./Data/ratings_dashboard/totalRatedAbums.csv")
+totalStarsAbums_df = pd.read_csv(project_path+"./Data/ratings_dashboard/totalStarsAbums.csv")
+totalTracks_df = pd.read_csv(project_path+"./Data/ratings_dashboard/totalTracks.csv")
+totalRatedTracks_df = pd.read_csv(project_path+"./Data/ratings_dashboard/totalRatedTracks.csv")
+totalStarsTracks_df = pd.read_csv(project_path+"./Data/ratings_dashboard/totalStarsTracks.csv")
+ratingsalbum_df = pd.read_csv(project_path+"./Data/ratings_dashboard/ratingsalbum.csv")
+ratingstrack_df = pd.read_csv(project_path+"./Data/ratings_dashboard/ratingstrack.csv")
+types_df = pd.read_csv(project_path+"./Data/ratings_dashboard/types.csv")
+activity_df= pd.read_csv(project_path+"./Data/ratings_dashboard/activity.csv")
 
 def header_stat(df):
     label = df.columns[0]

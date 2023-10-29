@@ -1,11 +1,17 @@
 from dash import html, dcc, dash_table
 import plotly.express as px
 import pandas as pd
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+from config import project_path
 
-avg_style_df = pd.read_csv("./Data/styles_dashboard/avg_style.csv")
-no_style_df = pd.read_csv("./Data/styles_dashboard/no_style.csv")
-styles_df = pd.read_csv("./Data/styles_dashboard/styles.csv")
-avg_genre_df = pd.read_csv("./Data/styles_dashboard/avg_genre.csv")
+avg_style_df = pd.read_csv(project_path+"./Data/styles_dashboard/avg_style.csv")
+no_style_df = pd.read_csv(project_path+"./Data/styles_dashboard/no_style.csv")
+styles_df = pd.read_csv(project_path+"./Data/styles_dashboard/styles.csv")
+avg_genre_df = pd.read_csv(project_path+"./Data/styles_dashboard/avg_genre.csv")
 
 
 

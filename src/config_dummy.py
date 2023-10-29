@@ -3,11 +3,15 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import discogs_client
 
-mysql_connection=''
+
 discogs_token=''
+mysql_connection=''
 client_id = ''
 client_secret = '' 
 spotify_market=''
+discogs_token=''
+project_path=''
+
 
 auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(auth_manager=auth_manager)
