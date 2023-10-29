@@ -1,7 +1,9 @@
 from bs4 import BeautifulSoup
 
-##Desde el archivo que se obtiene en https://web.archive.org/web/20220810095106/https://blog.discogs.com/en/genres-and-styles/
-# ese pagina la guardo en esta carpeta como genres_styles  
+#html file saved from https://web.archive.org/web/20220810095106/https://blog.discogs.com/en/genres-and-styles/
+#it must be on same folder, this will scrap it and create a dictionary, which it will be used on 'insert_genres_database.py'
+# to created the genres and style tables on the rys db 
+
 def webscrap_genres_and_styles():
     try:
         genres_html="./src/flask_api/genres_styles/genres_styles.htm"

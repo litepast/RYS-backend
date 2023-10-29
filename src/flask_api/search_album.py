@@ -6,6 +6,10 @@ sys.path.append(parent)
 import config
 from spotipy import SpotifyException
 
+# given an string from the webapp, it will return 50 (at most) matches on albums from spotify...
+# ...using the spotipy library, it can use album name or artist name as the type of search
+#this is used on the '/' or '/search' url on the webapp
+
 class Search():
 
     def __init__(self):
@@ -14,11 +18,11 @@ class Search():
     def search_album(self,type_search,search_string):
         try:                
             results = []
-            # tipo 0 album names
+            # type 1 album names
             if (not type_search):
                 self.string_search=search_string
             else:
-            # tipo 0 album artist
+            # type 0 album artist
                 self.string_search='artist:'+search_string
 
 

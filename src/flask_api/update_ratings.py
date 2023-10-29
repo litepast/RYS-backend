@@ -2,6 +2,9 @@ import models
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
+# it will update the album and its tracks ratings on the rys db, as given by the user...
+# ...on the '/library/<album id>' url on the web app
+
 class UpdateRatings:
     def __init__(self, data_ratings):
         self.data_ratings = data_ratings

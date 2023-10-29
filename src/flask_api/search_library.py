@@ -2,6 +2,8 @@ import models
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
+# it will return all the results from the rys database that matches with the filters...
+# set on the '/library' url on the web app
 
 class Library:
     def __init__(self,query):

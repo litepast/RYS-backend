@@ -2,6 +2,9 @@ import models
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
+#given the album id, it will retrive album data saved on the rys db
+#used on the '/library/<album id>' url on the web app. basically all the album and tracks data on there comes
+#from here
 
 class AlbumInLibrary:
     def __init__(self,album_id):

@@ -9,16 +9,16 @@ from edit_album import EditAlbum
 from flask_cors import CORS
 
 
-# instantiate the app
+# this launches the RESTFUL Flask api
+# this is the Api that feeds the data to the RYS Vue.Js frontend
+
 
 app = Flask(__name__)
 app.config.from_object(__name__)
-
-# enable CORS
 CORS(app, resources={r'/*': {'origins': '*'}})
 
 
-# search from spotify
+# search albums from spotify
 @app.route('/api/v1/search-spotify', methods=['GET'])
 def search_from_spotify():
     if request.method == 'GET':
@@ -40,6 +40,7 @@ def search_from_spotify():
             })
         return results
 
+#inserts an spotify album data to the rys database
 @app.route('/api/v1/insert-album-catalog/<string:id_album>', methods=['PUT'])
 def insert_album_library(id_album):
     if request.method == 'PUT':
@@ -55,6 +56,7 @@ def insert_album_library(id_album):
             })
         return result
     
+#searches library, given parameters sent from the frontend, it returns the matches
 @app.route('/api/v1/search-album-catalog', methods=['GET'])
 def search_from_catalog():
     if request.method == 'GET':
@@ -74,7 +76,8 @@ def search_from_catalog():
                 'msg': 'No results'
             })
         return results
-    
+
+#returns the data from one specific album, to be shown on the album view on the front end
 @app.route('/api/v1/get-album-data/<string:id_album>', methods=['GET'])
 def search_album_from_catalog(id_album):
     if request.method == 'GET':
@@ -95,7 +98,7 @@ def search_album_from_catalog(id_album):
         return results
     
 
-
+#given the ratings recieved from the frontend album page, this will update them on the db
 @app.route('/api/v1/update-album-ratings/', methods=['PUT'])
 def update_album_ratings():
     if request.method == 'PUT':
@@ -117,7 +120,7 @@ def update_album_ratings():
         return results
     
 
-    
+#it edits certain album data, given the parameters from the web app
 @app.route('/api/v1/edit-album-catalog', methods=['PUT'])
 def edit_album_catalog():
     if request.method == 'PUT':
@@ -137,6 +140,8 @@ def edit_album_catalog():
             })
         return results
 
+
+#deletes an album from the database, given the album id sent from the web app frontend
 @app.route('/api/v1/delete-album-data/<string:id_album>', methods=['DELETE'])
 def delete_album_from_catalog(id_album):
     print('deleting?')

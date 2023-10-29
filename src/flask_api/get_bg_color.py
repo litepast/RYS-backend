@@ -4,8 +4,11 @@ from sklearn.cluster import KMeans
 import io
 import numpy as np
 
-#Credit to https://github.com/davidkrantz/Colorfy/blob/master/spotify_background_color.py#L131, adapted to remove histogram and plot, and get image from url
-
+# Credit to https://github.com/davidkrantz/Colorfy/blob/master/spotify_background_color.py#L131, thank you!
+# adapted to remove histogram and plot and get image from url
+# given the album cover, it will return the most dominant color in #hex
+# this to recreate spotify app function, where every album page has a different background color, given the album cover
+# color selected is seen on the 'library/<album id>' header background on the webapp
 
 def best_color(url):
     

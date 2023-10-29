@@ -3,8 +3,10 @@ import json
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
-
-def genres_to_jason(): 
+# it created two json files, one for genres and another for styles
+# these files are stored in the data folder of this repository but...
+# are not used on the backend, but on the frontend
+def genres_to_json(): 
     with Session(models.engine) as session:
         session.begin()
         try:
@@ -46,5 +48,5 @@ def genres_to_jason():
 
 
 if __name__ == "__main__":
-       genres_to_jason()
+       genres_to_json()
         

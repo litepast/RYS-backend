@@ -3,6 +3,11 @@ from search_album import Search
 from insert_album import Album 
 import pandas as pd
 
+# proof on concept, doing a album search on spotify only on console commands
+# it prints the results of the search, on a pandas df, then given the row, it can save the album's data on the db
+# this was the first file worked at the beginning of the project, before any frontend work began
+# inputs intructions done in spanish :P
+
 def main():
      while True:
           os.system("cls")           
@@ -49,26 +54,9 @@ def main():
      print("Fin de Programa")
      return
 
-def main2():    
-     os.system("cls")      
-     # #69 love songs
-     #insert_album = Album('2GuROKcqyHdpIDcgxml1C7')
-     # #ok computer1
-     #insert_album = Album('6dVIqQ8qmQ5GBnJ9shOYGE')
-     #the bends
-     #insert_album = Album('35UJLpClj5EDrhpNIi4DFg')
-     # #compilacion
-     #insert_album = Album('0RPeS6tlJfJt1GQ1XilhkH')
-     # new kanada
-     #insert_album = Album('2tA6VFMIQuSF3KpXsrulw9')
-     #tronador
-     insert_album = Album('2E76haakuTtipEkRjIiwqJ')
-     status, msg =insert_album.insert_album_data()
-     print(status,' ',msg)
-     return status
 
 if __name__ == "__main__":
-     main2()
+     main()
 
 
 

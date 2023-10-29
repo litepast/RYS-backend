@@ -7,7 +7,9 @@ parent = os.path.dirname(current)
 sys.path.append(parent)
 import config
 
-#engine = create_engine(config.mysql_connection)
+# it creates the SQL Alchemy models used on the insert_album.py file and the mysql connection...
+# ...basically used on all the api's files
+
 engine = config.engine
 Base = automap_base()
 Base.prepare(autoload_with=engine)

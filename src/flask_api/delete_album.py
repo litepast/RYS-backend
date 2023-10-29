@@ -2,6 +2,8 @@ import models
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
+#given the album id, it will delete the data from the rys db
+#used on the '/library' url on the web app, on the eraser button on the album cover
 class DeleteAlbum:
     def __init__(self, album_id):
         self.album_id = album_id

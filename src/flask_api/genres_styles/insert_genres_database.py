@@ -8,7 +8,8 @@ parent = os.path.dirname(current)
 grandparent = os.path.dirname(parent)
 sys.path.append(grandparent)
 import config
-
+#given the data scraped in 'scrap_thml_genre_catalog.py'
+#it will insert the data in the genres and styles tables respectively on the rys database
 
 def insert_genres_database():    
     engine = config.engine

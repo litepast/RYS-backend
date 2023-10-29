@@ -2,7 +2,8 @@ import models
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
-
+#it will update the type, genres and style of one album
+#used on the '/library/<album id>' url on the web app, on the pen button on the album cover
 class EditAlbum():
     def __init__(self,params):
         self.params = params['params']
