@@ -8,6 +8,9 @@ parent = os.path.dirname(current)
 sys.path.append(parent)
 from config import engine
 
+#script check if there has been any update in the last 10 minutes in the rys db
+#it will save the date in etl_date.txt on this folder
+#it will return a bool. depending the result
 
 def check_if_update_csvs():
     with Session(engine) as session:

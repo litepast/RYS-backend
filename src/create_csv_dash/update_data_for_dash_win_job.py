@@ -5,6 +5,10 @@ from update_csvs import update_csvs
 import schedule
 import datetime
 
+##the idea is to launch this thread that will check if there has been an update in the rys db..
+#then update the csvs used by the dash dashboard
+
+
 minutes = 10
 
 def task():

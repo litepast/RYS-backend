@@ -6,6 +6,10 @@ parent = os.path.dirname(current)
 sys.path.append(parent)
 from config import engine
 
+#script creates the csvs used by the many graphs on the dash dashboards, by querying the rys db and
+#svaing the results to pandas dfs and then to csvs files
+
+
 def update_csvs():
     try:
         years_albums_q= """select art.name Artist, al.name Album, left(al.release_date,4) Year,

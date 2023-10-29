@@ -1,3 +1,5 @@
+#A dag file to be run by apache airflow, it is not used in this current version
+
 # from datetime import timedelta
 # from check_if_update_csvs import check_if_update_csvs
 # from update_csvs import update_csvs
