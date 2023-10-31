@@ -38,7 +38,6 @@ On the folder, run the next command to install the libraries used in this reposi
 pip install -r requirements. txt
 ```
 
-
 ### Set up the config.py file
 
 This might be the tickiest part, you will need the folliwing first
@@ -48,11 +47,20 @@ This might be the tickiest part, you will need the folliwing first
 
 
 ### Initialize the genres and styles tables on the database 
-### Start the Flask Api
 
+Run the file */src/flask_api/genres_styles/insert_genres_database.py* in order to populatethe genres and styles tables on our rys database
+
+### Start the Flask Api
+Run the file *src/flask_api/app.py* to launch the FLask Api, this will server the api on development mode on localhost:5000, keep it up so the frontend can be served, you can obviously host it on a webserver if you want to!
 
 ### Set up the Dash Dashboard
+To create the data used by the dash dashboard run the file *src/create_csv_dash/update_csvs.py*, this will create csvs files used in the dashboard.
+Run the file *src/dash_dashboard/dash_index.py* to server the dash dashboatd, by default it will be hosted on localhost:8050
+I also created a file to check if there has been any change in the database in the last 10 minutes, if so, it will update the csvs files, this file is *src/create_csv_dash
+/update_data_for_dash_win_job.py*, run it if you want the csvs to be updated as needed.
+
 ### Create CSV files for Tableau Dashboard (Optional)
+I created a [tableau dashboard for my ratings too](https://public.tableau.com/views/MySpotifyRatingDashboard/MyRYSRatingsStats?:language=es-ES&:display_count=n&:origin=viz_share_link). pretty much the same as the dash dahboard as en exercise in comparing both tools :), I created the csvs used in the tableau data model by running the file *rc/create_csv_tableau/update_csvs_for_tableau.py*
 
 
 ## Credits
