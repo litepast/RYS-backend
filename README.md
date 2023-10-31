@@ -46,7 +46,8 @@ This might be the tickiest part, you will need to do the following changes in th
 * Set the varible mysql_connector to 'mysql+mysqlconnector://root:YOUR_PASSWORD@localhost:3306/rys'm change YOUR_PASSWORD by your actual mysql password
 * [Follow the steps here](https://developer.spotify.com/documentation/web-api) to login with your spotify account, create an application and get the Client ID and Secret Client values, set both values to the variables *client_id* and *client_secret* respectively.
 * Now the the *spotify_market* value to the code of your country, this will filter the searches to albums available in that market, you might use another code, but you might not be able to play some albums as not all albums are available in all countries. I set it to 'MX' as I live in Mexico, [here is the list of all codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements)
-* Set the project_path to the absolute path of the repository, on windows it might be something like 'c:/rys backend/'
+* In order to get the the genres added to the albums added to the database, an [dicogs.com](https://www.discogs.com/) account, once logged in, on the [developer settings](https://www.discogs.com/settings/developers), click on the 'Generate new token' button for a personal access token, get the api token and once you have it, set it to the *discogs_token* variable.
+* Set the project_path to the absolute path of the repository, on windows it might be something like 'c:/rys-backend/'
 
 After all the variables are set, change the name from *config_dummy.py* to *config.py* and now all the files should run ok!
 
@@ -66,5 +67,12 @@ Run the file *src/flask_api/app.py* to launch the FLask Api, this will serve the
 
 ### Create CSV files for Tableau Dashboard (Optional)
 I created a [tableau dashboard for my ratings too](https://public.tableau.com/views/MySpotifyRatingDashboard/MyRYSRatingsStats?:language=es-ES&:display_count=n&:origin=viz_share_link), pretty much the same as the dash dahboard as an exercise in comparing both tools :), I created the csvs used in the tableau data model by running the file *rc/create_csv_tableau/update_csvs_for_tableau.py*
+
+
+
+
+
+
+
 
 
