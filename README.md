@@ -45,7 +45,7 @@ This might be the tickiest part, you will need to do the following changes in th
 
 * Set the varible mysql_connector to 'mysql+mysqlconnector://root:YOUR_PASSWORD@localhost:3306/rys'm change YOUR_PASSWORD by your actual mysql password
 * [Follow the steps here](https://developer.spotify.com/documentation/web-api) to login with your spotify account, create an application and get the Client ID and Secret Client values, set both values to the variables *client_id* and *client_secret* respectively.
-* Now the the *spotify_market* value to the code of your country, this will filter the searches to albums available in that market, you might use another code, but you might not be able to play some albums as not all albums are available in all countries. I set it to 'MX' as I live in Mexico, [https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements](here is list of all codes)
+* Now the the *spotify_market* value to the code of your country, this will filter the searches to albums available in that market, you might use another code, but you might not be able to play some albums as not all albums are available in all countries. I set it to 'MX' as I live in Mexico, [here is the list of all codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements)
 * Set the project_path to the absolute path of the repository, on windows it might be something like 'c:/rys backend/'
 
 After all the variables are set, change the name from *config_dummy.py* to *config.py* and now all the files should run ok!
