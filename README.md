@@ -25,7 +25,7 @@ This includes a [dash dashboard](https://plotly.com/dash/), using its open sourc
 
 ## How to use this Project
 
-You will need a Python enviroment on your systems if that was not clear enough! with PIP and all that comes with it, this project was built using Python 3.11
+You will need a Python enviroment on your systems if that was not clear enough! with PIP and all that comes with it, this project was built using Python 3.11. I used [VSCode](https://code.visualstudio.com/)  as IDE.
 
 ### Set up the database
 
