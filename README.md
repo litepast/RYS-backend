@@ -1,19 +1,12 @@
 # RYS Backend
 
-This repository is the backend logic for the complete application, [the RYS frontend repository](https://github.com/litepast/rys-frontend) hosts the frontend logic, for which I used Vue.Js as the framework to build the graphical experience, logic and more!.
+This repository is the backend logic for the complete application, [the RYS frontend repository](https://github.com/litepast/rys-frontend) hosts the frontend logic, for which I used Vue.Js as the framework to build the graphical experience and more!.
 
-RYS (an acronym for Rate Your Spotify) is a personal project where you can add metadata of albums from Spotify on a personal database, so you can rate, play and edit them! Basically, a Spotify web player where you can add albums to your library, you will need to add the albums to your library in order to:
+RYS (an acronym for Rate Your Spotify) is a personal project where you can add metadata of albums from Spotify on a personal database, so you can rate, play and edit them! Basically, a Spotify web player where you can add albums to your library and then play and rate them.
 
-* Play the albums
-* Rate the albums and its songs
-* Edit some data that Spotify might not get right, such as genres or type of release 
-* Get insight about your ratings, such as your favorite artists, years, decades and genres gieven your ratings via some dashboards
+The motivation for this project is my love for music and the fact I really really like ratings stuff in my head plus the idea it would be great to get some sort of data analysis behind your ratings. My music plaform of choice had been Spotify for years and them having their API for free was a great match. The rating system is heavily inspired by the site [rate your music](www.rateyourmusic.com) (now you know my project's name is not original!), where you can give music album ratings, but you cannot listen to them. The site is great enough for it to link you to streaming platforms where you can listen to music via links to Spotify, Apple music and so on, but I wanted a sort of mix between the two where you can rate and play the songs on the same web app! Spotify as of this moment (November 2023) doesn't have the feature to give a numerical rating to albums or tracks, as it focuses on giving you recommendations given your listening habits.
 
-The reason for needing to add albums to your library in order to do the things above, is because this is not meant to substitute the Spotify core experience, but to have a database where you can have a sort of digital library with your ratings and such.
-
-The idea behind this is heavily inspired by the site [rate your music](www.rateyourmusic.com) (now you know my project's name is not original!), where you can give music album ratings, but you cannot listen to them. The site is great enough for it to link you to sites where you can listen to music via links to spotify, Apple music and so on, but I wanted a sort of mix between the two where you can rate and play the songs on the same web app! Spotify as of this moment (November 2023) doesn't have the feature to give a numerical rating to albums or tracks, as it focuses on giving you recommendations given your listening habits.
-
-This repository contains the backend logic, for which I created a RESTful API, build with Flask on Python. This connects to the [Spotify Web Api](https://developer.spotify.com/documentation/web-api) using a Python library [Spotipy](https://spotipy.readthedocs.io/en/2.22.1/), which feeds the data to the frontend.
+This repository contains the backend logic, for which I created a RESTful API, build with Flask on Python. This connects to the [Spotify Web Api](https://developer.spotify.com/documentation/web-api) using a Python library [Spotipy](https://spotipy.readthedocs.io/en/2.22.1/), which feeds the data to the frontend. I choose Python, first of all I really like it! Second of all, because it is great for managing  and transformingdata and has many libraries which fit amazingly for this idea.
 
 The Spotify Web API, sadly, is not great for the genres or subgenres of albums, it has the genres on the Artist metadata, so let's say if Artist X has one clearly rock album and another clearly electronic album, for spotify all albums are rock AND electronic if those genres are on the Artist X metadata.
 
@@ -21,7 +14,9 @@ As this project is focused on albums, my solution was to use the [Discogs](https
 
 The database is built using [MySQL](https://www.mysql.com/), and the operations are all on python using [SQLAlchemy](https://www.sqlalchemy.org/), which connects to the MySQL database.
 
-This includes a [dash dashboard](https://plotly.com/dash/), using its open source version. It allowed me to build Dashboard using just python, it creates an open-source alternative to tools such as Power Bi or Tableau.
+This includes a [dash dashboard](https://plotly.com/dash/), using its free version. It allowed me to build a Dashboard using just Python! it creates an open-source alternative to tools such as Power Bi or Tableau.
+
+I'd like to add that as of right now, this project works with only one user/spotify application.
 
 ## How to use this Project
 
