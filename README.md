@@ -22,6 +22,9 @@ I'd like to add that as of right now, this project works with only one user/spot
 
 https://github.com/davidkrantz/Colorfy/blob/master/spotify_background_color.py by https://github.com/davidkrantz for making public his code to get the most dominant color of an album cover like Spotofy does.
 
+## Youtube Video of the App
+[![YouTube vid](https://raw.githubusercontent.com/litepast/RYS-frontend/main/screenshots/yt.JPG)](https://www.youtube.com/watch?v=l5U5Uq07XiM)
+
 ## How to use this Project
 
 You will need a Python enviroment on your system if that was not clear enough! with PIP and all that comes with it, this project is built using Python 3.11. I used [VSCode](https://code.visualstudio.com/) as my IDE.
